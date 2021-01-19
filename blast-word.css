@@ -1,8 +1,8 @@
 body {
     font-family: 'Yusei Magic', sans-serif;
     background: url('796863.jpg');
+    background-size: 100%;
 background-repeat: no-repeat;
-background-size: auto;
     color: white;
 }
 .welcome{
@@ -108,39 +108,39 @@ margin: 158px;
     }
 
     10% {
-        color: rgb(115, 128, 0);
+        color: rgb(194, 209, 54);
     }
 
     20% {
-        color: rgb(0, 2, 128);
+        color: rgb(26, 214, 214);
     }
 
     30% {
-        color: rgb(0, 45, 128);
+        color: rgb(24, 103, 194);
     }
 
     40% {
-        color: rgb(60, 0, 128);
+        color: rgb(130, 78, 189);
     }
 
     50% {
-        color: rgb(230, 21, 143);
+        color: rgb(223, 28, 142);
     }
 
     60% {
-        color: rgb(4, 58, 58);
+        color: rgb(79, 139, 139);
     }
 
     70% {
-        color: rgb(65, 155, 23);
+        color: rgb(94, 204, 43);
     }
 
     80% {
-        color: teal;
+        color: rgb(93, 196, 46);
     }
 
     90% {
-        color: rgb(172, 125, 71);
+        color: rgb(224, 160, 87);
     }
 
     to {

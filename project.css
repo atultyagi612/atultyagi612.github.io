@@ -1,0 +1,95 @@
+@media screen and (max-width: 768px) {
+    .project-container {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+    }    
+}
+
+.Project-heading {
+
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: black;
+    padding: 136px 2px 2px;
+}
+
+.project-container {
+    background-color: white;
+    display: flex;
+}
+
+.project-list {
+    background-color: rgb(236, 240, 234);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 11px;
+    border-radius: 13px;
+    height: 309px;
+    width: 407px;
+}
+
+.project-container img {
+    height: 110px;
+}
+
+.project-container p {
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+.open-project{
+
+width: 113px;
+height: 31px;
+}
+
+#project-id-1:not(:hover),#project-id-4:not(:hover),#project-id-7:not(:hover){
+    animation: rubberBand 1s 1 ,always1 3s infinite 1s;
+}
+#project-id-2:not(:hover),#project-id-6:not(:hover),#project-id-8:not(:hover){
+    animation: rubberBand 1s 1 ,always1 3s infinite 1.4s;
+}
+#project-id-3:not(:hover),#project-id-5:not(:hover){
+    animation: rubberBand 1s 1 ,always1 3s infinite 1.9s;
+}
+.project--{
+    margin: 19px 2px;
+    font-size: 54px;
+}
+
+
+@keyframes rubberBand {
+
+    from {
+        
+        transform: scale3d(1, 1, 1);
+    }
+
+    30% {
+        transform: scale3d(1.25, 0.75, 1);
+    }
+
+    40% {
+        transform: scale3d(0.75, 1.25, 1);
+    }
+
+    50% {
+        
+        transform: scale3d(1.15, 0.85, 1);
+    }
+
+    65% {
+        transform: scale3d(0.95, 1.05, 1);
+    }
+
+    75% {
+        transform: scale3d(1.05, 0.95, 1);
+    }
+
+    to {
+        transform: scale3d(1, 1, 1);
+    }}
