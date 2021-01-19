@@ -7,151 +7,37 @@
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="navbar.css">
-    <style >
-        body {
-            font-family: 'Yusei Magic', sans-serif;
-            background: url('796863.jpg');
-  background-repeat: no-repeat;
-  background-size: auto;
-            color: white;
-        }
-.welcome{
-    display: inline-block;
-    margin: 158px;
+    <link rel="stylesheet" href="blast-word.css">
+    <style>
+        .image-language{
+height: 60px;
 }
-        .rubberBand {
-            display: inline-block;
-            font-size: 90px;
-            font-weight: bold;
-            padding: 0px 0px;
-            margin: -3px;
-            cursor: default;
-        }
-
-        /* span.rubberBand:not(:hover) {
-            animation: rubberBand 1s , always1 5s infinite 1s , color-trans 30s infinite 1s;
-        } */
-
-        @keyframes rubberBand {
-
-            from {
-                color: rgb(9, 64, 78);
-                transform: scale3d(1, 1, 1);
-            }
-
-            30% {
-                transform: scale3d(1.25, 0.75, 1);
-            }
-
-            40% {
-                transform: scale3d(0.75, 1.25, 1);
-            }
-
-            50% {
-                color: rgb(62, 72, 216);
-                transform: scale3d(1.15, 0.85, 1);
-            }
-
-            65% {
-                transform: scale3d(0.95, 1.05, 1);
-            }
-
-            75% {
-                transform: scale3d(1.05, 0.95, 1);
-            }
-
-            to {
-                transform: scale3d(1, 1, 1);
-            }
-        }
-
-        @keyframes always1 {
-
-            from {
-
-                transform: scale3d(1, 1, 1);
-            }
-
-            30% {
-                transform: scale3d(1.1, 0.85, 1);
-            }
-
-            40% {
-                transform: scale3d(0.85, 1.1, 1);
-            }
-
-            50% {
-
-                transform: scale3d(1.15, 0.85, 1);
-            }
-
-            65% {
-                transform: scale3d(0.95, 1.05, 1);
-            }
-
-            75% {
-                transform: scale3d(1.05, 0.95, 1);
-            }
-
-            to {
-                transform: scale3d(1, 1, 1);
-            }
-        }
-
-        @keyframes color-trans {
-            from {
-                color: turquoise;
-            }
-
-            10% {
-                color: rgb(115, 128, 0);
-            }
-
-            20% {
-                color: rgb(0, 2, 128);
-            }
-
-            30% {
-                color: rgb(0, 45, 128);
-            }
-
-            40% {
-                color: rgb(60, 0, 128);
-            }
-
-            50% {
-                color: rgb(230, 21, 143);
-            }
-
-            60% {
-                color: rgb(4, 58, 58);
-            }
-
-            70% {
-                color: rgb(65, 155, 23);
-            }
-
-            80% {
-                color: teal;
-            }
-
-            90% {
-                color: rgb(172, 125, 71);
-            }
-
-            to {
-                color: turquoise;
-            }
-        }
-
+#see-my-work{
+    padding: 9px 14px;
+    border: 2px solid #287395;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
     </style>
 </head>
-
 <body>
     <nav>
         <div class="logo">
-            <h3>Logo</h3>
+            <span class="logo-class" id="logo-id-1">A</span>
+            <span class="logo-class" id="logo-id-2">t</span>
+            <span class="logo-class" id="logo-id-3">u</span>
+            <span class="logo-class" id="logo-id-4">l</span>
+            <span class="logo-class" id="logo-id-10">&nbsp;</span>
+            <span class="logo-class" id="logo-id-5">T</span>
+            <span class="logo-class" id="logo-id-6">y</span>
+            <span class="logo-class" id="logo-id-7">a</span>
+            <span class="logo-class" id="logo-id-8">g</span>
+            <span class="logo-class" id="logo-id-9">i</span>
+
         </div>
         <ul class="navlinks">
             <li><a href="#">Home</a></li>
@@ -186,38 +72,19 @@
             <span class="rubberBand" id="id-16">a</span>
             <span class="rubberBand" id="id-17">g</span>
             <span class="rubberBand" id="id-18">i</span>
+            <!-- <div> -->
+                <p style=" margin: 14px;">A computer science student passionate about programming and design.</p>
+                <p>Like => <img class="image-language" src="python.png" alt="Python"> <img class="image-language" src="css.png" alt="Css"></p>
+
+            <!-- </div> -->
+            <div>
+                <button id="see-my-work">See my Work</button>
+            </div>
         </div>
+    
 
-
-    <script src="navbar.js">
-    </script>
-    <script>
-        let elemnt = () => {
-         
-         let element = document.getElementsByClassName('rubberBand')
-
-         for (let i = 0; i < element.length; i++) {
-             element[i].style.animation = `rubberBand 1s, always1 5s infinite 1s, color-trans 30s infinite 1s`;
-             element[i].addEventListener('mouseover', () => {
-                 if (element[i].style.animation) {
-                     element[i].style.animation = '';
-                 }
-                 else {
-                     element[i].style.animation = `rubberBand 1s, always1 5s infinite 1s, color-trans 30s infinite 1s`;
-                 }
-
-             }, false);
-             element[i].addEventListener('mouseout', () => {
-                     element[i].style.animation = `rubberBand 1s, always1 5s infinite 1s, color-trans 30s infinite 1s`;
-             }, false);
-             element[i].addEventListener('click', () => {
-                     element[i].style.animation = `rubberBand 1s, always1 5s infinite 1s, color-trans 30s infinite 1s`;
-             }, false);
-
-         }
-     }
-     elemnt();
-    </script>
+    <script src="navbar.js"> </script>
+    <script src="blast-word.js"></script>
 </body>
 
 </html>

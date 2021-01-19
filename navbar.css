@@ -5,21 +5,24 @@
 }
 
 nav {
+    z-index: 1;
     display: flex;
+    position:fixed;
     justify-content: space-around;
     align-items: center;
     min-height: 9vh;
     width: 100%;
-    background-color: rgb(96, 167, 149);
+    background-color: rgba(0,0,0,0.0);
 }
 
 .logo {
     color: white;
-    letter-spacing: 4px;
+    letter-spacing: 0px;
     font-size: 24px;
 }
 
 .navlinks {
+    font-family: 'Roboto Slab', serif;
     display: flex;
     color: white;
     justify-content: space-around;
@@ -57,7 +60,14 @@ nav {
     body {
         overflow-x: hidden;
     }
-
+    .logo {
+        color: white;
+        letter-spacing: -5px;
+        font-size: 24px;
+    }
+    nav {
+        background-color: rgb(96, 167, 149);
+    }
 
     .navlinks {
 
