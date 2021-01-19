@@ -7,26 +7,32 @@
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
-    <style>
+    <link rel="stylesheet" href="navbar.css">
+    <style >
         body {
             font-family: 'Yusei Magic', sans-serif;
-            background-color: black;
+            background: url('796863.jpg');
+  background-repeat: no-repeat;
+  background-size: auto;
             color: white;
         }
-
+.welcome{
+    display: inline-block;
+    margin: 158px;
+}
         .rubberBand {
             display: inline-block;
-            font-size: 60px;
+            font-size: 90px;
             font-weight: bold;
             padding: 0px 0px;
-            margin: -3px; 
-            cursor:default;
+            margin: -3px;
+            cursor: default;
         }
 
         /* span.rubberBand:not(:hover) {
             animation: rubberBand 1s , always1 5s infinite 1s , color-trans 30s infinite 1s;
         } */
-        
+
         @keyframes rubberBand {
 
             from {
@@ -59,10 +65,11 @@
                 transform: scale3d(1, 1, 1);
             }
         }
+
         @keyframes always1 {
 
             from {
-                
+
                 transform: scale3d(1, 1, 1);
             }
 
@@ -75,7 +82,7 @@
             }
 
             50% {
-                
+
                 transform: scale3d(1.15, 0.85, 1);
             }
 
@@ -91,107 +98,126 @@
                 transform: scale3d(1, 1, 1);
             }
         }
+
         @keyframes color-trans {
-            from{
-color: turquoise;
+            from {
+                color: turquoise;
             }
-            10%{color: rgb(115, 128, 0);}
-            20%{color: rgb(0, 2, 128);}
-            30%{color: rgb(0, 45, 128);}
-            40%{color: rgb(60, 0, 128);}
-            50%{
+
+            10% {
+                color: rgb(115, 128, 0);
+            }
+
+            20% {
+                color: rgb(0, 2, 128);
+            }
+
+            30% {
+                color: rgb(0, 45, 128);
+            }
+
+            40% {
+                color: rgb(60, 0, 128);
+            }
+
+            50% {
                 color: rgb(230, 21, 143);
             }
-            60%{color: rgb(4, 58, 58);}
-            70%{color: rgb(65, 155, 23);}
-            80%{color: teal;}
-            90%{color: rgb(172, 125, 71);}
-            to{
-color: turquoise;
+
+            60% {
+                color: rgb(4, 58, 58);
+            }
+
+            70% {
+                color: rgb(65, 155, 23);
+            }
+
+            80% {
+                color: teal;
+            }
+
+            90% {
+                color: rgb(172, 125, 71);
+            }
+
+            to {
+                color: turquoise;
             }
         }
-        span#id-1:not(:hover) {
-            animation: rubberBand 1s , always1 5s infinite 1s , color-trans 30s infinite 1s  ;
-        }
-        span#id-2:not(:hover) {
-            animation: rubberBand 1s , always1 5s infinite 1.1s , color-trans 30s infinite 1.1s;
-        }
-        span#id-3:not(:hover) {
-            animation: rubberBand 1s , always1 5s infinite 1.2s , color-trans 30s infinite 1.2s;
-        }
-        span#id-4:not(:hover) {
-            animation: rubberBand 1s , always1 5s infinite 1.3s , color-trans 30s infinite 1.4s;
-        }
-        span#id-5:not(:hover) {
-            animation: rubberBand 1s , always1 5s infinite 1.4s , color-trans 30s infinite 1s;
-        }
-        span#id-6:not(:hover) {
-            animation: rubberBand 1s , always1 5s infinite 1.5s , color-trans 30s infinite 1.6s;
-        }
-        span#id-7:not(:hover) {
-            animation: rubberBand 1s , always1 5s infinite 1.6s , color-trans 30s infinite 1.1s;
-        }
-        span#id-8:not(:hover) {
-            animation: rubberBand 1s , always1 5s infinite 1.7s , color-trans 30s infinite 1.9s;
-        }
-        span#id-9:not(:hover) {
-            animation: rubberBand 1s , always1 5s infinite 1.8s , color-trans 30s infinite 2s;
-        }
-        span#id-10:not(:hover) {
-            animation: rubberBand 1s , always1 5s infinite 1.9s , color-trans 30s infinite 2.1s;
-        }
-        span#id-11:not(:hover) {
-            animation: rubberBand 1s , always1 5s infinite 2s , color-trans 30s infinite 2.2s;
-        }
-        span#id-12:not(:hover) {
-            animation: rubberBand 1s , always1 5s infinite 2.1s , color-trans 30s infinite 2.3s;
-        }
-        span#id-13:not(:hover) {
-            animation: rubberBand 1s , always1 5s infinite 2.2s , color-trans 30s infinite 2.4s;
-        }
-        span#id-14:not(:hover) {
-            animation: rubberBand 1s , always1 5s infinite 2.3s , color-trans 30s infinite 2.5s;
-        }
-        span#id-15:not(:hover) {
-            animation: rubberBand 1s , always1 5s infinite 2.4s , color-trans 30s infinite 2.6s;
-        }
-        span#id-16:not(:hover) {
-            animation: rubberBand 1s , always1 5s infinite 2.5s , color-trans 30s infinite 2.7s;
-        }
-        span#id-17:not(:hover) {
-            animation: rubberBand 1s , always1 5s infinite 2.6s , color-trans 30s infinite 2.8s;
-        }
-        span#id-18:not(:hover) {
-            animation: rubberBand 1s , always1 5s infinite 2.7s , color-trans 30s infinite 2.9s;
-        }
+
     </style>
 </head>
 
 <body>
-    <div class="welcome">
+    <nav>
+        <div class="logo">
+            <h3>Logo</h3>
+        </div>
+        <ul class="navlinks">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Work</a></li>
+            <li><a href="#">Project</a></li>
+        </ul>
+        <div class="sideview">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+        <div class="welcome">
 
-        <span class="rubberBand" id="id-1">H</span>
-        <span class="rubberBand" id="id-2">e</span>
-        <span class="rubberBand" id="id-3">l</span>
-        <span class="rubberBand" id="id-4">l</span>
-        <span class="rubberBand" id="id-5">o</span>
-        <span class="rubberBand" id="id-6">!</span><br>
-        <span class="rubberBand" id="id-7">I</span>
-        <span class="rubberBand" id="id-8">'</span>
-        <span class="rubberBand" id="id-9">m</span><br>
-        <span class="rubberBand" id="id-10">A</span>
-        <span class="rubberBand" id="id-11">t</span>
-        <span class="rubberBand" id="id-12">u</span>
-        <span class="rubberBand" id="id-13">l</span>
-        <span class="rubberBand">​​​​&nbsp;</span>
-        <span class="rubberBand" id="id-14">T</span>
-        <span class="rubberBand" id="id-15">y</span>
-        <span class="rubberBand" id="id-16">a</span>
-        <span class="rubberBand" id="id-17">g</span>
-        <span class="rubberBand" id="id-18">i</span>
+            <span class="rubberBand" id="id-1">H</span>
+            <span class="rubberBand" id="id-2">e</span>
+            <span class="rubberBand" id="id-3">l</span>
+            <span class="rubberBand" id="id-4">l</span>
+            <span class="rubberBand" id="id-5">o</span>
+            <span class="rubberBand" id="id-6">!</span><br>
+            <span class="rubberBand" id="id-7">I</span>
+            <span class="rubberBand" id="id-8">'</span>
+            <span class="rubberBand" id="id-9">m</span><br>
+            <span class="rubberBand" id="id-10">A</span>
+            <span class="rubberBand" id="id-11">t</span>
+            <span class="rubberBand" id="id-12">u</span>
+            <span class="rubberBand" id="id-13">l</span>
+            <span class="rubberBand">​​​​&nbsp;</span>
+            <span class="rubberBand" id="id-14">T</span>
+            <span class="rubberBand" id="id-15">y</span>
+            <span class="rubberBand" id="id-16">a</span>
+            <span class="rubberBand" id="id-17">g</span>
+            <span class="rubberBand" id="id-18">i</span>
+        </div>
 
-    </div>
 
+    <script src="navbar.js">
+    </script>
+    <script>
+        let elemnt = () => {
+         
+         let element = document.getElementsByClassName('rubberBand')
+
+         for (let i = 0; i < element.length; i++) {
+             element[i].style.animation = `rubberBand 1s, always1 5s infinite 1s, color-trans 30s infinite 1s`;
+             element[i].addEventListener('mouseover', () => {
+                 if (element[i].style.animation) {
+                     element[i].style.animation = '';
+                 }
+                 else {
+                     element[i].style.animation = `rubberBand 1s, always1 5s infinite 1s, color-trans 30s infinite 1s`;
+                 }
+
+             }, false);
+             element[i].addEventListener('mouseout', () => {
+                     element[i].style.animation = `rubberBand 1s, always1 5s infinite 1s, color-trans 30s infinite 1s`;
+             }, false);
+             element[i].addEventListener('click', () => {
+                     element[i].style.animation = `rubberBand 1s, always1 5s infinite 1s, color-trans 30s infinite 1s`;
+             }, false);
+
+         }
+     }
+     elemnt();
+    </script>
 </body>
 
 </html>
