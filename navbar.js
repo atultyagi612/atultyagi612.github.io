@@ -28,9 +28,6 @@ let naavside = () => {
         });
         sideview.classList.toggle('toggle');
     });
-    console.log(sideview)
-    console.log(nav)
-    console.log(navlinks)
     
 }
 naavside();
