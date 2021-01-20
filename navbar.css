@@ -22,9 +22,15 @@ nav {
     background-color: white;
     box-shadow: 0 3px 1rem rgba(0,0,0,0.1);
 }
-.scroll-active .navlinks a,.scroll-active  .logo{
+.scroll-active .navlinks a,.scroll-active .logo{
     transition: color 1s ease-out;
-color: black;
+    color: black;
+}
+.scroll-active .sideview div{
+    background-color: black;
+}
+.scroll-active ul.navlinks{
+    background-color: white;
 }
 .logo {
     color: white;
@@ -83,7 +89,7 @@ color: black;
     .navlinks {
 
         position: absolute;
-        right: 48px;
+        right: 0px;
         height: 92vh;
         top: 8vh;
         width: 50%;
@@ -155,6 +161,7 @@ color: black;
 
 .Hover-effect:hover::after {
     transform: scale(1, 1);
+
 }
 .container-front{
     display: flex;

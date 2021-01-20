@@ -1,12 +1,3 @@
-@media screen and (max-width: 768px) {
-    .project-container {
-        background-color: white;
-        display: flex;
-        flex-direction: column;
-    } 
-    .Project-heading {   
-        padding:0%
-    }
 }
 .projects{
     background-color: white;
@@ -68,7 +59,6 @@ height: 31px;
 
 
 @keyframes rubberBand {
-
     from {
         
         transform: scale3d(1, 1, 1);
@@ -98,3 +88,19 @@ height: 31px;
     to {
         transform: scale3d(1, 1, 1);
     }}
+
+
+@media screen and (max-width: 768px) {
+    .project-container {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        } 
+    .Project-heading {   
+        padding:0%;
+        background-color: white;
+        }
+    .project-list { 
+       width: 338px;
+    }
+}

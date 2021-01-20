@@ -151,9 +151,10 @@ margin: 158px;
         .welcome{
             display: inline-block;
             margin: 35px;
+            margin-top: 76px;
             }
             .rubberBand {
-                font-size: 68px;
+                font-size: 60px;
                 padding: 0px 0px;
                 margin: -3px;
               
