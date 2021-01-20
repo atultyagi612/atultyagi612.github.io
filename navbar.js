@@ -18,3 +18,8 @@ let naavside = () => {
 
 }
 naavside();
+
+window.addEventListener('scroll',function () {
+    let header =document.querySelector('nav');
+    header.classList.toggle('scroll-active',window.scrollY > 0);
+})

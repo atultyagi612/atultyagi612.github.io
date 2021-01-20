@@ -3,9 +3,14 @@
         background-color: white;
         display: flex;
         flex-direction: column;
-    }    
+    } 
+    .Project-heading {   
+        padding:0%
+    }
 }
-
+.projects{
+    background-color: white;
+}
 .Project-heading {
 
     display: flex;

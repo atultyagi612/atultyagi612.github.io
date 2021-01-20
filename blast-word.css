@@ -1,8 +1,8 @@
 body {
     font-family: 'Yusei Magic', sans-serif;
-    background: url('796863.jpg');
-    background-size: 100%;
-background-repeat: no-repeat;
+    background-image: linear-gradient(to right bottom, #051937, #00476f, #007b9f, #00b3bf, #12ebcd);
+max-height: 100%;
+
     color: white;
 }
 .welcome{
