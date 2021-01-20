@@ -1,4 +1,4 @@
-}
+
 .projects{
     background-color: white;
 }
@@ -9,6 +9,7 @@
     font-size: 40px;
     color: black;
     padding: 136px 2px 2px;
+    background-color: white;
 }
 
 .project-container {
