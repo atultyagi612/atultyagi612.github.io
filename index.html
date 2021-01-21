@@ -31,6 +31,12 @@
             transition: all .2s ease-in-out;
             cursor: pointer;
         }
+
+        .Project-main-heading{
+            font-size: 25px;
+        }
+        
+        
     </style>
 </head>
 
@@ -53,8 +59,8 @@
         <ul class="navlinks">
             <li><a href="#" class="Hover-effect">Home</a></li>
             <li><a href="#" class="Hover-effect">About</a></li>
-            <li><a href="#" class="Hover-effect">Work</a></li>
             <li><a href="#projects-id" class="Hover-effect">Project</a></li>
+            <li><a href="#follow-on" class="Hover-effect">Follow on</a></li>
         </ul>
 
         <div class="sideview">
@@ -243,7 +249,6 @@
         </div>
     </div>
 
-
     <div class="projects" id="projects-id">
         <div class="Project-heading">
             <span class="project--" id="project-id-1">P</span>
@@ -256,26 +261,71 @@
             <span class="project--" id="project-id-8">s</span>
         </div>
         <div class="project-container">
-            <div class="project-list">
-                <img src="python.png" alt="">
+            <a id="project-list-link" href="https://atultyagi612.github.io/facial-recognition-Attendance-System/" target="_blank">
+            <div class="project-list Hover-effect" id="Project-first">
+                <img src="./images/attendance-system.gif" alt="">
                 <div>
-                    <p>Attendance system</p><br>
-                    <p>Face recognition Attendance system based on Opencv , Tkinter sdcsc v rv s</p>
+                    <p class="Project-main-heading">Attendance system</p><br>
+                    <p>Face recognition Attendance system based on Opencv , Tkinter .</p>
+                </div></a>
+                <div class="language-used">
+                    <h5>Language Used</h5>
+                    <span class="Progress">
+                        <span itemprop="keywords" aria-label="HTML 69.2" style="background-color: red;width: 100%;" class="Progress-item "></span>
+                    </span>
+                    <ul style="text-decoration: none; list-style: none;">
+                        
+                        <li class="language-used-list">
+                            <svg height="10" width="15">
+                                <circle cx="5" cy="5" r="5" stroke="black" stroke-width="0" fill="red" />
+                            </svg>
+                            <span style="font-weight:500;">Python</span>
+                            <span style="font-style: italic;">15%</span>
+                        </li>
+                    </ul>
                 </div>
-
             </div>
-            <div class="project-list">
+
+            <!-- <div class="project-list">
                 <img src="css.png" alt="">
                 <div>
                     <p>Carrer guidance </p><br>
                     <p>Carrer guidance system Gui Lorem ipsum dolor sit.</p>
                     <button class="open-project">Open</button>
                 </div>
-            </div>
+            </div> -->
+        
+            <a id="project-list-link" href="https://atultyagi612.github.io/Carrer-Guidance-base-on-java/" target="_blank">
+                <div class="project-list Hover-effect" id="Project-first">
+                    <img src="./images/carrer-guidance-user.gif" alt="">
+                    <div>
+                        <p class="Project-main-heading">Carrer Guidance </p><br>
+                        <p>Carrer guidance Gui Application base on Java</p>
+                    </div></a>
+                    <div class="language-used">
+                        <h5>Language Used</h5>
+                        <span class="Progress">
+                            <span itemprop="keywords" aria-label="HTML 69.2" style="background-color: orange;width: 100%;" class="Progress-item "></span>
+                        </span>
+                        <ul style="text-decoration: none; list-style: none;">
+                            
+                            <li class="language-used-list">
+                                <svg height="10" width="15">
+                                    <circle cx="5" cy="5" r="5" stroke="black" stroke-width="0" fill="orange" />
+                                </svg>
+                                <span style="font-weight:500;">Java</span>
+                                <span style="font-style: italic;">100%</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+
         </div>
     </div>
 
-    <div class="follow">
+    <div class="follow" id="follow-on">
         <h1>Follow on</h1>
         <div class="social-media">
             <a href="#"><i class="fab fa-facebook"></i></a>
