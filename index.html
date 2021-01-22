@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="project.css">
     <link rel="stylesheet" href="svg-image.css">
     <link rel="stylesheet" href="follow.css">
+    <link rel="stylesheet" href="skills.css">
     <style>
         html {
             scroll-behavior: smooth;
@@ -32,11 +33,13 @@
             cursor: pointer;
         }
 
-        .Project-main-heading{
+        .Project-main-heading {
             font-size: 25px;
         }
-        
-        
+
+        .skills {
+            background-color: white;
+        }
     </style>
 </head>
 
@@ -57,10 +60,11 @@
 
         </div>
         <ul class="navlinks">
-            <li><a href="#" class="Hover-effect">Home</a></li>
-            <li><a href="#" class="Hover-effect">About</a></li>
-            <li><a href="#projects-id" class="Hover-effect">Project</a></li>
-            <li><a href="#follow-on" class="Hover-effect">Follow on</a></li>
+            <li><a id="home-id" href="#" class="Hover-effect">Home</a></li>
+            <li><a id="about-id" idhref="#" class="Hover-effect">About</a></li>
+            <li><a id="skills-id" href="#Skills-id" class="Hover-effect">Skills</a></li>
+            <li><a id="projects-id" href="#project-heading-id" class="Hover-effect">Project</a></li>
+            <li><a id="follow-id" href="#follow-on" class="Hover-effect">Follow on</a></li>
         </ul>
 
         <div class="sideview">
@@ -249,8 +253,42 @@
         </div>
     </div>
 
+    <div class="skills" id="Skills-id">
+        <div class="skills-heading Project-heading">
+            <span>Skills</span>
+        </div>
+        <div class="skills-bar">
+            <div class="bar">
+                <div class="info">
+                    <span id="info1">Python</span>
+                </div>
+                <div id="python" class="progress-line python "><span></span></div>
+            </div>
+            <div class="bar">
+                <div class="info">
+                    <span id="info2">Java</span>
+                </div>
+                <div id='java' class="progress-line java"><span></span></div>
+            </div>
+            <div class="bar">
+                <div class="info">
+                    <span id="info3">C/C++</span>
+                </div>
+                <div id="C-C-Plus-Plus" class="progress-line c-c-plus-plus"><span></span></div>
+            </div>
+            <div class="bar">
+                <div class="info">
+                    <span id="info4">Html/CSS</span>
+                </div>
+                <div id="html-css" class="progress-line html-CSS"><span></span></div>
+            </div>
+
+        </div>
+    </div>
+
+
     <div class="projects" id="projects-id">
-        <div class="Project-heading">
+        <div id="project-heading-id" class="Project-heading">
             <span class="project--" id="project-id-1">P</span>
             <span class="project--" id="project-id-2">r</span>
             <span class="project--" id="project-id-3">o</span>
@@ -261,54 +299,51 @@
             <span class="project--" id="project-id-8">s</span>
         </div>
         <div class="project-container">
-            <a id="project-list-link" href="https://atultyagi612.github.io/facial-recognition-Attendance-System/" target="_blank">
-            <div class="project-list Hover-effect" id="Project-first">
-                <img src="./images/attendance-system.gif" alt="">
-                <div>
-                    <p class="Project-main-heading">Attendance system</p><br>
-                    <p>Face recognition Attendance system based on Opencv , Tkinter .</p>
-                </div></a>
-                <div class="language-used">
-                    <h5>Language Used</h5>
-                    <span class="Progress">
-                        <span itemprop="keywords" aria-label="HTML 69.2" style="background-color: red;width: 100%;" class="Progress-item "></span>
-                    </span>
-                    <ul style="text-decoration: none; list-style: none;">
-                        
-                        <li class="language-used-list">
-                            <svg height="10" width="15">
-                                <circle cx="5" cy="5" r="5" stroke="black" stroke-width="0" fill="red" />
-                            </svg>
-                            <span style="font-weight:500;">Python</span>
-                            <span style="font-style: italic;">15%</span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+            <a id="project-list-link" href="https://atultyagi612.github.io/facial-recognition-Attendance-System/"
+                target="_blank">
+                <div class="project-list Hover-effect" id="Project-first">
+                    <img src="./images/attendance-system.gif" alt="">
+                    <div>
+                        <p class="Project-main-heading">Attendance system</p><br>
+                        <p>Face recognition Attendance system based on Opencv , Tkinter .</p>
+                    </div>
+                    <div class="language-used">
+                        <h5>Language Used</h5>
+                        <span class="Progress">
+                            <span itemprop="keywords" aria-label="HTML 69.2" style="background-color: red;width: 100%;"
+                                class="Progress-item "></span>
+                        </span>
+                        <ul style="text-decoration: none; list-style: none;">
 
-            <!-- <div class="project-list">
-                <img src="css.png" alt="">
-                <div>
-                    <p>Carrer guidance </p><br>
-                    <p>Carrer guidance system Gui Lorem ipsum dolor sit.</p>
-                    <button class="open-project">Open</button>
+                            <li class="language-used-list">
+                                <svg height="10" width="15">
+                                    <circle cx="5" cy="5" r="5" stroke="black" stroke-width="0" fill="red" />
+                                </svg>
+                                <span style="font-weight:500;">Python</span>
+                                <span style="font-style: italic;">15%</span>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div> -->
-        
-            <a id="project-list-link" href="https://atultyagi612.github.io/Carrer-Guidance-base-on-java/" target="_blank">
+            </a>
+
+
+            <a id="project-list-link" href="https://atultyagi612.github.io/Carrer-Guidance-base-on-java/"
+                target="_blank">
                 <div class="project-list Hover-effect" id="Project-first">
                     <img src="./images/carrer-guidance-user.gif" alt="">
                     <div>
                         <p class="Project-main-heading">Carrer Guidance </p><br>
                         <p>Carrer guidance Gui Application base on Java</p>
-                    </div></a>
+                    </div>
                     <div class="language-used">
                         <h5>Language Used</h5>
                         <span class="Progress">
-                            <span itemprop="keywords" aria-label="HTML 69.2" style="background-color: orange;width: 100%;" class="Progress-item "></span>
+                            <span itemprop="keywords" aria-label="HTML 69.2"
+                                style="background-color: orange;width: 100%;" class="Progress-item "></span>
                         </span>
                         <ul style="text-decoration: none; list-style: none;">
-                            
+
                             <li class="language-used-list">
                                 <svg height="10" width="15">
                                     <circle cx="5" cy="5" r="5" stroke="black" stroke-width="0" fill="orange" />
@@ -319,16 +354,68 @@
                         </ul>
                     </div>
                 </div>
+            </a>
+            <a id="project-list-link" href="https://atultyagi612.github.io/facial-recognition-Attendance-System/"
+                target="_blank">
+                <div class="project-list Hover-effect" id="Project-first">
+                    <img src="./images/attendance-system.gif" alt="">
+                    <div>
+                        <p class="Project-main-heading">Attendance system</p><br>
+                        <p>Face recognition Attendance system based on Opencv , Tkinter .</p>
+                    </div>
+                    <div class="language-used">
+                        <h5>Language Used</h5>
+                        <span class="Progress">
+                            <span itemprop="keywords" aria-label="HTML 69.2" style="background-color: red;width: 100%;"
+                                class="Progress-item "></span>
+                        </span>
+                        <ul style="text-decoration: none; list-style: none;">
 
+                            <li class="language-used-list">
+                                <svg height="10" width="15">
+                                    <circle cx="5" cy="5" r="5" stroke="black" stroke-width="0" fill="red" />
+                                </svg>
+                                <span style="font-weight:500;">Python</span>
+                                <span style="font-style: italic;">15%</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </a>
+            <a id="project-list-link" href="https://atultyagi612.github.io/Carrer-Guidance-base-on-java/"
+                target="_blank">
+                <div class="project-list Hover-effect" id="Project-first">
+                    <img src="./images/carrer-guidance-user.gif" alt="">
+                    <div>
+                        <p class="Project-main-heading">Carrer Guidance </p><br>
+                        <p>Carrer guidance Gui Application base on Java</p>
+                    </div>
+                    <div class="language-used">
+                        <h5>Language Used</h5>
+                        <span class="Progress">
+                            <span itemprop="keywords" aria-label="HTML 69.2"
+                                style="background-color: orange;width: 100%;" class="Progress-item "></span>
+                        </span>
+                        <ul style="text-decoration: none; list-style: none;">
 
-
+                            <li class="language-used-list">
+                                <svg height="10" width="15">
+                                    <circle cx="5" cy="5" r="5" stroke="black" stroke-width="0" fill="orange" />
+                                </svg>
+                                <span style="font-weight:500;">Java</span>
+                                <span style="font-style: italic;">100%</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </a>
         </div>
     </div>
 
     <div class="follow" id="follow-on">
         <h1>Follow on</h1>
         <div class="social-media">
-            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a id="facebook-id" href="#"><i class="fab fa-facebook"></i></a>
             <a href="#"><i class="fab fa-instagram"></i></a>
             <a href="https://www.kaggle.com/atultyagi2000" target="_blank"><i class="fab fa-kaggle"></i></a>
             <a href="https://github.com/atultyagi612" target="_blank"><i class="fab fa-github"></i></a>
@@ -338,6 +425,8 @@
 
     <script src="navbar.js"> </script>
     <script src="blast-word.js"></script>
+    <script src="skills.js"></script>
+    <!-- <script src="highlight.js"></script> -->
 </body>
 
 </html>

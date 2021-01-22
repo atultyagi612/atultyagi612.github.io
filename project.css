@@ -8,15 +8,18 @@
     justify-content: center;
     font-size: 40px;
     color: black;
-    padding: 136px 2px 2px;
+    padding: 136px 1px 56px;
     background-color: white;
 }
 
 .project-container {
+    justify-content: space-evenly;
     background-color: white;
     display: flex;
     font-family: sans-serif;
     font-size: 16px;
+    padding-bottom: 119px;
+    flex-wrap: wrap;
 }
 
 .project-list {
@@ -152,6 +155,8 @@ width: 91%;
     .Project-heading {   
         padding:0%;
         background-color: white;
+        margin-top: -1px;
+        margin-bottom: 28px;
         }
     .project-list { 
        width: 338px;

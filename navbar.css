@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    
 }
 :root {
     --navbar-color-mobile: rgb(49, 47, 47);
@@ -72,6 +73,64 @@ nav {
 }
 
 
+
+@keyframes navlinkslide {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+.toggle .line1{
+    transform: rotate(-45deg) translate(-5px,6px);
+}
+.toggle .line2{
+    opacity: 0;
+}
+.toggle .line3{
+
+    transform: rotate(45deg) translate(-5px,-6px);
+}
+
+
+
+/* #effect ********************** */
+
+.Hover-effect {
+    position: relative;
+}
+
+.Hover-effect::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0.175rem;
+    background-color: red;
+    left: 0;
+    bottom: 0;
+    transform: scale(0, 1);
+    transition: transform 0.3s ease;
+}
+.active-container::after{
+    transform: scale(1, 1);
+}
+
+
+.Hover-effect:hover::after {
+    transform: scale(1, 1);
+}
+
+.container-front{
+    display: flex;
+    height: 750px;
+}
+
+
+
 @media screen and (max-width: 768px) {
     body {
         overflow-x: hidden;
@@ -118,54 +177,7 @@ nav {
         background-color: white;
     }
 
-}
-
-@keyframes navlinkslide {
-    from {
-        opacity: 0;
-        transform: translateX(50px);
+    .container-front {
+        height: 644px;
     }
-
-    to {
-        opacity: 1;
-        transform: translateX(0px);
-    }
-}
-.toggle .line1{
-    transform: rotate(-45deg) translate(-5px,6px);
-}
-.toggle .line2{
-    opacity: 0;
-}
-.toggle .line3{
-
-    transform: rotate(45deg) translate(-5px,-6px);
-}
-
-
-
-/* #effect ********************** */
-
-.Hover-effect {
-    position: relative;
-}
-
-.Hover-effect::after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 0.175rem;
-    background-color: red;
-    left: 0;
-    bottom: 0;
-    transform: scale(0, 1);
-    transition: transform 0.3s ease;
-}
-
-.Hover-effect:hover::after {
-    transform: scale(1, 1);
-
-}
-.container-front{
-    display: flex;
 }
