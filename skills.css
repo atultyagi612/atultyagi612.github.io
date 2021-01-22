@@ -80,6 +80,9 @@
 .progress-line.html-CSS span{
     width: 60%;
 }
+.progress-line.javascript span{
+    width: 50%;
+}
 
 
 .skills-bar .bar .progress-line span::before{
@@ -125,6 +128,9 @@ animation: showtexts 0.5s 1.5s liners forwards;
 }
 .progress-line.html-CSS span::after{
     content: "60%";
+}
+.progress-line.javascript span::after{
+    content: "50%";
 }
 
 

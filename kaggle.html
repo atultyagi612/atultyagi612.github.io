@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="blast-word.css">
+    <style>
+        *, *::after, *::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e8e8e8;
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+h1 {
+  text-align: center;
+  margin: 20px 0;
+  color: #363636;
+  font-size: 40px;
+}
+.inner-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.card {
+  flex-basis: 33.33333%;
+  padding: 15px;
+  margin-top: 100px;
+}
+.inner-card  {
+  background-color: #fff;
+  padding: 15px;
+  box-shadow: 0 1px 2px rgba(0,0,0,.1)
+}
+.img-wrapper {
+  width: 100%;
+  height: 250px;
+  margin-bottom: 10px;
+}
+.img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.content {
+  margin-bottom: 20px;
+}
+.content h1 {
+  font-weight: 900;
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #444;
+}
+.content p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #555;
+}
+.btn-wrapper {
+  display: block;
+  text-align: center;
+}
+.view-btn {
+  width: 70%;
+  height: 40px;
+  border: none;
+  background-color: steelblue;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+.view-btn:hover {
+  box-shadow: 0 3px 6px rgba(0,0,0,.4);
+}
+
+.light-box {
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: rgba(0,0,0,.6);
+  width: 100%;
+  height: 100vh;
+  z-index: 99;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 200ms ease-out;
+}
+.box {
+  width: 600px;
+  height: 400px;
+  background-color: #fff;
+  transform: scale(0);
+  transition: all 200ms ease-in-out;
+  padding: 10px;
+  box-shadow: 0 3px 9px rgba(0,0,0,.1);
+  position: relative;
+}
+.box-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  padding: 15px;
+}
+.box .light-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.box .close-btn {
+  position: absolute;
+  z-index: 100;
+  font-size: 30px;
+  color: #ccc;
+  left: 100%;
+  top: 0;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  display: block;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 35px;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: all 200ms linear;
+}
+/* Effect */
+.effect .light-box {
+  opacity: 1;
+  visibility: visible;
+}
+.effect .light-box .box {
+  transform: scale(1);
+}
+
+@media (max-width: 780px) {
+  .card {
+    flex-basis: 50%;
+  }
+  .title {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 500px) {
+  .card {
+    flex-basis: 5100%;
+  }
+  .box .close-btn {
+    margin-left: 0;
+    left: 80%;
+    top: -12%;
+  }
+}
+
+.credit {
+  font-size: 14px;
+}
+a{
+    text-decoration: none;
+}
+
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">
+            <span class="logo-class" id="logo-id-1">A</span>
+            <span class="logo-class" id="logo-id-2">t</span>
+            <span class="logo-class" id="logo-id-3">u</span>
+            <span class="logo-class" id="logo-id-4">l</span>
+            <span class="logo-class" id="logo-id-10">&nbsp;</span>
+            <span class="logo-class" id="logo-id-5">T</span>
+            <span class="logo-class" id="logo-id-6">y</span>
+            <span class="logo-class" id="logo-id-7">a</span>
+            <span class="logo-class" id="logo-id-8">g</span>
+            <span class="logo-class" id="logo-id-9">i</span>
+
+        </div>
+        <ul class="navlinks">
+            <li><a id="home-id" href="https://atultyagi612.github.io/#" class="Hover-effect">Home</a></li>
+            <li><a id="about-id" href="https://atultyagi612.github.io/#" class="Hover-effect">About</a></li>
+            <li><a id="skills-id" href="https://atultyagi612.github.io/#Skills-id" class="Hover-effect">Skills</a></li>
+            <li><a id="projects-id" href="https://atultyagi612.github.io/#project-heading-id"
+                    class="Hover-effect">Project</a></li>
+            <li><a id="follow-id" href="https://atultyagi612.github.io/#follow-on" class="Hover-effect">Follow on</a>
+            </li>
+        </ul>
+
+        <div class="sideview">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <div class="wrapper">
+        <div class="container">
+          <div class="inner-wrapper">
+            <div class="card">
+                <a href="https://www.kaggle.com/atultyagi2000/mnist-digit-recognition-lr" target="_blank">
+              <div class="inner-card Hover-effect">
+                <div class="img-wrapper">
+                  <img src="./images/mnist.png" alt="MNIST">
+                </div>
+                <div class="content">
+                  <h1>Digit Recognizer(MNIST)</h1>
+                  <p>This competition is the perfect introduction to techniques like neural networks using a classic dataset including pre-extracted features.</p>
+                </div>
+                <div class="btn-wrapper">
+                  <button class="view-btn" onclick="window.location.href='https://www.kaggle.com/atultyagi2000/mnist-digit-recognition-lr'; " >View Notebook</button>
+                </div>
+              </div>
+            </div>
+        </a>
+
+
+        
+        
+        <div class="card">
+                <a href="https://www.kaggle.com/atultyagi2000/titanic-survival-prediction-using-logisticregressi" target="_blank">
+              <div class="inner-card Hover-effect">
+                <div class="img-wrapper">
+                  <img src="./images/titanic.png" alt="MNIST">
+                </div>
+                <div class="content">
+                  <h1>Titanic - Machine Learning from Disaster</h1>
+                  <p>The competition is simple: use machine learning to create a model that predicts which passengers survived the Titanic shipwreck.</p>
+                </div>
+                <div class="btn-wrapper">
+                  <button class="view-btn" onclick="window.location.href='https://www.kaggle.com/atultyagi2000/titanic-survival-prediction-using-logisticregressi';">View Notebook</button>
+                </div>
+              </div>
+            </a>
+            </div>
+            
+            
+          </div>
+        </div>
+      </div>
+    
+      <!-- <div class="light-box">
+        <div class="box-wrapper">
+          <div class="box">
+            <span class="close-btn">&times</span>
+            <img src="" alt="" class="light-img">
+          </div>
+        </div>
+      </div> -->
+
+    <script src="navbar.js"> </script>
+    <script src="blast-word.js"></script>
+</body>
+
+</html>

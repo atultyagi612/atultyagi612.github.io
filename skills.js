@@ -27,6 +27,8 @@ document.addEventListener('scroll', function (e) {
         myFunction1('info3');
         myFunction('html-css');
         myFunction1('info4');
+        myFunction('javascript');
+        myFunction1('info5');
 
     }
 });
