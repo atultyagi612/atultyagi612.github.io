@@ -57,3 +57,18 @@
     }
     
 }
+
+
+@media screen and (max-width: 768px) {
+.liquid-button {
+    position: relative;
+    padding: 15px 25px;
+    display: block;
+    margin-top: 39px;
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    width: 147px;
+    overflow: hidden;
+
+
+}}
