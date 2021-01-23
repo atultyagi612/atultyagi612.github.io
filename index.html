@@ -9,13 +9,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <link rel="stylesheet" href="navbar.css">
     <link rel="stylesheet" href="blast-word.css">
+    <link rel="stylesheet" href="about-me.css">
     <link rel="stylesheet" href="project.css">
     <link rel="stylesheet" href="svg-image.css">
     <link rel="stylesheet" href="follow.css">
     <link rel="stylesheet" href="skills.css">
+    <link rel="stylesheet" href="liquidbutton.css">
     <style>
         html {
             scroll-behavior: smooth;
@@ -24,6 +28,21 @@
         .image-language {
             height: 60px;
         }
+
+        :root {
+            --heading-font:
+        }
+        p{
+            font-family: 'Roboto', sans-serif;
+        }
+
+        
+
+
+
+
+
+
 
         #see-my-work {
             padding: 9px 14px;
@@ -60,11 +79,11 @@
 
         </div>
         <ul class="navlinks">
-            <li><a id="home-id" href="#" class="Hover-effect">Home</a></li>
-            <li><a id="about-id" idhref="#" class="Hover-effect">About</a></li>
-            <li><a id="skills-id" href="#Skills-id" class="Hover-effect">Skills</a></li>
-            <li><a id="projects-id" href="#project-heading-id" class="Hover-effect">Project</a></li>
-            <li><a id="follow-id" href="#follow-on" class="Hover-effect">Follow on</a></li>
+            <li><a id="home-id-" href="#Home-id" class="Hover-effect">Home</a></li>
+            <li><a id="about-id" idhref="#" class="Hover-effect about-">About</a></li>
+            <li><a id="skills-id-" href="#Skills-id" class="Hover-effect Skills-id">Skills</a></li>
+            <li><a id="projects-id-" href="#project-heading-id" class="Hover-effect projects-id">Project</a></li>
+            <li><a id="follow-id-" href="#follow-on" class="Hover-effect follow-on">Follow on</a></li>
         </ul>
 
         <div class="sideview">
@@ -73,7 +92,7 @@
             <div class="line3"></div>
         </div>
     </nav>
-    <div class="container-front">
+    <div class="container-front" id="Home-id">
 
 
         <div class="welcome">
@@ -102,7 +121,11 @@
 
 
             <div>
-                <button id="see-my-work">See my Work</button>
+                <!-- <button id="see-my-work">See my Work</button> -->
+                <a class="liquid-button" href="#projects-id">
+                    <span>My work</span>
+                    <div class="liquid"></div>
+                </a>
             </div>
         </div>
         <div class="SVG-Image">
@@ -253,9 +276,45 @@
         </div>
     </div>
 
+    <div class="about-me" id="about-">
+        <div class="skills-heading Project-heading">
+            <span class="project-line-before"></span>
+            <span class="project--" id="project-id-1">A</span>
+            <span class="project--" id="project-id-2">b</span>
+            <span class="project--" id="project-id-3">o</span>
+            <span class="project--" id="project-id-4">u</span>
+            <span class="project--" id="project-id-5">t</span>
+            <span class="project--">&nbsp;</span>
+            <span class="project--" id="project-id-6">M</span>
+            <span class="project--" id="project-id-7">e</span>
+            <span class="project-line-after"></span>
+        </div>
+        <div class="about-me-container">
+            <div id="about-me-image">
+                <img src="./images/about.jpg" alt="">
+            </div>
+            <div id="about-me-para">
+                <p>  Hi, i am Atul Tyagi, a Second year undergraduate student at the SRM University Delhi, pursuing in Computer Science and
+                    Engineering. As a student of Computer Science, I am
+                    fascinated by the extensive impact computers can have in solving real world problems. I am specially
+                    interested in the fields of data science, ML , and designing among other areas of computer science.
+                    <br>
+                    I am a tech enthusiast who likes creating new things and experimenting with things.
+                </p>
+            </div>
+        </div>
+    </div>
     <div class="skills" id="Skills-id">
         <div class="skills-heading Project-heading">
-            <span>Skills</span>
+            <!-- <span>Skills</span> -->
+            <span class="project-line-before"></span>
+            <span class="project--" id="project-id-1">S</span>
+            <span class="project--" id="project-id-2">k</span>
+            <span class="project--" id="project-id-3">i</span>
+            <span class="project--" id="project-id-4">l</span>
+            <span class="project--" id="project-id-5">l</span>
+            <span class="project--" id="project-id-6">s</span>
+            <span class="project-line-after"></span>
         </div>
         <div class="skills-bar">
             <div class="bar">
@@ -295,6 +354,7 @@
 
     <div class="projects" id="projects-id">
         <div id="project-heading-id" class="Project-heading">
+            <span class="project-line-before"></span>
             <span class="project--" id="project-id-1">P</span>
             <span class="project--" id="project-id-2">r</span>
             <span class="project--" id="project-id-3">o</span>
@@ -303,6 +363,7 @@
             <span class="project--" id="project-id-6">c</span>
             <span class="project--" id="project-id-7">t</span>
             <span class="project--" id="project-id-8">s</span>
+            <span class="project-line-after"></span>
         </div>
         <div class="project-container">
             <a id="project-list-link" href="https://atultyagi612.github.io/facial-recognition-Attendance-System/"
@@ -336,7 +397,8 @@
 
             <a id="project-list-link" href="https://atultyagi612.github.io/Carrer-Guidance-base-on-java/"
                 target="_blank">
-                <div class="project-list Hover-effect" id="Project-first">
+                <div style="--underline_color:Orange ; --underline-hight: 0.2rem;" class="project-list Hover-effect"
+                    id="Project-first">
                     <img src="./images/carrer-guidance-user.gif" alt="">
                     <div>
                         <p class="Project-main-heading">Carrer Guidance </p><br>
@@ -361,13 +423,13 @@
                     </div>
                 </div>
             </a>
-            <a id="project-list-link" href="./kaggle.html"
-                target="_blank">
+            <a id="project-list-link" href="./kaggle.html" target="_blank">
                 <div class="project-list Hover-effect" id="Project-first">
                     <img src="./images/kaggle.png" alt="">
                     <div>
                         <p class="Project-main-heading">Kaggle Competitions</p><br>
-                        <p>Kaggle is platform to compete with others in competitions which are based on machine learning tasks.</p>
+                        <p>Kaggle is platform to compete with others in competitions which are based on machine learning
+                            tasks.</p>
                     </div>
                     <div class="language-used">
                         <h5>Language Used</h5>
@@ -388,8 +450,7 @@
                     </div>
                 </div>
             </a>
-            <a id="project-list-link" href="./Python.html"
-                target="_blank">
+            <a id="project-list-link" href="./Python.html" target="_blank">
                 <div class="project-list Hover-effect" id="Project-first">
                     <img src="./images/python.png" alt="">
                     <div>
@@ -399,8 +460,8 @@
                     <div class="language-used">
                         <h5>Language Used</h5>
                         <span class="Progress">
-                            <span itemprop="keywords" aria-label="HTML 69.2"
-                                style="background-color: red;width: 100%;" class="Progress-item "></span>
+                            <span itemprop="keywords" aria-label="HTML 69.2" style="background-color: red;width: 100%;"
+                                class="Progress-item "></span>
                         </span>
                         <ul style="text-decoration: none; list-style: none;">
 
@@ -419,10 +480,24 @@
     </div>
 
     <div class="follow" id="follow-on">
-        <h1>Follow on</h1>
+        <div class="follow-heading Project-heading">
+            <!-- <h1>Follow on</h1> -->
+            <span class="project-line-before"></span>
+            <span class="project--" id="project-id-1">F</span>
+            <span class="project--" id="project-id-2">o</span>
+            <span class="project--" id="project-id-3">l</span>
+            <span class="project--" id="project-id-4">l</span>
+            <span class="project--" id="project-id-5">o</span>
+            <span class="project--" id="project-id-6">w</span>
+            <span class="project--">&nbsp;</span>
+            <span class="project--" id="project-id-7">O</span>
+            <span class="project--" id="project-id-8">n</span>
+            <span class="project-line-after"></span>
+        </div>
         <div class="social-media">
-            <a id="facebook-id" href="#"><i class="fab fa-facebook"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a id="facebook-id" href="https://www.facebook.com/people/Atul-Tyagi/100011026503096" target="_blank"><i
+                    class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/atultyagi___/" target="_blank"><i class="fab fa-instagram"></i></a>
             <a href="https://www.kaggle.com/atultyagi2000" target="_blank"><i class="fab fa-kaggle"></i></a>
             <a href="https://github.com/atultyagi612" target="_blank"><i class="fab fa-github"></i></a>
         </div>
@@ -433,6 +508,7 @@
     <script src="blast-word.js"></script>
     <script src="skills.js"></script>
     <!-- <script src="highlight.js"></script> -->
+    <script src="highlight12.js"></script>
 </body>
 
 </html>

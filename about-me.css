@@ -1,0 +1,44 @@
+#about-{
+    padding-bottom: 105px;
+    background-color: white;
+    padding-top: 50px;
+}
+
+
+#about-me-para{
+    background-color: white;
+    color: black;
+    padding: 70px 127px;
+}
+#about-me-image{
+    background-color: white;
+}
+.about-me-container{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}
+
+#about-me-image img{
+    border-radius: 130px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .about-me-container {
+        flex-direction: column;
+    }
+    #about-me-image img {
+        height: 95px;}
+        #about-me-para {
+            padding: 44px 18px;
+        }
+        .project-line-after, .project-line-before {
+            width: 76px;
+        }
+
+
+}

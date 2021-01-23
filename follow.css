@@ -1,5 +1,5 @@
 .follow {
-    background: #e3edf7;
+    background: #ffffff;
 }
 div.follow{
     height: 300px;
@@ -15,6 +15,7 @@ div.follow{
 }
 
 .social-media {
+    background-color: white;
     display: flex;
     justify-content: center;
 }
@@ -62,4 +63,12 @@ div.follow{
 }
 .social-media a:hover .fa-kaggle{
     color:#20beff;
+}
+
+@media screen and (max-width: 768px) {
+
+    .follow-heading span{
+        font-size: 30px;
+    }
+
 }
