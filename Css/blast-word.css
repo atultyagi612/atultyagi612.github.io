@@ -1,0 +1,178 @@
+body {
+    font-family: 'Yusei Magic', sans-serif;
+    background-image: linear-gradient(to right bottom, #051937, #00476f, #007b9f, #00b3bf, #12ebcd);
+max-height: 100%;
+
+    color: white;
+}
+.welcome{
+display: inline-block;
+margin: 158px;
+}
+.welcome #welcome-p{
+    margin: 14px;
+    font-size: 17px;
+    padding-left: 0px;
+    margin-top: 39px;
+    margin-left: 0px;
+}
+.rubberBand {
+    display: inline-block;
+    font-size: 68px;
+    font-weight: bold;
+    padding: 0px 0px;
+    margin: -3px;
+    cursor: default;
+}
+.logo-class{
+    display: inline-block;
+    cursor: default;
+    font-weight: bold;
+}
+#logo-id-2,#logo-id-6,#logo-id-9{
+    animation: always1 3s infinite 1s;
+}
+#logo-id-3,#logo-id-7{
+    animation: always1 2s infinite 1s;
+}
+#logo-id-4,#logo-id-8{
+    animation: always1 4s infinite 1s;
+}
+.logo #logo-id-1,.logo #logo-id-5{
+    font-size: 35px;
+    font-weight: bold;
+    color: red;
+    animation: rubberBand 1s 1,always1 5s infinite 1s;
+}
+
+@keyframes rubberBand {
+
+    from {
+        color: rgb(9, 64, 78);
+        transform: scale3d(1, 1, 1);
+    }
+
+    30% {
+        transform: scale3d(1.25, 0.75, 1);
+    }
+
+    40% {
+        transform: scale3d(0.75, 1.25, 1);
+    }
+
+    50% {
+        color: rgb(62, 72, 216);
+        transform: scale3d(1.15, 0.85, 1);
+    }
+
+    65% {
+        transform: scale3d(0.95, 1.05, 1);
+    }
+
+    75% {
+        transform: scale3d(1.05, 0.95, 1);
+    }
+
+    to {
+        transform: scale3d(1, 1, 1);
+    }}
+
+@keyframes always1 {
+
+    from {
+
+        transform: scale3d(1, 1, 1);
+    }
+
+    30% {
+        transform: scale3d(1.1, 0.85, 1);
+    }
+
+    40% {
+        transform: scale3d(0.85, 1.1, 1);
+    }
+
+    50% {
+
+        transform: scale3d(1.15, 0.85, 1);
+    }
+
+    65% {
+        transform: scale3d(0.95, 1.05, 1);
+    }
+
+    75% {
+        transform: scale3d(1.05, 0.95, 1);
+    }
+
+    to {
+        transform: scale3d(1, 1, 1);
+    }}
+
+@keyframes color-trans {
+    from {
+        color: turquoise;
+    }
+
+    10% {
+        color: rgb(194, 209, 54);
+    }
+
+    20% {
+        color: rgb(26, 214, 214);
+    }
+
+    30% {
+        color: rgb(24, 103, 194);
+    }
+
+    40% {
+        color: rgb(130, 78, 189);
+    }
+
+    50% {
+        color: rgb(223, 28, 142);
+    }
+
+    60% {
+        color: rgb(79, 139, 139);
+    }
+
+    70% {
+        color: rgb(94, 204, 43);
+    }
+
+    80% {
+        color: rgb(93, 196, 46);
+    }
+
+    90% {
+        color: rgb(224, 160, 87);
+    }
+
+    to {
+        color: turquoise;
+    }}
+
+    @media screen and (max-width: 768px) {
+        .welcome{
+            display: inline-block;
+            margin: 35px;
+            margin-top: 76px;
+            }
+            .rubberBand {
+                font-size: 60px;
+                padding: 0px 0px;
+                margin: -3px;
+              
+            }
+            .image-language {
+                height: 39px;
+            }
+            #see-my-work{
+                margin: 10px 12px;
+            }
+
+
+
+    }
