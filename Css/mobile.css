@@ -2,7 +2,7 @@
 
     @keyframes color-trans {
         from {
-            color: rgb(0, 0, 0);
+            color: #263B5E;
         }
     
         10% {
@@ -42,7 +42,7 @@
         }
     
         to {
-            color: rgb(0, 0, 0);
+            color: #263B5E;
         }}
 
 
@@ -51,7 +51,7 @@
             background-image: linear-gradient(to top, #ffffff, #f4f4f4, #eaeaea, #dfdfdf, #d5d5d5);
         max-height: 100%;
         
-            color: rgb(0, 0, 0);
+            color: #263B5E;
         }
 
 }

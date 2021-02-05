@@ -1,0 +1,78 @@
+body{
+    background: url(../images/upgrade1.png) no-repeat center;
+    color: #263B5E;
+    font-family: "Rubik", sans-serif;
+}
+.logo{
+    color: black;
+}
+.navlinks a{
+    color: black;
+}
+.liquid-button{
+    padding: 12px 33px;
+    width: 154px;
+    border-radius: 3px;
+}
+#about-,.Project-heading , #about-me-para , .about-me-container{
+    background-color: transparent;
+}
+.projects ,.skills , .project-container , .follow , .social-media{
+    background-color: transparent;
+}
+.hello{
+    font-size: 50px;
+    font-weight: 600;
+}
+.liquid-button{
+    -webkit-box-shadow: 6px 12px 11px -3px rgba(255,75,38,0.33); 
+box-shadow: 6px 12px 11px -3px rgba(255,75,38,0.33);
+}
+svg{
+    margin: 53px;
+}
+.welcome #welcome-p{
+    color: black;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    .welcome{
+        margin-top: 110px;
+    }
+    nav , .nav-active , .navlinks{
+        background-color: #263B5E;
+    }
+    .logo , .navlinks a{
+        color: white;
+    }
+
+    .skills{
+        background-color: transparent;
+    }
+
+
+}
+
+/* @media screen and (max-width: 1024px) {
+    .skills-b{
+        margin-left: 205px;
+    margin-right: 0px;
+    }
+
+    svg{
+        height: 450px;
+        margin-left: 0px;
+        margin-right: 0px;
+
+    }
+    .welcome{
+        margin-right: 0px;
+    }
+    .SVG-Image{
+        margin-left: -14px;
+    }
+
+} */

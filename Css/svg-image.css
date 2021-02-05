@@ -2,9 +2,9 @@ svg{
     margin: 87px;
 }
 /* Bricks        */
-#Bricks{
+/* #Bricks{
 animation: bricks1 1s  infinite 0s linear;
-}
+} */
 #Vector_35,#Vector_40,#Vector_51,#Vector_38,#Vector_52,#Vector_35,#Vector_45{
 animation: bricks1 1s  infinite 0.4s linear;
 }
