@@ -49,9 +49,6 @@
         body {
             /* font-family: 'Yusei Magic', sans-serif; */
             background-image: linear-gradient(to top, #ffffff, #f4f4f4, #eaeaea, #dfdfdf, #d5d5d5);
-            /*CSS Code:*/
-
-/*background-image: linear-gradient(to top, #ffffff, #f5f7f9, #eaf0f1, #e1e9e5, #dee0d8);*/
         max-height: 100%;
         
             color: rgb(0, 0, 0);
