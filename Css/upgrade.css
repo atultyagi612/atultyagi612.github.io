@@ -34,7 +34,19 @@ svg{
 .welcome #welcome-p{
     color: black;
 }
+img{
+    max-width: 100%;
+    transition: all 0.7s ;
+}
 
+img:hover{
+object-fit: 'contain';
+transform:  translateY(-3px) scale(1.01); 
+}
+img:hover{
+    transform:  translateY(-5px) scale(1.02);
+    box-shadow: 10px 9px 17px -10px rgba(0,0,0,0.28);
+}
 
 
 @media screen and (max-width: 768px) {

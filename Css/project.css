@@ -34,6 +34,7 @@
     height: 405px;
     margin-bottom: 37px;
     width: 449px;
+    overflow:hidden;
     box-shadow: rgba(0, 0, 0, 0.15) 6px 6px 10px -1px, rgba(255, 255, 255, 0.7) -6px -6px 10px -1px;
     border: 1px solid rgba(0, 0, 0, 0);
     transition: transform 0.5s ease 0s;
