@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atul Tyagi</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./images/Screenshot_2021-02-19_115437-removebg-preview.png" />
+
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -50,9 +52,7 @@
             font-size: 25px;
         }
 
-        .skills {
-            background-color: white;
-        }
+    
         img{
             max-width: 100%;
             transition: all 0.7s ;
@@ -62,28 +62,39 @@
     object-fit: 'contain';
     transform:  translateY(-3px) scale(1.01); 
 }
+#canvas1{
+    position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index:-1;
+
+        }
     </style>
 </head>
 
 <body>
 
+    <canvas id="canvas1" ></canvas>
     <nav>
         <div class="logo">
-            <span class="logo-class" id="logo-id-1">A</span>
+            <span class="logo-class" id="logo-id-1">卂</span>
             <span class="logo-class" id="logo-id-2">t</span>
             <span class="logo-class" id="logo-id-3">u</span>
             <span class="logo-class" id="logo-id-4">l</span>
-            <span class="logo-class" id="logo-id-10">&nbsp;</span>
-            <span class="logo-class" id="logo-id-5">T</span>
+            <!-- <span class="logo-class" id="logo-id-10">&nbsp;</span>
+            <span class="logo-class" id="logo-id-5">ㄒ</span>
             <span class="logo-class" id="logo-id-6">y</span>
             <span class="logo-class" id="logo-id-7">a</span>
             <span class="logo-class" id="logo-id-8">g</span>
-            <span class="logo-class" id="logo-id-9">i</span>
+            <span class="logo-class" id="logo-id-9">i</span> -->
+            
 
         </div>
         <ul class="navlinks">
             <li><a id="home-id-" href="#Home-id" class="Hover-effect">Home</a></li>
-            <li><a id="about-id" idhref="#" class="Hover-effect about-">About</a></li>
+            <li><a id="about-id" href="#about_id" class="Hover-effect about-">About</a></li>
             <li><a id="skills-id-" href="#Skills-id" class="Hover-effect Skills-id">Skills</a></li>
             <li><a id="projects-id-" href="#project-heading-id" class="Hover-effect projects-id">Project</a></li>
             <li><a id="follow-id-" href="#follow-on" class="Hover-effect follow-on">Follow on</a></li>
@@ -119,6 +130,10 @@
             <span class="rubberBand" id="id-16">a</span>
             <span class="rubberBand" id="id-17">g</span>
             <span class="rubberBand" id="id-18">i</span>
+            <br>
+            <br>
+            <hr style="height:2px;border-width:0;color:rgb(95, 92, 92);background-color:rgb(136, 132, 132)">
+            
             <p id="welcome-p" style="font-weight: 400; font-size: ;" >A computer science student passionate about <span style="text-decoration: underline; text-decoration-color: red; text-decoration-thickness: 3px;"> programming</span>  and <span style="text-decoration: underline; text-decoration-color: red; text-decoration-thickness: 3px;"> design</span> .</p>
 
 
@@ -386,7 +401,7 @@
     </div>
 
     <div class="about-me" id="about-">
-        <div class="skills-heading Project-heading">
+        <div class="skills-heading Project-heading" id="about_id" >
             <span class="project-line-before"></span>
             <span class="project--" id="project-id-1">A</span>
             <span class="project--" id="project-id-2">b</span>
@@ -705,6 +720,7 @@
     <script src="./javas/blast-word.js"></script>
     <script src="./javas/skills.js"></script>
     <script src="./javas/highlight12.js"></script>
+    <script src="./javas/canvas.js"></script>
 </body>
 
 </html>

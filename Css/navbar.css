@@ -20,7 +20,7 @@ nav {
 
 .scroll-active{
     transition: background-color 1s ease-out;
-    background-color: white;
+    background-color: #fffffffa;
     box-shadow: 0 3px 1rem rgba(0,0,0,0.1);
 }
 .scroll-active .navlinks a,.scroll-active .logo{

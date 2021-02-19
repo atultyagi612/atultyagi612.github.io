@@ -85,20 +85,20 @@ margin: 158px;
     }
 
     30% {
-        transform: scale3d(1.1, 0.85, 1);
+        transform: scale3d(1.1, 0.95, 1);
     }
 
     40% {
-        transform: scale3d(0.85, 1.1, 1);
+        transform: scale3d(0.99, 1.0, 1);
     }
 
     50% {
 
-        transform: scale3d(1.15, 0.85, 1);
-    }
+        transform: scale3d(1.05, 0.97, 1);
+    } 
 
-    65% {
-        transform: scale3d(0.95, 1.05, 1);
+     65% {
+        transform: scale3d(0.98, 1.04, 1);
     }
 
     75% {
@@ -111,15 +111,15 @@ margin: 158px;
 
 @keyframes color-trans {
     from {
-        color: turquoise;
+        color: #263B5E;
     }
 
     10% {
-        color: rgb(194, 209, 54);
+        color: rgb(37, 142, 184);
     }
 
     20% {
-        color: rgb(26, 214, 214);
+        color: rgb(41, 150, 150);
     }
 
     30% {
@@ -131,7 +131,7 @@ margin: 158px;
     }
 
     50% {
-        color: rgb(223, 28, 142);
+        color: rgb(20, 96, 146);
     }
 
     60% {
@@ -139,19 +139,19 @@ margin: 158px;
     }
 
     70% {
-        color: rgb(94, 204, 43);
+        color: rgb(38, 138, 138);
     }
 
     80% {
-        color: rgb(93, 196, 46);
+        color: rgb(72, 62, 116);
     }
 
     90% {
-        color: rgb(224, 160, 87);
+        color: rgb(76, 78, 189);
     }
 
     to {
-        color: turquoise;
+        color: #263B5E;
     }}
 
     @media screen and (max-width: 768px) {
