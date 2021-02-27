@@ -1,0 +1,89 @@
+svg{
+    margin: 87px;
+}
+/* Bricks        */
+/* #Bricks{
+animation: bricks1 1s  infinite 0s linear;
+} */
+#Vector_35,#Vector_40,#Vector_51,#Vector_38,#Vector_52,#Vector_35,#Vector_45{
+animation: bricks1 1s  infinite 0.4s linear;
+}
+#Vector_37,#Vector_39,#Vector_41,#Vector_36,#Vector_47,#Vector_43,#Vector_35,#Vector_55{
+animation: bricks1 1s  infinite 0.8s linear;
+}
+@keyframes bricks1 {
+    from{
+        transform: rotateX(0deg);
+        
+    }
+    50%{
+        transform: rotateX(10deg);
+        
+    }
+    to{
+        
+        transform: rotateX(0deg);
+    }
+    
+}
+
+#hat,#Vector_8{
+animation: headphones-hat 1s ease-in-out infinite alternate;
+transform-origin: top;
+}
+#headphone{
+    animation: headphones-hat 1s ease-in-out 0.5s infinite alternate;
+transform-origin: top;
+}
+
+@keyframes headphones-hat {
+    from{
+        transform: rotateX(0deg);
+        
+    }
+    50%{
+        transform: rotateX(10deg);
+        
+    }
+    to{
+        
+        transform: rotateX(0deg);
+    }
+    
+}
+#Vector_57{
+    animation: laptop-color 20s   infinite ;
+}
+@keyframes laptop-color{
+    from{
+        fill: red;
+    }
+    25%{
+        fill: rgb(42, 216, 36);
+    }
+    50%{
+        fill: rgb(40, 197, 171);
+    }
+    75%{
+        fill: rgb(94, 39, 197);
+    }
+    to{
+        fill: red;
+    }
+}
+/* Plants.......................................                             */
+#Vector,#Vector_2{
+    animation: headphones-hat 1.5s ease-in-out  infinite alternate;
+transform-origin: top;
+}
+#Vector_3,#Vector_4,#Vector_5{
+    animation: headphones-hat 1.5s ease-in-out 0.5s infinite alternate;
+    transform-origin: top;
+}
+
+@media screen and (max-width: 768px) {
+
+    .SVG-Image{
+display: none;
+    }
+}

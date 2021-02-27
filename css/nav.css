@@ -1,0 +1,196 @@
+nav {
+    z-index: 1;
+    display: flex;
+    position:fixed;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 9vh;
+    width: 100%;
+    background-color: var(--navbar_color);
+    height: 70px;
+    z-index: 100;
+    
+}
+.navlinks {
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    width: 30%;
+    margin-right: 53px;
+    font-family: var(--first_heading)
+}
+.navlinks li {
+    list-style: none;
+}
+.navlinks a {
+    color: var(--third_color);
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.logo{
+    margin-left: 90px;
+}
+#logo-id-1{
+    height: 50px;
+}
+.sideview {
+    display: none;
+    cursor: pointer;
+}
+
+.sideview div{
+    width: 24px;
+    height: 4px;
+    margin: 4px;
+    background-color: white;
+    transition: all 0.4s ease;
+    
+}
+
+/* scrolling effects  */
+.scroll-active{
+    transition: background-color 1s ease-out;
+    background-color: var(--scroll_active);
+    box-shadow: 0 3px 1rem rgba(0,0,0,0.1);
+}
+.scroll-active .navlinks a,.scroll-active .logo{
+    transition: color 1s ease-out;
+    color: var(--scrol_activ_color);
+}
+.scroll-active .sideview div{
+    transition:background-color  1s ease-out;
+    background-color: var(--secondary_color);
+}
+
+/* hover effects  */
+
+.Hover-effect {
+    position: relative;
+}
+.Hover-effect::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: var(--underline-hight);
+    background-color: var(--underline_color);
+    left: 0;
+    bottom: 0;
+    transform: scale(0, 1);
+    transition: transform 0.3s ease;
+}
+
+.Hover-effect::after #Project-first {
+    background-color: royalblue;
+}
+.active-container{
+    color: var(--secondary_color);
+}
+.active-container::after{
+    transform: scale(1, 1);
+    
+
+}
+
+
+.Hover-effect:hover::after {
+    transform: scale(1, 1);
+}
+
+.container-front{
+    display: flex;
+    height: 750px;
+}
+
+
+
+
+
+
+
+
+/* navlink - - - setting  */
+
+@keyframes navlinkslide {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+.toggle .line1{
+    transform: rotate(-45deg) translate(-5px,6px);
+}
+.toggle .line2{
+    opacity: 0;
+}
+.toggle .line3{
+
+    transform: rotate(45deg) translate(-5px,-6px);
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+    .logo {
+        /* color: white; */
+        letter-spacing: -5px;
+        font-size: 24px;
+    }
+    nav {
+        background-color:var(--navbar-color-mobile);
+    }
+
+    .navlinks {
+
+        position: absolute;
+        right: -62px;
+        height: 92vh;
+        top: 8vh;
+        width: 50%;
+        background-color: var(--navbar-color-mobile);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+    }
+
+    .navlinks li {
+        opacity: 0;
+    }
+
+    .sideview {
+        
+        display: block;
+        cursor: pointer;
+        
+    }
+    .nav-active {
+        transform: translateX(0%)
+    }
+    .scroll-active ul.navlinks{
+        /* transition:background-color  1s ease-out; */
+        /* background-color: white; */
+    }
+
+    .container-front {
+        height: 644px;
+    }
+}

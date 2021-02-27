@@ -1,0 +1,270 @@
+.projects{
+margin-top: 50px;
+margin-bottom: 500px;
+}
+#Project-heading{
+    margin-bottom: 147px;
+    margin-top: 129px;
+}
+.main_projects{
+display: flex;
+flex-direction: column;
+}
+.proj{
+    width: 70%;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    margin-bottom: 122px;
+
+}
+.proj_image{
+    position: relative;
+    z-index: 1;
+}
+.image_proj{
+    width: 107%;
+    filter: contrast(0.5);
+    transition: 1s filter linear;
+}
+.image_proj:hover{
+    filter: contrast(1);
+    filter: drop-shadow(8px 8px 10px rgba(91, 183, 199, 0.5));
+}
+
+
+
+.project_detail{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    place-content: space-evenly;
+    z-index: 2;
+}
+.proj_name h2{
+    text-align: end;
+    font-family: var(--mini_heading);
+}
+.about_proj{
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--primary_second_color);
+    z-index: 2;
+    padding: 25px;
+    cursor: default;
+    min-height: 113px;
+}
+.proj_language_used{
+    display: flex;
+    align-self: flex-end;
+}
+.proj_language_used div{
+    padding: 7px 13px;
+    border-radius: 7px;
+    margin-right: 14px;
+}
+
+
+.visit_logo{
+    display: flex;
+    justify-content: flex-end;
+}
+.visit_logo a{
+    display: flex;
+    width: 8%;
+}
+.visit_logo svg{
+    fill: var(--fourth_color);
+    height: 29px;
+}
+.visit_logo a:hover svg{
+   fill: var(--secondary_color)
+}
+
+
+
+/* reverse  */
+.reverse_proj_name{
+    text-align: inherit;
+}
+.reverse_proj_name h2{
+    font-family: var(--mini_heading);
+}
+.reverse_image_proj{
+    float: right;
+}
+.reverse_logo{
+    display: flex;
+    justify-content: end;
+}
+.reverse_pro_lang_used{
+    display: flex;
+    align-self: end;
+}
+
+/* language colors  */
+.jav{
+    border: 2px solid #E06C00;
+    cursor: default;
+}
+.pyth{
+    border: 2px solid #287395;
+    cursor: default;
+}
+.js{
+    border: 2px solid #A84CB8;
+    cursor: default;
+}
+.nodjs{
+    border: 2px solid #74B141;
+    cursor: default;
+}
+.ejs{
+    border: 2px solid #A91E50;
+    cursor: default;
+}
+.mongodb{
+    border: 2px solid #105E4A;
+    cursor: default;
+}
+
+
+.other_projects{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.other_heading{
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+}
+.other_heading h2{
+    font-family: var(--mini_heading);
+}
+.types_of_sub_proj{
+    display: flex;
+    margin-top: 63px;
+}
+.secondary_project{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+.other_heading h2{
+    color: var(--third_color);
+    margin-right: 5%;
+}
+.other_heading h4{
+    margin-left: 3%;
+    /* color: var(--fourth_color); */
+    cursor: pointer;
+    --underline-hight:0.045rem;
+    font-family: monospace;
+    font-size: 17px;
+    font-weight: lighter;
+}
+.other_heading h4:hover{
+    color: var(--secondary_color);
+    
+}
+
+.sec_proj{
+    width: 80%;
+    justify-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primary_second_color);
+    flex-basis: 25%;
+    margin: 4.15%;
+    justify-content: space-between;
+    transition: all 0.3s;
+    
+}
+.card:hover{
+    transform: translate(0px, -5px);
+}
+.card img{
+    width: 100%;
+    max-height: 198px;
+}
+.card .disciption{
+    margin-top: 9px;
+    margin-left: 3px;
+    font-family: 'Roboto';
+}
+.card .disciption h2{
+    margin-bottom: 4px;
+    margin-left: 3px;
+    font-family: var(--mini_heading);
+}
+.card .language_used{
+    margin-top: 7px;
+    font-family: monospace;
+    margin-left: 3px;
+}
+.card .status{
+    margin-top: 7px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.card .status svg{
+    height: 20px;
+    width: 27px;
+    fill: var(--fourth_color);
+}
+.card .status svg:hover{
+fill: var(--secondary_color);
+}
+
+
+/* card sorting animations  */
+
+.disable {
+    display: none;
+  }
+.active {
+    animation: scale-display 0.3s;
+  }
+.out {
+    animation: scale-display--reversed 0.3s;
+    animation-fill-mode: forwards;
+    
+  }
+  
+  @keyframes scale-display {
+    0% {
+      opacity: 0;
+      transform: scale(0);
+      -webkit-transform: scale(0);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+      -webkit-transform: scale(1);
+      
+    }
+  }
+  @keyframes scale-display--reversed {
+    0% {
+      opacity: 1;
+      transform: scale(1);
+      -webkit-transform: scale(1);
+    }
+    99% {
+      opacity: 0;
+      transform: scale(0);
+      -webkit-transform: scale(0);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(0);
+        -webkit-transform: scale(0);
+    }
+  }

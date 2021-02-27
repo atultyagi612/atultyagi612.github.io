@@ -3,101 +3,163 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/first.svg" type="image/gif" sizes="16x16">
     <title>Atul Tyagi</title>
-    <link rel="shortcut icon" type="image/x-icon" href="./images/Screenshot_2021-02-19_115437-removebg-preview.png" />
-
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-    <link rel="stylesheet" href="./Css/navbar.css">
-    <link rel="stylesheet" href="./Css/blast-word.css">
-    <link rel="stylesheet" href="./Css/about-me.css">
-    <link rel="stylesheet" href="./Css/project.css">
-    <link rel="stylesheet" href="./Css/svg-image.css">
-    <link rel="stylesheet" href="./Css/follow.css">
-    <link rel="stylesheet" href="./Css/skills.css">
-    <link rel="stylesheet" href="./Css/liquidbutton.css">
-    <link rel="stylesheet" href="./Css/mobile.css">
-    <link rel="stylesheet" href="./Css/upgrade.css">
-    <style>
-        html {
-            scroll-behavior: smooth;
-        }
-
-        .image-language {
-            height: 60px;
-        }
-
-        :root {
-            --heading-font:
-        }
-        p{
-            font-family: 'Roboto', sans-serif;
-        }
-
-        #see-my-work {
-            padding: 9px 14px;
-            border: 2px solid #287395;
-            font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-            transition: all .2s ease-in-out;
-            cursor: pointer;
-        }
-
-        .Project-main-heading {
-            font-size: 25px;
-        }
-
     
-        img{
-            max-width: 100%;
-            transition: all 0.7s ;
-        }
-        
-        img:hover{
-    object-fit: 'contain';
-    transform:  translateY(-3px) scale(1.01); 
-}
-#canvas1{
-    position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index:-1;
-
-        }
-    </style>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/loader.css">
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/front-page.css">
+    <link rel="stylesheet" href="./css/liquid_button.css">
+    <link rel="stylesheet" href="./css/animations.css">
+    <link rel="stylesheet" href="./css/about-me.css">
+    <link rel="stylesheet" href="./css/skills.css">
+    <link rel="stylesheet" href="./css/project.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/mobile.css">
 </head>
 
-<body>
+<body onload='myFunction()'>
+    <!-- <canvas id="canvas1"></canvas> -->
+    <div class="loading">
+        
+        <svg  class="loading_animation" width="2087" height="1323" viewBox="0 0 2087 1323" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g filter="url(#filter0_di)">
+            <line x1="320.594" y1="142" x2="629.281" y2="142" stroke="#D8A3D2" stroke-width="20"/>
+            <line y1="-10" x2="95.5226" y2="-10" transform="matrix(0.981738 0.190236 -0.178514 0.983937 629.281 152)" stroke="black" stroke-width="20"/>
+            <line y1="-10" x2="1081.68" y2="-10" transform="matrix(0.275444 0.961317 -0.956226 0.29263 723.059 170.172)" stroke="#5CCDB2" stroke-width="20"/>
+            <line y1="-10" x2="1089.67" y2="-10" transform="matrix(-0.28687 0.95797 -0.95247 -0.304633 320.594 152)" stroke="#00FFE0" stroke-width="20"/>
+            <line y1="-10" x2="111.04" y2="-10" transform="matrix(0.325501 0.945542 -0.93857 0.345089 8 1210.01)" stroke="#81DEC2" stroke-width="20"/>
+            <line y1="-10" x2="315.03" y2="-10" transform="matrix(0.995368 -0.0961383 0.090064 0.995936 44.1437 1315)" stroke="#D8A3D2" stroke-width="20"/>
+            <line y1="-10" x2="173.987" y2="-10" transform="matrix(-0.247039 0.969005 -0.964871 -0.262725 400.696 1116.12)" stroke="black" stroke-width="20"/>
+            <line y1="-10" x2="229.661" y2="-10" transform="matrix(0.995313 -0.0967081 0.0905984 0.995888 400.696 1116.12)" stroke="#EEEBA1" stroke-width="20"/>
+            <line y1="-10" x2="49.9567" y2="-10" transform="matrix(0.312865 0.949798 -0.943322 0.331878 629.281 1093.91)" stroke="black" stroke-width="20"/>
+            <line y1="-10" x2="126.077" y2="-10" transform="matrix(0.619846 0.784723 -0.764331 0.644825 644.91 1141.36)" stroke="black" stroke-width="20"/>
+            <line y1="-10" x2="299.477" y2="-10" transform="matrix(0.994873 -0.101131 0.0947473 0.995501 723.059 1240.29)" stroke="#EEEBA1" stroke-width="20"/>
+            <line y1="-10" x2="103.217" y2="-10" transform="matrix(-0.20821 0.978084 -0.975114 -0.221705 514.012 673.937)" stroke="#001AFF" stroke-width="20"/>
+            <line y1="-10" x2="88.4517" y2="-10" transform="matrix(0.320274 0.947325 -0.94056 0.339628 514.988 673.937)" stroke="#9A3690" stroke-width="20"/>
+            <line y1="-10" x2="53.6175" y2="-10" transform="matrix(0.947388 -0.320088 0.301605 0.953433 492.521 774.891)" stroke="#24FF00" stroke-width="20"/>
+            <line y1="-10" x2="53.6175" y2="-10" transform="matrix(0.947388 -0.320088 0.301605 0.953433 492.521 774.891)" stroke="url(#paint0_linear)" stroke-width="20"/>
+            <line y1="-10" x2="399.739" y2="-10" transform="matrix(0.982245 -0.187603 0.174687 0.984624 8 1190.83)" stroke="black" stroke-width="20"/>
+            <line y1="-10" x2="399.739" y2="-10" transform="matrix(0.982245 -0.187603 0.174687 0.984624 8 1190.83)" stroke="url(#paint1_linear)" stroke-width="20"/>
+            <line y1="-10" x2="333.439" y2="-10" transform="matrix(0.963852 -0.266437 0.25056 0.968101 637.095 1093.91)" stroke="black" stroke-width="20"/>
+            <line y1="-10" x2="333.439" y2="-10" transform="matrix(0.963852 -0.266437 0.25056 0.968101 637.095 1093.91)" stroke="url(#paint2_linear)" stroke-width="20"/>
+            <line y1="-10" x2="361.172" y2="-10" transform="matrix(-0.254241 0.967141 -0.962772 -0.270316 492.521 766.815)" stroke="#81DEC2" stroke-width="20"/>
+            <line y1="-10" x2="349.015" y2="-10" transform="matrix(0.268694 0.963225 -0.958369 0.285533 543.317 757.729)" stroke="#3C6370" stroke-width="20"/>
+            <line y1="-10" x2="714.486" y2="-10" transform="matrix(0.745224 0.666815 -0.64219 0.766546 320.594 152)" stroke="#24FF00" stroke-width="20"/>
+            <line y1="-10" x2="712.076" y2="-10" transform="matrix(-0.764117 0.645078 -0.620103 -0.78452 723.059 170.172)" stroke="black" stroke-width="20"/>
+            <line y1="-10" x2="712.076" y2="-10" transform="matrix(-0.764117 0.645078 -0.620103 -0.78452 723.059 170.172)" stroke="url(#paint3_linear)" stroke-width="20"/>
+            <line y1="-10" x2="101.969" y2="-10" transform="matrix(-0.0102933 -0.999947 0.99994 -0.0109937 514.988 673.937)" stroke="black" stroke-width="20"/>
+            <line y1="-10" x2="319.26" y2="-10" transform="matrix(-0.413067 0.910701 -0.899959 -0.435974 514.012 571.972)" stroke="#00FFE0" stroke-width="20"/>
+            <line y1="-10" x2="326.47" y2="-10" transform="matrix(0.454811 0.890588 -0.877901 0.478843 514.012 571.972)" stroke="black" stroke-width="20"/>
+            <line y1="-10" x2="326.47" y2="-10" transform="matrix(0.454811 0.890588 -0.877901 0.478843 514.012 571.972)" stroke="url(#paint4_linear)" stroke-width="20"/>
+            <line x1="382.136" y1="852.722" x2="662.494" y2="852.722" stroke="#5CCDB2" stroke-width="20"/>
+            <line y1="-10" x2="409.158" y2="-10" transform="matrix(0.680431 0.732812 -0.710044 0.704158 122.292 818.302)" stroke="black" stroke-width="20"/>
+            <line y1="-10" x2="409.158" y2="-10" transform="matrix(0.680431 0.732812 -0.710044 0.704158 122.292 818.302)" stroke="url(#paint5_linear)" stroke-width="20"/>
+            <line y1="-10" x2="394.849" y2="-10" transform="matrix(0.690247 -0.723574 0.700471 0.713681 629.281 1093.91)" stroke="#3C6370" stroke-width="20"/>
+            <line x1="1205.57" y1="102.103" x2="1837.48" y2="10.5356" stroke="#D8A3D2" stroke-width="20"/>
+            <line x1="1214.84" y1="118.202" x2="1146.84" y2="204.202" stroke="black" stroke-width="20"/>
+            <line x1="1149" y1="198" x2="1149" y2="284" stroke="black" stroke-width="20"/>
+            <line x1="1146.36" y1="277.234" x2="1180.36" y2="314.234" stroke="black" stroke-width="20"/>
+            <line x1="1175.66" y1="311.361" x2="1356.66" y2="361.361" stroke="#81DEC2" stroke-width="20"/>
+            <line x1="1352.67" y1="361.089" x2="1434.67" y2="350.089" stroke="#81DEC2" stroke-width="20"/>
+            <line x1="1755.41" y1="311.127" x2="1984.44" y2="274.284" stroke="black" stroke-width="20"/>
+            <line x1="1978.99" y1="276.869" x2="2037.99" y2="218.869" stroke="black" stroke-width="20"/>
+            <line x1="1841.4" y1="10.2925" x2="2027.4" y2="56.2925" stroke="#00FFE0" stroke-width="20"/>
+            <line x1="2034.07" y1="61.7954" x2="2072.07" y2="143.795" stroke="black" stroke-width="20"/>
+            <line x1="2072.74" y1="150.249" x2="2054.74" y2="228.249" stroke="black" stroke-width="20"/>
+            <line x1="1445.99" y1="360.359" x2="1416.99" y2="1167.36" stroke="#00FFE0" stroke-width="20"/>
+            <line x1="1416.46" y1="1163.75" x2="1439.46" y2="1230.75" stroke="#5CCDB2" stroke-width="20"/>
+            <line x1="1436.33" y1="1226.26" x2="1469.33" y2="1253.26" stroke="#9A3690" stroke-width="20"/>
+            <line x1="1465.47" y1="1251.31" x2="1618.47" y2="1290.31" stroke="#3C6370" stroke-width="20"/>
+            <line x1="1614" y1="1290.2" x2="1658" y2="1281.2" stroke="#9A3690" stroke-width="20"/>
+            <line x1="1652.48" y1="1284.41" x2="1702.48" y2="1227.41" stroke="#001AFF" stroke-width="20"/>
+            <line x1="1731.49" y1="1204.16" x2="1719.49" y2="1240.16" stroke="black" stroke-width="20"/>
+            <line x1="1712.01" y1="1200.6" x2="1747.01" y2="320.603" stroke="#FF0000" stroke-width="20"/>
+            <line x1="1434.79" y1="350.073" x2="1755.79" y2="311.073" stroke="#5CCDB2" stroke-width="20"/>
+            <line x1="1428.65" y1="366.784" x2="1199.65" y2="118.784" stroke="#24FF00" stroke-width="20"/>
+            <line x1="1747.37" y1="318.322" x2="1829.62" y2="22.3935" stroke="#EEEBA1" stroke-width="20"/>
+            <line x1="1399.95" y1="1159.91" x2="1726.95" y2="834.907" stroke="#FF0000" stroke-width="20"/>
+            <line x1="1714.34" y1="1207.42" x2="1413.34" y2="848.425" stroke="#9A3690" stroke-width="20"/>
+            <line x1="1210.55" y1="102.652" x2="1760.55" y2="311.652" stroke="#5CCDB2" stroke-width="20"/>
+            <line x1="1845.45" y1="27.6432" x2="1442.45" y2="367.643" stroke="#3C6370" stroke-width="20"/>
+            <line x1="1444.51" y1="354.741" x2="1742.51" y2="836.741" stroke="#3C6370" stroke-width="20"/>
+            <line x1="1412.6" y1="836.58" x2="1748.6" y2="315.58" stroke="#24FF00" stroke-width="20"/>
+            <line x1="2034.84" y1="67.761" x2="1995.84" y2="285.761" stroke="#FF0000" stroke-width="20"/>
+            <line x1="2035.08" y1="227.24" x2="2015.08" y2="67.2404" stroke="black" stroke-width="20"/>
+            <line x1="1977.3" y1="279.073" x2="2054.3" y2="143.073" stroke="#24FF00" stroke-width="20"/>
+            <line x1="1148.62" y1="195.274" x2="1182.62" y2="315.274" stroke="#001AFF" stroke-width="20"/>
+            <line x1="1129.4" y1="281.186" x2="1168.4" y2="148.186" stroke="#FF0000" stroke-width="20"/>
+            </g>
+            <defs>
+            <filter id="filter0_di" x="0.506226" y="0.584961" width="2085.98" height="1322.42" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+            <feOffset dy="4"/>
+            <feGaussianBlur stdDeviation="2"/>
+            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+            <feOffset dx="4" dy="4"/>
+            <feGaussianBlur stdDeviation="2"/>
+            <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+            <feBlend mode="normal" in2="shape" result="effect2_innerShadow"/>
+            </filter>
+            <linearGradient id="paint0_linear" x1="26.8087" y1="0" x2="26.8087" y2="1" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#2D9A94"/>
+            <stop offset="1" stop-color="#429B96" stop-opacity="0.97"/>
+            </linearGradient>
+            <linearGradient id="paint1_linear" x1="199.87" y1="0" x2="199.87" y2="1" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#2D9A94"/>
+            <stop offset="1" stop-color="#429B96" stop-opacity="0.97"/>
+            </linearGradient>
+            <linearGradient id="paint2_linear" x1="166.719" y1="0" x2="166.719" y2="1" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FF0000"/>
+            <stop offset="1" stop-color="white" stop-opacity="0"/>
+            </linearGradient>
+            <linearGradient id="paint3_linear" x1="356.038" y1="0" x2="356.038" y2="1" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#2D9A94"/>
+            <stop offset="1" stop-color="#429B96" stop-opacity="0.97"/>
+            </linearGradient>
+            <linearGradient id="paint4_linear" x1="163.235" y1="0" x2="163.235" y2="1" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FF0000"/>
+            <stop offset="1" stop-color="white" stop-opacity="0"/>
+            </linearGradient>
+            <linearGradient id="paint5_linear" x1="204.579" y1="0" x2="204.579" y2="1" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FF0000"/>
+            <stop offset="1" stop-color="white" stop-opacity="0"/>
+            </linearGradient>
+            </defs>
+            </svg>
+        
+    </div>
 
-    <canvas id="canvas1" ></canvas>
+
+    <div class="mainpage" style="display: none;">
+
+    
     <nav>
-        <div class="logo">
-            <span class="logo-class" id="logo-id-1">卂</span>
-            <span class="logo-class" id="logo-id-2">t</span>
-            <span class="logo-class" id="logo-id-3">u</span>
-            <span class="logo-class" id="logo-id-4">l</span>
-            <!-- <span class="logo-class" id="logo-id-10">&nbsp;</span>
-            <span class="logo-class" id="logo-id-5">ㄒ</span>
-            <span class="logo-class" id="logo-id-6">y</span>
-            <span class="logo-class" id="logo-id-7">a</span>
-            <span class="logo-class" id="logo-id-8">g</span>
-            <span class="logo-class" id="logo-id-9">i</span> -->
-            
-
+        <div class="logo animate_down">
+            <img class="logo-class" id="logo-id-1" src="./images/logo.svg" alt="">
         </div>
         <ul class="navlinks">
-            <li><a id="home-id-" href="#Home-id" class="Hover-effect">Home</a></li>
-            <li><a id="about-id" href="#about_id" class="Hover-effect about-">About</a></li>
-            <li><a id="skills-id-" href="#Skills-id" class="Hover-effect Skills-id">Skills</a></li>
-            <li><a id="projects-id-" href="#project-heading-id" class="Hover-effect projects-id">Project</a></li>
-            <li><a id="follow-id-" href="#follow-on" class="Hover-effect follow-on">Follow on</a></li>
+            <li><a id="home-id-  " class="animate_down" href="#Home-id" class=" Hover-effect">Home</a></li>
+            <li><a id="about-id " class="animate_down" href="#about_id" class="Hover-effect about-">About</a></li>
+            <li><a id="skills-id- " class="animate_down" href="#Skills-id" class="Hover-effect Skills-id">Skills</a></li>
+            <li><a id="projects-id- " class="animate_down" href="#project-heading-id" class="Hover-effect projects-id">Project</a></li>
+            <!-- <li><a id="follow-id-" href="#follow-on" class="Hover-effect follow-on">Follow on</a></li> -->
         </ul>
 
         <div class="sideview">
@@ -106,370 +168,150 @@
             <div class="line3"></div>
         </div>
     </nav>
+
     <div class="container-front" id="Home-id">
-
-
         <div class="welcome">
+            <span class="mynameis fadeInUp animate animate_up">Hi, my name is</span><br>
+            <div class="animate_up">
 
-            <span class="rubberBand hello" id="id-1">H</span>
-            <span class="rubberBand hello" id="id-2">E</span>
-            <span class="rubberBand hello" id="id-3">L</span>
-            <span class="rubberBand hello" id="id-4">L</span>
-            <span class="rubberBand hello" id="id-5">O</span>
-            <span class="rubberBand" id="id-6"></span><br>
-            <span class="rubberBand" id="id-7">I</span>
-            <span class="rubberBand" id="id-8">'</span>
-            <span class="rubberBand" id="id-9">m</span><br>
-            <span class="rubberBand" id="id-10">A</span>
-            <span class="rubberBand" id="id-11">t</span>
-            <span class="rubberBand" id="id-12">u</span>
-            <span class="rubberBand" id="id-13">l</span>
-            <span class="rubberBand">​​​​&nbsp;</span>
-            <span class="rubberBand" id="id-14">T</span>
-            <span class="rubberBand" id="id-15">y</span>
-            <span class="rubberBand" id="id-16">a</span>
-            <span class="rubberBand" id="id-17">g</span>
-            <span class="rubberBand" id="id-18">i</span>
-            <br>
-            <br>
-            <hr style="height:2px;border-width:0;color:rgb(95, 92, 92);background-color:rgb(136, 132, 132)">
-            
-            <p id="welcome-p" style="font-weight: 400; font-size: ;" >A computer science student passionate about <span style="text-decoration: underline; text-decoration-color: red; text-decoration-thickness: 3px;"> programming</span>  and <span style="text-decoration: underline; text-decoration-color: red; text-decoration-thickness: 3px;"> design</span> .</p>
+                <span class="rubberBand names_heading">A</span>
+                <span class="rubberBand names_heading">t</span>
+                <span class="rubberBand names_heading">u</span>
+                <span class="rubberBand names_heading">l</span>
+                <span class="rubberBand names_heading">​​​​&nbsp;</span>
+                <span class="rubberBand names_heading">T</span>
+                <span class="rubberBand names_heading">y</span>
+                <span class="rubberBand names_heading">a</span>
+                <span class="rubberBand names_heading">g</span>
+                <span class="rubberBand names_heading">i</span>
+                <span class="rubberBand names_heading">.</span>
+                <br>
+                <br>
+            </div>
+            <h2 class="loves animate_up">Loves
+                <span style="    font-size: 71%;" class="txt-rotate" data-period="2000"
+                    data-rotate='[ "Python 🐍", "Designing.", "Music.", "fun! 😆" ]'></span>
+            </h2><br>
+            <hr class=" animate_up underline">
 
-
+            <p class="animate_up" id="welcome-p" style="font-weight: 400 ;    font-family: monospace;">A computer science student
+                passionate about <span style="--underline-hight:0.090rem;" class=" Hover-effect active-container">
+                    programming</span> and <span style="--underline-hight:0.090rem;"
+                    class=" Hover-effect active-container"> design</span> .</p>
 
             <div>
-                <a class="liquid-button" href="#projects-id">
-                    <span>My work</span>
+                <a class="liquid-button animate_up" href="#projects-id">
+                    <span style="    font-family: monospace;">My work</span>
                     <div class="liquid"></div>
                 </a>
             </div>
         </div>
-        <div class="SVG-Image">
+        <!-- <div class="SVG-Image">
 
-            <!-- <svg width="600" height="497" viewBox="0 0 901 787" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <g id="undraw_coding_6mjf 1" clip-path="url(#clip0)">
-                    <g id="plants">
-                        <path id="Vector"
-                            d="M130.75 276C130.75 276 204.04 349.29 162.67 458C121.3 566.71 233.58 747.64 233.58 747.64C233.58 747.64 232.38 747.46 230.15 747.07C79.63 720.5 4.84002 548.35 88.58 420.5C119.66 372.91 145.2 317.14 130.75 276Z"
-                            fill="#6C63FF" />
-                        <path id="Vector_2"
-                            d="M130.75 263C130.75 263 172.12 352.84 130.75 426.12C89.38 499.4 123.66 705.12 233.59 734.64"
-                            stroke="#535461" stroke-width="2" stroke-miterlimit="10" />
-                        <path id="Vector_3"
-                            d="M0.210022 571.42C0.210022 571.42 83.84 558.1 91.46 633.05C99.08 708 252.28 718.39 252.28 718.39C252.28 718.39 251.28 719.07 249.41 720.3C122.92 803.3 2.01002 773.19 20.24 662.94C27.01 621.95 26.45 580.78 0.210022 571.42Z"
-                            fill="#6C63FF" />
-                        <path id="Vector_4" opacity="0.2"
-                            d="M0.210022 572.42C0.210022 572.42 83.84 559.1 91.46 634.05C99.08 709 252.28 719.39 252.28 719.39C252.28 719.39 251.28 720.07 249.41 721.3C122.92 804.3 2.01002 774.19 20.24 663.94C27.01 622.95 26.45 581.78 0.210022 572.42Z"
-                            fill="#F5F5F5" />
-                        <path id="Vector_5"
-                            d="M0.210022 572.42C0.210022 572.42 65.12 586.67 59.79 645.69C54.46 704.71 156.19 775.5 252.28 719.39"
-                            stroke="#535461" stroke-width="2" stroke-miterlimit="10" />
-                    </g>
-                    <g id="Group" opacity="0.1">
-                        <path id="Vector_6" opacity="0.1"
-                            d="M478.94 137.43L479.04 137.37C476.767 138.21 474.553 139.157 472.4 140.21C460.312 146.126 450.127 155.316 443.004 166.734C435.881 178.153 432.107 191.342 432.11 204.8C432.11 205.38 432.11 205.96 432.11 206.54C434.345 206.48 436.542 205.952 438.56 204.99C456.08 196.81 466.56 171.79 470.72 154.34C472.22 148.09 473.63 141.05 478.94 137.43Z"
-                            fill="black" />
-                        <path id="Vector_7" opacity="0.1"
-                            d="M533.95 139.44C528.261 136.827 522.253 134.974 516.08 133.93C521.142 135.095 525.663 137.935 528.91 141.99C530.501 144.154 531.821 146.505 532.84 148.99C523.275 144.808 512.915 142.753 502.478 142.969C492.04 143.185 481.774 145.666 472.39 150.24C476.9 160.13 490.89 165.52 500.23 169.13C510.457 173.077 520.79 176.687 531.23 179.96L521.99 172.46L542.86 175.78C543.085 171.627 542.591 167.465 541.4 163.48C545.4 166.7 550.7 167.78 555.04 170.48C563.17 175.61 566.56 185.48 570.99 194.03C572.16 196.29 573.54 198.6 575.65 200.03C574.797 187.112 570.472 174.664 563.133 164C555.793 153.336 545.711 144.851 533.95 139.44V139.44Z"
-                            fill="black" />
-                    </g>
-                    <g id="Man">
-                        <path id="Vector_8"
-                            d="M504.24 235.14C551.814 235.14 590.38 208.64 590.38 175.95C590.38 143.26 551.814 116.76 504.24 116.76C456.666 116.76 418.1 143.26 418.1 175.95C418.1 208.64 456.666 235.14 504.24 235.14Z"
-                            fill="#E14B5A" />
-                        <path id="Vector_9"
-                            d="M449.02 233.29C449.02 233.29 467.02 327.36 449.02 352.73C431.02 378.1 504.02 388.14 504.02 388.14L579.58 360.66L590.15 293.01C590.15 293.01 544.15 267.11 553.68 214.79L449.02 233.29Z"
-                            fill="#F7C4A7" />
-                        <path id="Vector_10"
-                            d="M672.04 550.39C672.04 550.39 676.8 571 650.9 574.7C635.607 576.95 620.055 576.764 604.82 574.15L599.11 522.38H659.36L672.04 550.39Z"
-                            fill="#F7C4A7" />
-                        <path id="Vector_11"
-                            d="M214.7 524.01C214.7 524.01 203.26 570.5 229.16 574.7C255.06 578.9 350.16 578.93 350.16 578.93V523.93L307.1 533.13L266.68 494.37L214.7 524.01Z"
-                            fill="#F7C4A7" />
-                        <path id="Vector_12" opacity="0.1"
-                            d="M454.58 263.68L353.37 285.08C353.37 285.08 314.79 286.67 289.95 337.93C265.11 389.19 211.2 535.59 211.2 535.59C211.2 535.59 257.2 489.08 311.09 538.76L347.03 473.76L339.1 576.82H617.58V528.19C617.58 528.19 675.71 559.37 671.49 576.81C671.49 576.81 721.24 448.63 710.49 390.38C707.254 372.372 705.269 354.162 704.55 335.88V335.88C703.915 320.823 698.636 306.331 689.436 294.394C680.237 282.457 667.569 273.66 653.17 269.21C647.93 267.6 642.17 266.09 635.77 264.74C576.05 252.06 560.77 264.74 560.77 264.74C560.77 264.74 549.2 302.38 549.41 319.44C549.67 341.37 518.23 355.91 518.23 355.91C518.23 355.91 471.72 344.81 469.61 335.83C467.5 326.85 450.86 274.25 454.58 263.68Z"
-                            fill="black" />
-                        <path id="Vector_13"
-                            d="M454.58 261.57L353.37 282.97C353.37 282.97 314.79 284.56 289.95 335.82C265.11 387.08 211.19 533.5 211.19 533.5C211.19 533.5 257.19 486.99 311.08 536.67L347.02 471.67L339.09 574.7H617.58V526.08C617.58 526.08 675.71 557.26 671.49 574.7C671.49 574.7 721.24 446.52 710.49 388.27C707.254 370.262 705.269 352.052 704.55 333.77V333.77C703.915 318.713 698.636 304.221 689.436 292.284C680.237 280.347 667.569 271.55 653.17 267.1C647.93 265.49 642.17 263.98 635.77 262.63C576.05 249.95 560.77 262.63 560.77 262.63C560.77 262.63 549.2 300.27 549.41 317.33C549.67 339.26 518.23 353.8 518.23 353.8C518.23 353.8 471.72 342.7 469.61 333.72C467.5 324.74 450.86 272.14 454.58 261.57Z"
-                            fill="#575988" />
-                        <path id="Vector_14" opacity="0.1"
-                            d="M558 257.08C553.749 245.044 552.796 232.089 555.24 219.56L450.58 238.05C450.58 238.05 452.09 245.96 453.8 257.81C460.562 264.827 468.681 270.395 477.663 274.176C486.645 277.957 496.302 279.872 506.047 279.803C515.792 279.735 525.421 277.685 534.349 273.779C543.277 269.873 551.317 264.191 557.98 257.08H558Z"
-                            fill="black" />
-                        <path id="Vector_15"
-                            d="M575.85 203.17C575.768 222.029 568.278 240.1 554.994 253.487C541.711 266.873 523.698 274.504 504.841 274.732C485.983 274.96 467.791 267.768 454.188 254.707C440.584 241.646 432.659 223.761 432.12 204.91C432.12 204.33 432.12 203.75 432.12 203.17C432.117 189.712 435.891 176.523 443.014 165.104C450.137 153.686 460.322 144.496 472.41 138.58C474.563 137.527 476.777 136.58 479.05 135.74C490.874 131.393 503.627 130.208 516.05 132.3V132.3C531.971 135.011 546.513 143.009 557.329 155.002C568.145 166.996 574.603 182.285 575.66 198.4C575.787 199.98 575.85 201.57 575.85 203.17Z"
-                            fill="#F7C4A7" />
-                        <path id="Vector_16"
-                            d="M478.94 135.8L479.04 135.74C476.767 136.58 474.553 137.527 472.4 138.58C460.312 144.496 450.127 153.686 443.004 165.104C435.881 176.523 432.107 189.712 432.11 203.17C432.11 203.75 432.11 204.33 432.11 204.91C434.345 204.85 436.542 204.322 438.56 203.36C456.08 195.18 466.56 170.16 470.72 152.71C472.22 146.5 473.63 139.43 478.94 135.8Z"
-                            fill="#632652" />
-                        <path id="Vector_17"
-                            d="M533.95 137.82C528.261 135.207 522.253 133.354 516.08 132.31C521.142 133.475 525.663 136.315 528.91 140.37C530.501 142.534 531.821 144.885 532.84 147.37C523.275 143.188 512.915 141.133 502.478 141.349C492.04 141.565 481.774 144.046 472.39 148.62C476.9 158.51 490.89 163.9 500.23 167.51C510.457 171.457 520.79 175.067 531.23 178.34L521.99 170.84L542.86 174.16C543.085 170.007 542.591 165.845 541.4 161.86C545.4 165.08 550.7 166.16 555.04 168.86C563.17 173.99 566.56 183.86 570.99 192.41C572.16 194.67 573.54 196.98 575.65 198.41C574.797 185.492 570.472 173.044 563.133 162.38C555.793 151.716 545.711 143.231 533.95 137.82V137.82Z"
-                            fill="#632652" />
-                        <path id="Vector_18" opacity="0.1"
-                            d="M363.13 387.88C363.13 387.88 347.28 430.16 369.47 468.21C391.66 506.26 349.92 522.12 349.92 522.12"
-                            fill="black" />
-                        <path id="Vector_19" opacity="0.1"
-                            d="M619.98 349.83C619.98 349.83 647.46 384.71 629.49 415.89C611.52 447.07 612.58 522.12 612.58 522.12"
-                            fill="black" />
-                        <path id="Vector_20"
-                            d="M338.82 553.3H644.29C651.019 553.3 657.472 555.973 662.229 560.731C666.987 565.489 669.66 571.941 669.66 578.67V578.67H313.46C313.46 571.943 316.132 565.492 320.887 560.734C325.643 555.977 332.093 553.303 338.82 553.3V553.3Z"
-                            fill="#535461" />
-                        <path id="Vector_21" opacity="0.1" d="M428.14 148.2C428.14 148.2 500.86 75.52 579.29 146.87"
-                            stroke="black" stroke-miterlimit="10" />
-                    </g>
-                    <g id="table">
-                        <path id="Vector_22" d="M848.99 579H74.28V787H848.99V579Z" fill="#D6D6E3" />
-                        <path id="Vector_23" opacity="0.1" d="M848.99 593H74.28V620H848.99V593Z" fill="black" />
-                        <path id="Vector_24" d="M900.94 576H22.31V603H900.94V576Z" fill="#D6D6E3" />
-                    </g>
-                    <g id="hat">
-                        <path id="Vector_25" opacity="0.1"
-                            d="M426 194.32C426 194.32 500 102.32 585.61 194.32L578.21 173.71C578.21 173.71 538.04 115.05 509.51 127.71C480.98 140.37 452.96 149.38 452.96 149.38L426 194.32Z"
-                            fill="black" />
-                        <path id="Vector_26"
-                            d="M426 192.69C426 192.69 500 100.69 585.61 192.69L578.21 172.08C578.21 172.08 538.04 113.42 509.51 126.08C480.98 138.74 452.96 147.75 452.96 147.75L426 192.69Z"
-                            fill="#E14B5A" />
-                        <path id="Vector_27"
-                            d="M505.66 40C525.702 40 544.924 47.9618 559.096 62.1339C573.268 76.3061 581.23 95.5276 581.23 115.57V147.81H430.09V115.57C430.09 95.5276 438.052 76.3061 452.224 62.1339C466.396 47.9618 485.618 40 505.66 40V40Z"
-                            fill="#E14B5A" />
-                    </g>
-                    <g id="headphone">
-                        <path id="Vector_28" d="M598.76 143.71H591.46V185.1H598.76V143.71Z" fill="#6A5C99" />
-                        <path id="Vector_29"
-                            d="M581.72 170.49C588.393 170.49 594.792 173.141 599.511 177.859C604.229 182.578 606.88 188.977 606.88 195.65V197.27C606.88 203.943 604.229 210.342 599.511 215.061C594.792 219.779 588.393 222.43 581.72 222.43V222.43V170.49Z"
-                            fill="#FFD037" />
-                        <path id="Vector_30"
-                            d="M588.21 173.74C588.21 170.603 585.667 168.06 582.53 168.06C579.393 168.06 576.85 170.603 576.85 173.74V219.19C576.85 222.327 579.393 224.87 582.53 224.87C585.667 224.87 588.21 222.327 588.21 219.19V173.74Z"
-                            fill="#6A5C99" />
-                        <path id="Vector_31" d="M410.12 185.91H417.42V144.52H410.12V185.91Z" fill="#6A5C99" />
-                        <path id="Vector_32"
-                            d="M427.16 223.24C420.487 223.24 414.088 220.589 409.369 215.871C404.651 211.152 402 204.753 402 198.08V196.46C402 193.156 402.651 189.884 403.915 186.832C405.18 183.779 407.033 181.006 409.369 178.669C411.706 176.333 414.479 174.48 417.532 173.215C420.584 171.951 423.856 171.3 427.16 171.3V171.3V223.24Z"
-                            fill="#FFD037" />
-                        <path id="Vector_33"
-                            d="M420.67 219.99C420.67 223.127 423.213 225.67 426.35 225.67C429.487 225.67 432.03 223.127 432.03 219.99V174.54C432.03 171.403 429.487 168.86 426.35 168.86C423.213 168.86 420.67 171.403 420.67 174.54V219.99Z"
-                            fill="#6A5C99" />
-                        <path id="Vector_34"
-                            d="M590.6 99.47C580.71 78.91 559.17 54.05 512.74 52.06V52H512.18L495.73 52.78V52.86C449.61 54.98 428.17 79.75 418.31 100.24C411.743 114.13 408.257 129.276 408.09 144.64L413.77 144.5L419.45 144.37C419.695 130.692 422.841 117.222 428.68 104.85C441.2 79.13 464.24 65.46 497.15 64.19L511.7 63.38C544.63 64.64 567.68 78.33 580.19 104.04C586.039 116.416 589.191 129.894 589.44 143.58L595.12 143.71L600.8 143.85C600.637 128.495 597.157 113.356 590.6 99.47V99.47Z"
-                            fill="#FFD037" />
-                    </g>
-                    <g id="Bricks">
-                        <path id="Vector_35" opacity="0.2" d="M815.63 283H763.63V310H815.63V283Z" fill="#0F00FF" />
-                        <path id="Vector_36" opacity="0.2" d="M819.63 316H767.63V343H819.63V316Z" fill="#0F00FF" />
-                        <path id="Vector_37" opacity="0.2" d="M776.63 87H724.63V114H776.63V87Z" fill="#0F00FF" />
-                        <path id="Vector_38" opacity="0.2" d="M813.63 118H761.63V145H813.63V118Z" fill="#0F00FF" />
-                        <path id="Vector_39" opacity="0.2" d="M713.63 89H661.63V116H713.63V89Z" fill="#0F00FF" />
-                        <path id="Vector_40" opacity="0.2" d="M880.63 149H828.63V176H880.63V149Z" fill="#0F00FF" />
-                        <path id="Vector_41" opacity="0.2" d="M817.63 151H765.63V178H817.63V151Z" fill="#0F00FF" />
-                        <path id="Vector_42" opacity="0.2" d="M750.63 120H698.63V147H750.63V120Z" fill="#0F00FF" />
-                        <path id="Vector_43" opacity="0.2" d="M877.63 357H825.63V384H877.63V357Z" fill="#0F00FF" />
-                        <path id="Vector_44" opacity="0.2" d="M814.63 359H762.63V386H814.63V359Z" fill="#0F00FF" />
-                        <path id="Vector_45" opacity="0.2" d="M52.63 284H0.630005V311H52.63V284Z" fill="#0F00FF" />
-                        <path id="Vector_46" opacity="0.2" d="M89.63 315H37.63V342H89.63V315Z" fill="#0F00FF" />
-                        <path id="Vector_47" opacity="0.2" d="M370.63 0H318.63V27H370.63V0Z" fill="#0F00FF" />
-                        <path id="Vector_48" opacity="0.2" d="M780.63 498H728.63V525H780.63V498Z" fill="#0F00FF" />
-                        <path id="Vector_49" opacity="0.2" d="M93.63 348H41.63V375H93.63V348Z" fill="#0F00FF" />
-                        <path id="Vector_50" opacity="0.2" d="M407.63 31H355.63V58H407.63V31Z" fill="#0F00FF" />
-                        <path id="Vector_51" opacity="0.2" d="M209 203H157V230H209V203Z" fill="#0F00FF" />
-                        <path id="Vector_52" opacity="0.2" d="M254.63 245H202.63V272H254.63V245Z" fill="#0F00FF" />
-                        <path id="Vector_53" opacity="0.2" d="M353.63 228H301.63V255H353.63V228Z" fill="#0F00FF" />
-                        <path id="Vector_54" opacity="0.2" d="M258.63 278H206.63V305H258.63V278Z" fill="#0F00FF" />
-                        <path id="Vector_55" opacity="0.2" d="M850.63 498H798.63V525H850.63V498Z" fill="#0F00FF" />
-                    </g>
-                    <g id="Laptop">
-                        <path id="Vector_56"
-                            d="M369.9 378.89H613.22C618.342 378.89 623.413 379.899 628.145 381.859C632.876 383.819 637.176 386.691 640.797 390.313C644.419 393.934 647.291 398.234 649.251 402.965C651.211 407.697 652.22 412.768 652.22 417.89V559.11H330.9V417.89C330.9 407.547 335.009 397.627 342.323 390.313C349.637 382.999 359.557 378.89 369.9 378.89V378.89Z"
-                            fill="#535461" />
-                        <path id="Vector_57"
-                            d="M491.29 495.96C501.8 495.96 510.32 487.44 510.32 476.93C510.32 466.42 501.8 457.9 491.29 457.9C480.78 457.9 472.26 466.42 472.26 476.93C472.26 487.44 480.78 495.96 491.29 495.96Z"
-                            fill="white" />
-                    </g>
-                </g>
-                <defs>
-                    <clipPath id="clip0">
-                        <rect width="900.94" height="787" fill="white" />
-                    </clipPath>
-                </defs>
-            </svg> -->
-            <svg width="711" height="574" viewBox="0 0 1093 869" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <g id="New Text Document 1" clip-path="url(#clip0)">
-                <g id="back" filter="url(#filter0_d)">
-                <path d="M1088.83 560.849C1079.88 667.721 994.324 755.766 870.492 803.353C791.096 833.871 695.953 847.757 595.185 839.318C460.944 828.076 361.973 778.555 290.198 709.38C224.039 645.635 180.993 565.187 154.736 482.624C37.5228 113.994 291.317 37.3593 648.378 204.155C875.718 310.364 1103.51 385.459 1088.83 560.849Z" fill="url(#paint0_linear)"/>
-                <path d="M153.307 483.078L154.721 482.629L153.307 483.078C179.62 565.818 222.777 646.503 289.157 710.46C361.191 779.885 460.49 829.543 595.06 840.813C696.037 849.269 791.408 835.358 871.03 804.753C995.162 757.05 1081.31 668.635 1090.32 560.975C1097.74 472.435 1043.86 409.371 960.177 355.299C898.293 315.313 819.808 280.054 737.179 242.934C708.122 229.88 678.552 216.596 649.012 202.796L648.384 204.141L649.012 202.796C559.654 161.053 476.701 134.514 404.344 123.976C332.005 113.44 270.139 118.883 223.061 141.25C175.915 163.649 143.732 202.961 130.744 259.808C117.773 316.585 123.96 390.784 153.307 483.078Z" stroke="url(#paint1_linear)" stroke-width="3"/>
-                </g>
-                <g id="undraw coding 6mjf 1">
-                <g id="plants">
-                <path id="Vector" d="M402.739 466.952C402.739 466.952 465.729 524.616 430.173 610.147C394.617 695.679 491.117 838.032 491.117 838.032C491.117 838.032 490.086 837.89 488.169 837.584C358.803 816.679 294.524 681.234 366.495 580.643C393.207 543.2 415.158 499.321 402.739 466.952Z" fill="#6C63FF"/>
-                <path id="Vector_2" d="M402.739 456.724C402.739 456.724 438.295 527.409 402.739 585.065C367.183 642.72 396.645 804.578 491.126 827.804" stroke="#535461" stroke-width="1.26302" stroke-miterlimit="10"/>
-                <path id="Vector_3" d="M290.544 699.385C290.544 699.385 362.421 688.905 368.97 747.874C375.519 806.844 507.189 815.019 507.189 815.019C507.189 815.019 506.33 815.554 504.722 816.521C396.009 881.825 292.091 858.135 307.759 771.391C313.578 739.141 313.097 706.749 290.544 699.385Z" fill="#6C63FF"/>
-                <path id="Vector_4" opacity="0.2" d="M290.544 700.172C290.544 700.172 362.421 689.692 368.97 748.661C375.519 807.631 507.189 815.805 507.189 815.805C507.189 815.805 506.33 816.34 504.722 817.308C396.009 882.611 292.091 858.921 307.759 772.178C313.578 739.928 313.097 707.536 290.544 700.172Z" fill="#F5F5F5"/>
-                <path id="Vector_5" d="M290.544 700.172C290.544 700.172 346.332 711.383 341.751 757.819C337.17 804.255 424.603 859.952 507.189 815.806" stroke="#535461" stroke-width="1.26302" stroke-miterlimit="10"/>
-                </g>
-                <g id="Group" opacity="0.1">
-                <path id="Vector_6" opacity="0.1" d="M701.995 357.928L702.081 357.88C700.127 358.541 698.224 359.286 696.374 360.115C685.985 364.77 677.231 372 671.109 380.984C664.987 389.968 661.744 400.345 661.746 410.933C661.746 411.39 661.746 411.846 661.746 412.302C663.667 412.255 665.555 411.84 667.29 411.083C682.348 404.647 691.355 384.962 694.93 371.232C696.219 366.315 697.431 360.776 701.995 357.928Z" fill="black"/>
-                <path id="Vector_7" opacity="0.1" d="M749.274 359.509C744.384 357.453 739.221 355.995 733.915 355.174C738.266 356.09 742.151 358.325 744.942 361.515C746.31 363.218 747.444 365.068 748.32 367.023C740.099 363.733 731.195 362.116 722.225 362.286C713.254 362.456 704.431 364.408 696.365 368.006C700.242 375.788 712.265 380.028 720.293 382.869C729.083 385.974 737.963 388.814 746.936 391.39L738.995 385.489L756.932 388.101C757.125 384.833 756.701 381.559 755.677 378.423C759.115 380.957 763.67 381.807 767.4 383.931C774.387 387.967 777.301 395.733 781.108 402.46C782.114 404.238 783.3 406.055 785.113 407.18C784.38 397.017 780.663 387.223 774.356 378.833C768.047 370.442 759.382 363.766 749.274 359.509Z" fill="black"/>
-                </g>
-                <g id="Man">
-                <path id="Vector_8" d="M723.739 434.804C764.627 434.804 797.774 413.955 797.774 388.235C797.774 362.515 764.627 341.665 723.739 341.665C682.851 341.665 649.705 362.515 649.705 388.235C649.705 413.955 682.851 434.804 723.739 434.804Z" fill="#E14B5A"/>
-                <path id="Vector_9" d="M676.28 433.349C676.28 433.349 691.75 507.362 676.28 527.323C660.809 547.283 723.55 555.183 723.55 555.183L788.491 533.562L797.576 480.336C797.576 480.336 758.04 459.958 766.231 418.793L676.28 433.349Z" fill="#F7C4A7"/>
-                <path id="Vector_10" d="M867.957 682.839C867.957 682.839 872.048 699.054 849.788 701.965C836.644 703.736 823.278 703.589 810.184 701.533L805.277 660.801H857.059L867.957 682.839Z" fill="#F7C4A7"/>
-                <path id="Vector_11" d="M474.889 662.083C474.889 662.083 465.057 698.661 487.317 701.965C509.577 705.27 591.312 705.293 591.312 705.293V662.02L554.304 669.259L519.564 638.763L474.889 662.083Z" fill="#F7C4A7"/>
-                <path id="Vector_12" opacity="0.1" d="M681.058 457.259L594.072 474.096C594.072 474.096 560.914 475.347 539.565 515.678C518.216 556.009 471.882 671.194 471.882 671.194C471.882 671.194 511.418 634.601 557.734 673.688L588.623 622.547L581.808 703.633H821.151V665.372C821.151 665.372 871.111 689.904 867.484 703.625C867.484 703.625 910.243 602.775 901.003 556.945C898.222 542.777 896.516 528.449 895.898 514.065C895.352 502.219 890.815 490.816 882.908 481.425C875.002 472.033 864.114 465.111 851.739 461.61C847.235 460.343 842.285 459.155 836.784 458.093C785.457 448.117 772.325 458.093 772.325 458.093C772.325 458.093 762.381 487.708 762.561 501.13C762.785 518.385 735.763 529.825 735.763 529.825C735.763 529.825 695.79 521.091 693.976 514.026C692.163 506.961 677.861 465.576 681.058 457.259Z" fill="black"/>
-                <path id="Vector_13" d="M681.058 455.599L594.072 472.436C594.072 472.436 560.914 473.687 539.565 514.018C518.216 554.349 471.874 669.55 471.874 669.55C471.874 669.55 511.409 632.956 557.725 672.044L588.615 620.903L581.799 701.965H821.151V663.712C821.151 663.712 871.111 688.244 867.484 701.965C867.484 701.965 910.243 601.115 901.003 555.285C898.222 541.116 896.516 526.789 895.898 512.405C895.352 500.558 890.815 489.156 882.908 479.765C875.002 470.373 864.114 463.451 851.739 459.95C847.235 458.683 842.285 457.495 836.784 456.433C785.457 446.457 772.325 456.433 772.325 456.433C772.325 456.433 762.381 486.048 762.561 499.47C762.785 516.725 735.763 528.164 735.763 528.164C735.763 528.164 695.79 519.431 693.976 512.366C692.163 505.3 677.861 463.916 681.058 455.599Z" fill="#575988"/>
-                <path id="Vector_14" opacity="0.1" d="M769.944 452.067C766.29 442.597 765.471 432.404 767.572 422.546L677.621 437.094C677.621 437.094 678.918 443.317 680.388 452.641C686.2 458.162 693.178 462.543 700.897 465.517C708.617 468.492 716.917 469.999 725.292 469.945C733.668 469.891 741.944 468.278 749.617 465.205C757.29 462.132 764.2 457.661 769.927 452.067H769.944Z" fill="black"/>
-                <path id="Vector_15" d="M785.285 409.651C785.215 424.489 778.778 438.707 767.36 449.24C755.944 459.772 740.463 465.775 724.256 465.955C708.048 466.134 692.413 460.476 680.721 450.199C669.029 439.923 662.218 425.852 661.755 411.02C661.755 410.564 661.755 410.107 661.755 409.651C661.752 399.062 664.996 388.685 671.118 379.701C677.24 370.718 685.993 363.487 696.383 358.832C698.233 358.004 700.136 357.259 702.089 356.598C712.252 353.178 723.212 352.245 733.89 353.891C747.573 356.024 760.071 362.317 769.367 371.753C778.663 381.19 784.214 393.219 785.122 405.898C785.231 407.141 785.285 408.392 785.285 409.651Z" fill="#F7C4A7"/>
-                <path id="Vector_16" d="M701.995 356.645L702.081 356.598C700.127 357.259 698.224 358.004 696.374 358.832C685.985 363.487 677.231 370.718 671.109 379.701C664.987 388.685 661.744 399.062 661.746 409.651C661.746 410.107 661.746 410.564 661.746 411.02C663.667 410.973 665.555 410.557 667.29 409.8C682.348 403.365 691.355 383.679 694.93 369.95C696.219 365.064 697.431 359.501 701.995 356.645Z" fill="#632652"/>
-                <path id="Vector_17" d="M749.274 358.234C744.384 356.179 739.221 354.721 733.915 353.899C738.266 354.816 742.152 357.05 744.942 360.241C746.31 361.943 747.444 363.793 748.32 365.748C740.099 362.458 731.195 360.841 722.225 361.011C713.254 361.181 704.431 363.133 696.365 366.732C700.242 374.513 712.265 378.754 720.293 381.594C729.083 384.7 737.963 387.54 746.936 390.115L738.995 384.214L756.932 386.826C757.125 383.559 756.701 380.284 755.677 377.149C759.115 379.682 763.67 380.532 767.4 382.656C774.387 386.693 777.301 394.458 781.108 401.185C782.114 402.963 783.3 404.781 785.114 405.906C784.38 395.742 780.663 385.948 774.356 377.558C768.047 369.168 759.382 362.492 749.274 358.234Z" fill="#632652"/>
-                <path id="Vector_18" opacity="0.1" d="M602.461 554.978C602.461 554.978 588.838 588.243 607.91 618.181C626.981 648.118 591.107 660.596 591.107 660.596" fill="black"/>
-                <path id="Vector_19" opacity="0.1" d="M823.214 525.041C823.214 525.041 846.831 552.484 831.387 577.016C815.943 601.548 816.854 660.596 816.854 660.596" fill="black"/>
-                <path id="Vector_20" d="M581.567 685.128H844.107C849.89 685.128 855.436 687.231 859.525 690.975C863.614 694.718 865.912 699.795 865.912 705.089H559.771C559.771 699.796 562.067 694.721 566.154 690.977C570.242 687.234 575.785 685.131 581.567 685.128Z" fill="#535461"/>
-                <path id="Vector_21" opacity="0.1" d="M658.334 366.401C658.334 366.401 720.834 309.218 788.242 365.355" stroke="black" stroke-width="0.631512" stroke-miterlimit="10"/>
-                </g>
-                <g id="table">
-                <path id="Vector_22" d="M1020.04 705.349H354.205V869H1020.04V705.349Z" fill="#D6D6E3"/>
-                <path id="Vector_23" opacity="0.1" d="M1020.04 716.364H354.205V737.607H1020.04V716.364Z" fill="black"/>
-                <path id="Vector_24" d="M1064.69 702.988H309.538V724.231H1064.69V702.988Z" fill="#D6D6E3"/>
-                </g>
-                <g id="hat">
-                <path id="Vector_25" opacity="0.1" d="M656.495 402.688C656.495 402.688 720.095 330.304 793.674 402.688L787.314 386.472C787.314 386.472 752.789 340.319 728.269 350.28C703.748 360.241 679.666 367.33 679.666 367.33L656.495 402.688Z" fill="black"/>
-                <path id="Vector_26" d="M656.495 401.405C656.495 401.405 720.095 329.021 793.674 401.405L787.314 385.19C787.314 385.19 752.789 339.037 728.269 348.998C703.748 358.958 679.666 366.047 679.666 366.047L656.495 401.405Z" fill="#E14B5A"/>
-                <path id="Vector_27" d="M724.96 281.271C742.185 281.271 758.706 287.535 770.886 298.686C783.066 309.836 789.909 324.959 789.909 340.728V366.094H660.01V340.728C660.01 324.959 666.853 309.836 679.033 298.686C691.214 287.535 707.734 281.271 724.96 281.271Z" fill="#E14B5A"/>
-                </g>
-                <g id="headphone">
-                <path id="Vector_28" d="M804.976 362.869H798.702V395.434H804.976V362.869Z" fill="#6A5C99"/>
-                <path id="Vector_29" d="M790.33 383.939C796.066 383.939 801.565 386.024 805.621 389.737C809.676 393.449 811.955 398.484 811.955 403.734V405.009C811.955 410.259 809.676 415.294 805.621 419.007C801.565 422.719 796.066 424.804 790.33 424.804V383.939Z" fill="#FFD037"/>
-                <path id="Vector_30" d="M795.908 386.496C795.908 384.028 793.723 382.027 791.027 382.027C788.331 382.027 786.145 384.028 786.145 386.496V422.255C786.145 424.723 788.331 426.724 791.027 426.724C793.723 426.724 795.908 424.723 795.908 422.255V386.496Z" fill="#6A5C99"/>
-                <path id="Vector_31" d="M642.847 396.071H649.121V363.506H642.847V396.071Z" fill="#6A5C99"/>
-                <path id="Vector_32" d="M657.492 425.442C651.757 425.442 646.257 423.356 642.201 419.644C638.146 415.931 635.868 410.896 635.868 405.646V404.372C635.868 401.772 636.427 399.198 637.514 396.796C638.601 394.394 640.194 392.213 642.201 390.374C644.21 388.536 646.593 387.078 649.217 386.083C651.84 385.088 654.652 384.576 657.492 384.576V425.442Z" fill="#FFD037"/>
-                <path id="Vector_33" d="M651.914 422.885C651.914 425.353 654.1 427.354 656.796 427.354C659.492 427.354 661.677 425.353 661.677 422.885V387.125C661.677 384.657 659.492 382.656 656.796 382.656C654.1 382.656 651.914 384.657 651.914 387.125V422.885Z" fill="#6A5C99"/>
-                <path id="Vector_34" d="M797.962 328.061C789.462 311.885 770.95 292.325 731.045 290.76V290.712H730.563L716.425 291.326V291.389C676.787 293.057 658.36 312.546 649.886 328.667C644.242 339.596 641.245 351.512 641.102 363.6L645.984 363.49L650.865 363.388C651.076 352.626 653.78 342.028 658.798 332.294C669.559 312.058 689.361 301.303 717.646 300.303L730.151 299.666C758.453 300.657 778.264 311.429 789.015 331.657C794.042 341.394 796.752 351.998 796.966 362.766L801.847 362.869L806.729 362.979C806.589 350.898 803.598 338.987 797.962 328.061Z" fill="#FFD037"/>
-                </g>
-                <g id="Bricks">
-                <path id="Vector_35" opacity="0.2" d="M991.367 472.46H946.675V493.703H991.367V472.46Z" fill="#0F00FF"/>
-                <path id="Vector_36" opacity="0.2" d="M994.805 498.424H950.113V519.667H994.805V498.424Z" fill="#0F00FF"/>
-                <path id="Vector_37" opacity="0.2" d="M957.848 318.25H913.156V339.493H957.848V318.25Z" fill="#0F00FF"/>
-                <path id="Vector_38" opacity="0.2" d="M989.648 342.64H944.956V363.884H989.648V342.64Z" fill="#0F00FF"/>
-                <path id="Vector_39" opacity="0.2" d="M903.702 319.824H859.01V341.067H903.702V319.824Z" fill="#0F00FF"/>
-                <path id="Vector_40" opacity="0.2" d="M1047.23 367.031H1002.54V388.274H1047.23V367.031Z" fill="#0F00FF"/>
-                <path id="Vector_41" opacity="0.2" d="M993.086 368.604H948.394V389.848H993.086V368.604Z" fill="#0F00FF"/>
-                <path id="Vector_42" opacity="0.2" d="M935.502 344.214H890.81V365.457H935.502V344.214Z" fill="#0F00FF"/>
-                <path id="Vector_43" opacity="0.2" d="M1044.65 530.682H999.962V551.925H1044.65V530.682Z" fill="#0F00FF"/>
-                <path id="Vector_44" opacity="0.2" d="M990.508 532.256H945.816V553.499H990.508V532.256Z" fill="#0F00FF"/>
-                <path id="Vector_45" opacity="0.2" d="M335.598 473.247H290.906V494.49H335.598V473.247Z" fill="#0F00FF"/>
-                <path id="Vector_46" opacity="0.2" d="M367.397 497.637H322.705V518.88H367.397V497.637Z" fill="#0F00FF"/>
-                <path id="Vector_47" opacity="0.2" d="M608.906 249.8H564.214V271.043H608.906V249.8Z" fill="#0F00FF"/>
-                <path id="Vector_48" opacity="0.2" d="M961.286 641.619H916.594V662.862H961.286V641.619Z" fill="#0F00FF"/>
-                <path id="Vector_49" opacity="0.2" d="M370.835 523.601H326.143V544.844H370.835V523.601Z" fill="#0F00FF"/>
-                <path id="Vector_50" opacity="0.2" d="M640.707 274.19H596.015V295.433H640.707V274.19Z" fill="#0F00FF"/>
-                <path id="Vector_51" opacity="0.2" d="M469.992 409.517H425.299V430.76H469.992V409.517Z" fill="#0F00FF"/>
-                <path id="Vector_52" opacity="0.2" d="M509.209 442.562H464.517V463.805H509.209V442.562Z" fill="#0F00FF"/>
-                <path id="Vector_53" opacity="0.2" d="M594.296 429.187H549.604V450.43H594.296V429.187Z" fill="#0F00FF"/>
-                <path id="Vector_54" opacity="0.2" d="M512.647 468.526H467.955V489.769H512.647V468.526Z" fill="#0F00FF"/>
-                <path id="Vector_55" opacity="0.2" d="M1021.45 641.619H976.757V662.862H1021.45V641.619Z" fill="#0F00FF"/>
-                </g>
-                <g id="Laptop">
-                <path id="Vector_56" d="M608.279 547.905H817.404C821.806 547.905 826.164 548.699 830.231 550.241C834.297 551.783 837.993 554.043 841.105 556.892C844.218 559.741 846.686 563.124 848.371 566.847C850.055 570.57 850.923 574.56 850.923 578.59V689.699H574.76V578.59C574.76 570.452 578.292 562.647 584.578 556.892C590.864 551.138 599.39 547.905 608.279 547.905Z" fill="#535461"/>
-                <path id="Vector_57" d="M712.609 640.014C721.642 640.014 728.965 633.311 728.965 625.041C728.965 616.772 721.642 610.069 712.609 610.069C703.576 610.069 696.254 616.772 696.254 625.041C696.254 633.311 703.576 640.014 712.609 640.014Z" fill="white"/>
-                </g>
-                </g>
-                </g>
-                <defs>
-                <filter id="filter0_d" x="77.6325" y="99.3602" width="1049.96" height="790.311" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
-                <feOffset dy="4"/>
-                <feGaussianBlur stdDeviation="2"/>
-                <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
-                <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
-                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
-                </filter>
-                <linearGradient id="paint0_linear" x1="882" y1="284.5" x2="247.223" y2="849.6" gradientUnits="userSpaceOnUse">
-                <stop stop-color="#9DCAFF"/>
-                <stop offset="0.966182" stop-color="white"/>
-                <stop offset="1" stop-color="white"/>
-                </linearGradient>
-                <linearGradient id="paint1_linear" x1="944" y1="261" x2="264.5" y2="801.5" gradientUnits="userSpaceOnUse">
-                <stop stop-color="white" stop-opacity="0"/>
-                <stop offset="1" stop-color="#DDD3D0" stop-opacity="0.61"/>
-                </linearGradient>
-                <clipPath id="clip0">
-                <rect width="1093" height="869" fill="white"/>
-                </clipPath>
-                </defs>
-                </svg>
+            <img src="./images/svgImages.svg" alt="">
                 
-        </div>
+        </div> -->
     </div>
 
     <div class="about-me" id="about-">
-        <div class="skills-heading Project-heading" id="about_id" >
-            <span class="project-line-before"></span>
-            <span class="project--" id="project-id-1">A</span>
-            <span class="project--" id="project-id-2">b</span>
-            <span class="project--" id="project-id-3">o</span>
-            <span class="project--" id="project-id-4">u</span>
-            <span class="project--" id="project-id-5">t</span>
-            <span class="project--">&nbsp;</span>
-            <span class="project--" id="project-id-6">M</span>
-            <span class="project--" id="project-id-7">e</span>
-            <span class="project-line-after"></span>
+        <div class="heading scroll_animation_down" id="about_heading">
+            <span class="project-line-before rubberBand"></span>
+            <span class="project-- rubberBand">A</span>
+            <span class="project-- rubberBand">b</span>
+            <span class="project-- rubberBand">o</span>
+            <span class="project-- rubberBand">u</span>
+            <span class="project-- rubberBand">t</span>
+            <span class="project-- rubberBand">&nbsp;</span>
+            <span class="project-- rubberBand">M</span>
+            <span class="project-- rubberBand">e</span>
+            <span class="project-line-after rubberBand"></span>
         </div>
         <div class="about-me-container">
-            <div id="about-me-image">
+            <div id="about-me-image " class="scroll_animation_left">
                 <img src="./images/about.jpg" alt="">
             </div>
-            <div id="about-me-para">
-                <p>  Hi, i am <span style="color: red; font-size: large;" >Atul Tyagi</span>, a Second year undergraduate student at the SRM University Delhi, pursuing in Computer Science and
-                    Engineering. As a student of Computer Science, I am
-                    fascinated by the extensive impact computers can have in solving real world problems. I am specially
-                    interested in the fields of data science, ML , and designing among other areas of computer science.
-                    <br>
-                    I am a tech enthusiast who likes creating new things and experimenting with things.
-                </p>
+            <div class="about-para">
+                <div class="about-me-para para-1 scroll_animation_up">
+                    <p style="text-align: left;"> Hi, i am <span
+                            style="color: var(--secondary_color); font-size: large;">Atul</span></p><br>
+                    <p style="text-align: left;"> A Second year undergraduate student at the <span><a
+                                style="--underline-hight:0.035rem;" class="Hover-effect"
+                                href="https://www.srmuniversity.ac.in/" target="_blank">SRM University Delhi</a></span>,
+                        pursuing in Computer
+                        Science and
+                        Engineering. As a student of Computer Science, I am very passionate about programming and
+                        engineering as a whole. <br> I am
+                        specially
+                        interested in the fields of<a style="--underline-hight:0.035rem;" class="Hover-effect"
+                            href="https://www.kaggle.com/atultyagi2000" target="_blank">
+                            data science, ML</a> , and designing among other areas of computer science.
+                        <br>
+                        I am a tech enthusiast who likes creating new things and experimenting with things.
+                    </p>
+                </div>
+                <div class="about-me-para para-2 scroll_animation_right">
+                    <p style="text-align: left;">
+
+                        MY PERSONAL INTERESTS <br><br>
+                    </p>
+                    <p style="text-align: left;">
+
+                        When I am not coding , I enjoy spending my time doing any of the following: <br>
+
+                        I love learning New things;<br>
+                        I like to play Video Games listening Music;<br>
+                        I am meeting more people and creating new opportunities. <br>
+                    </p>
+                </div>
             </div>
         </div>
     </div>
+
     <div class="skills" id="Skills-id">
-        <div class="skills-heading Project-heading">
-            <!-- <span>Skills</span> -->
-            <span class="project-line-before"></span>
-            <span class="project--" id="project-id-1">S</span>
-            <span class="project--" id="project-id-2">k</span>
-            <span class="project--" id="project-id-3">i</span>
-            <span class="project--" id="project-id-4">l</span>
-            <span class="project--" id="project-id-5">l</span>
-            <span class="project--" id="project-id-6">s</span>
-            <span class="project-line-after"></span>
+
+        <div class="heading scroll_animation_down" id="skills-heading">
+            <span class="project-line-before rubberBand"></span>
+            <span class="project-- rubberBand">S</span>
+            <span class="project-- rubberBand">k</span>
+            <span class="project-- rubberBand">i</span>
+            <span class="project-- rubberBand">l</span>
+            <span class="project-- rubberBand">l</span>
+            <span class="project-- rubberBand">s</span>
+            <span class="project-line-after rubberBand"></span>
         </div>
+        <p class="skills_info">Some of the significant aptitudes which will assist me with achieving my objectives.</p>
         <div class="skills-bar">
             <div class="bar">
                 <div class="info">
-                    <span id="info1">Python</span>
+                    <span id="info1">Python/MySQL</span>
                 </div>
-                <div id="python" class="progress-line python "><span></span></div>
+                <div id="python" class="progress-line python "><span style="background: #287395;"></span></div>
             </div>
             <div class="bar">
                 <div class="info">
                     <span id="info2">Java</span>
                 </div>
-                <div id='java' class="progress-line java"><span></span></div>
+                <div id='java' class="progress-line java"><span style="background: #E06C00;"></span></div>
             </div>
             <div class="bar">
                 <div class="info">
-                    <span id="info3">C/C++</span>
+                    <span id="info3">Algorithms/C/C++</span>
                 </div>
-                <div id="C-C-Plus-Plus" class="progress-line c-c-plus-plus"><span></span></div>
+                <div id="C-C-Plus-Plus" class="progress-line c-c-plus-plus"><span style="background: #3747A6;"></span>
+                </div>
             </div>
             <div class="bar">
                 <div class="info">
-                    <span id="info4">Html/CSS</span>
+                    <span id="info4">Html/CSS/Bootstrap/JS</span>
                 </div>
-                <div id="html-css" class="progress-line html-CSS"><span></span></div>
+                <div id="html-css" class="progress-line html-CSS"><span style="background: #A84CB8;"></span></div>
             </div>
+
             <div class="bar">
                 <div class="info">
-                    <span id="info5">Javascript</span>
+                    <span id="info6">MongoDB/ExpressJS/NodeJS</span>
                 </div>
-                <div id="javascript" class="progress-line javascript"><span></span></div>
+                <div id="nodejs" class="progress-line nodejs"><span style="background: #74B141;"></span></div>
             </div>
 
         </div>
@@ -477,250 +319,1451 @@
 
 
     <div class="projects" id="projects-id">
-        <div id="project-heading-id" class="Project-heading">
-            <span class="project-line-before"></span>
-            <span class="project--" id="project-id-1">P</span>
-            <span class="project--" id="project-id-2">r</span>
-            <span class="project--" id="project-id-3">o</span>
-            <span class="project--" id="project-id-4">j</span>
-            <span class="project--" id="project-id-5">e</span>
-            <span class="project--" id="project-id-6">c</span>
-            <span class="project--" id="project-id-7">t</span>
-            <span class="project--" id="project-id-8">s</span>
-            <span class="project-line-after"></span>
+        <div class="heading scroll_animation_down" id="Project-heading">
+            <span class="project-line-before rubberBand"></span>
+            <span class="project-- rubberBand">P</span>
+            <span class="project-- rubberBand">r</span>
+            <span class="project-- rubberBand">o</span>
+            <span class="project-- rubberBand">j</span>
+            <span class="project-- rubberBand">e</span>
+            <span class="project-- rubberBand">c</span>
+            <span class="project-- rubberBand">t</span>
+            <span class="project-- rubberBand">s</span>
+            <span class="project-line-after rubberBand"></span>
         </div>
-        <div class="project-container">
-            <a id="project-list-link" href="https://atultyagi612.github.io/facial-recognition-Attendance-System/"
-                target="_blank">
-                <div class="project-list Hover-effect" id="Project-first">
-                    <img src="./images/attendance-system.gif" alt="">
-                    <div>
-                        <p class="Project-main-heading">Attendance system</p><br>
-                        <p>Face recognition Attendance system based on Opencv , Tkinter .</p>
-                    </div>
-                    <div class="language-used">
-                        <h5>Language Used</h5>
-                        <span class="Progress">
-                            <span itemprop="keywords" aria-label="HTML 69.2" style="background-color: red;width: 100%;"
-                                class="Progress-item "></span>
-                        </span>
-                        <ul style="text-decoration: none; list-style: none;">
 
-                            <li class="language-used-list">
-                                <svg height="10" width="15">
-                                    <circle cx="5" cy="5" r="5" stroke="black" stroke-width="0" fill="red" />
-                                </svg>
-                                <span style="font-weight:500;">Python</span>
-                                <span style="font-style: italic;">100%</span>
-                            </li>
-                        </ul>
+
+        <div class="main_projects">
+
+            <!-- first   -->
+            <div class="proj" id="first_project">
+                <div class="proj_image scroll_animation_left">
+                    <a href="https://atultyagi612.github.io/Carrer-Guidance-base-on-java/">
+                        <img class="image_proj" src="./images/carrer-guidance-user.gif" alt="">
+                    </a>
+                </div>
+                <div class="project_detail scroll_animation_right">
+                    <div class="proj_name">
+                        <h2>Carrer Guidance</h2>
+                    </div>
+                    <div class="about_proj">
+                        <p>Carrer Guidance GUI softaware using Java and Swing.</p>
+                    </div>
+                    <div class="proj_language_used">
+                        <div class="jav">
+                            Java
+                        </div>
+                        <div class="jav">
+                            swing
+                        </div>
+                    </div>
+                    <div class="visit_logo">
+                        <a href="https://github.com/atultyagi612/Carrer-Guidance-base-on-java">
+                            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="438.549px"
+                                height="438.549px" viewBox="0 0 438.549 438.549"
+                                style="enable-background:new 0 0 438.549 438.549;" xml:space="preserve">
+                                <g>
+                                    <path d="M409.132,114.573c-19.608-33.596-46.205-60.194-79.798-79.8C295.736,15.166,259.057,5.365,219.271,5.365
+		c-39.781,0-76.472,9.804-110.063,29.408c-33.596,19.605-60.192,46.204-79.8,79.8C9.803,148.168,0,184.854,0,224.63
+		c0,47.78,13.94,90.745,41.827,128.906c27.884,38.164,63.906,64.572,108.063,79.227c5.14,0.954,8.945,0.283,11.419-1.996
+		c2.475-2.282,3.711-5.14,3.711-8.562c0-0.571-0.049-5.708-0.144-15.417c-0.098-9.709-0.144-18.179-0.144-25.406l-6.567,1.136
+		c-4.187,0.767-9.469,1.092-15.846,1c-6.374-0.089-12.991-0.757-19.842-1.999c-6.854-1.231-13.229-4.086-19.13-8.559
+		c-5.898-4.473-10.085-10.328-12.56-17.556l-2.855-6.57c-1.903-4.374-4.899-9.233-8.992-14.559
+		c-4.093-5.331-8.232-8.945-12.419-10.848l-1.999-1.431c-1.332-0.951-2.568-2.098-3.711-3.429c-1.142-1.331-1.997-2.663-2.568-3.997
+		c-0.572-1.335-0.098-2.43,1.427-3.289c1.525-0.859,4.281-1.276,8.28-1.276l5.708,0.853c3.807,0.763,8.516,3.042,14.133,6.851
+		c5.614,3.806,10.229,8.754,13.846,14.842c4.38,7.806,9.657,13.754,15.846,17.847c6.184,4.093,12.419,6.136,18.699,6.136
+		c6.28,0,11.704-0.476,16.274-1.423c4.565-0.952,8.848-2.383,12.847-4.285c1.713-12.758,6.377-22.559,13.988-29.41
+		c-10.848-1.14-20.601-2.857-29.264-5.14c-8.658-2.286-17.605-5.996-26.835-11.14c-9.235-5.137-16.896-11.516-22.985-19.126
+		c-6.09-7.614-11.088-17.61-14.987-29.979c-3.901-12.374-5.852-26.648-5.852-42.826c0-23.035,7.52-42.637,22.557-58.817
+		c-7.044-17.318-6.379-36.732,1.997-58.24c5.52-1.715,13.706-0.428,24.554,3.853c10.85,4.283,18.794,7.952,23.84,10.994
+		c5.046,3.041,9.089,5.618,12.135,7.708c17.705-4.947,35.976-7.421,54.818-7.421s37.117,2.474,54.823,7.421l10.849-6.849
+		c7.419-4.57,16.18-8.758,26.262-12.565c10.088-3.805,17.802-4.853,23.134-3.138c8.562,21.509,9.325,40.922,2.279,58.24
+		c15.036,16.18,22.559,35.787,22.559,58.817c0,16.178-1.958,30.497-5.853,42.966c-3.9,12.471-8.941,22.457-15.125,29.979
+		c-6.191,7.521-13.901,13.85-23.131,18.986c-9.232,5.14-18.182,8.85-26.84,11.136c-8.662,2.286-18.415,4.004-29.263,5.146
+		c9.894,8.562,14.842,22.077,14.842,40.539v60.237c0,3.422,1.19,6.279,3.572,8.562c2.379,2.279,6.136,2.95,11.276,1.995
+		c44.163-14.653,80.185-41.062,108.068-79.226c27.88-38.161,41.825-81.126,41.825-128.906
+		C438.536,184.851,428.728,148.168,409.132,114.573z" />
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                            </svg>
+
+                        </a>
                     </div>
                 </div>
-            </a>
 
+            </div>
+            <!-- second   -->
 
-            <a id="project-list-link" href="https://atultyagi612.github.io/Carrer-Guidance-base-on-java/"
-                target="_blank">
-                <div style="--underline_color:#e34c26 ; --underline-hight: 0.2rem;" class="project-list Hover-effect"
-                    id="Project-first">
-                    <img src="./images/portfolio.jpg" alt="">
-                    <div>
-                        <p class="Project-main-heading">This Website</p><br>
-                        <p>A website using Html/Css/Javascript.</p>
+            <div class="proj proj_reverse" id="first_project">
+                
+                <div class="project_detail scroll_animation_left">
+                    <div class="reverse_proj_name">
+                        <h2>Attendance System</h2>
                     </div>
-                    <div class="language-used">
-                        <h5>Language Used</h5>
-                        <span class="Progress">
-                            <span itemprop="keywords" aria-label="HTML 69.2" style="background-color: #e34c26;width: 66.8%;" class="Progress-item "></span>
-                            <span itemprop="keywords" aria-label="CSS 25.7" style="background-color: #563d7c;width: 26.8%;" class="Progress-item "></span>
-                            <span itemprop="keywords" aria-label="JavaScript 5.1" style="background-color: #f1e05a;width: 6.4%;" class="Progress-item "></span>
-                        </span>
-                        <ul style="text-decoration: none; list-style: none; display: flex;">
+                    <div class="about_proj">
+                        <p>A GUI based Facial recognition Attendance system using opencv , python . Helps user to take attendance of their employes by detecting their faces.</p>
+                    </div>
+                    <div class="proj_language_used reverse_pro_lang_used">
+                        <div class="pyth">
+                            Python
+                        </div>
+                        <div class="pyth">
+                            Tkinter
+                        </div>
+                        <div class="pyth">
+                            OpenCV
+                        </div>
+                    </div>
+                    <div class="visit_logo reverse_logo">
+                        <a href="https://github.com/atultyagi612/facial-recognition-Attendance-System">
+                            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="438.549px"
+                                height="438.549px" viewBox="0 0 438.549 438.549"
+                                style="enable-background:new 0 0 438.549 438.549;" xml:space="preserve">
+                                <g>
+                                    <path d="M409.132,114.573c-19.608-33.596-46.205-60.194-79.798-79.8C295.736,15.166,259.057,5.365,219.271,5.365
+		c-39.781,0-76.472,9.804-110.063,29.408c-33.596,19.605-60.192,46.204-79.8,79.8C9.803,148.168,0,184.854,0,224.63
+		c0,47.78,13.94,90.745,41.827,128.906c27.884,38.164,63.906,64.572,108.063,79.227c5.14,0.954,8.945,0.283,11.419-1.996
+		c2.475-2.282,3.711-5.14,3.711-8.562c0-0.571-0.049-5.708-0.144-15.417c-0.098-9.709-0.144-18.179-0.144-25.406l-6.567,1.136
+		c-4.187,0.767-9.469,1.092-15.846,1c-6.374-0.089-12.991-0.757-19.842-1.999c-6.854-1.231-13.229-4.086-19.13-8.559
+		c-5.898-4.473-10.085-10.328-12.56-17.556l-2.855-6.57c-1.903-4.374-4.899-9.233-8.992-14.559
+		c-4.093-5.331-8.232-8.945-12.419-10.848l-1.999-1.431c-1.332-0.951-2.568-2.098-3.711-3.429c-1.142-1.331-1.997-2.663-2.568-3.997
+		c-0.572-1.335-0.098-2.43,1.427-3.289c1.525-0.859,4.281-1.276,8.28-1.276l5.708,0.853c3.807,0.763,8.516,3.042,14.133,6.851
+		c5.614,3.806,10.229,8.754,13.846,14.842c4.38,7.806,9.657,13.754,15.846,17.847c6.184,4.093,12.419,6.136,18.699,6.136
+		c6.28,0,11.704-0.476,16.274-1.423c4.565-0.952,8.848-2.383,12.847-4.285c1.713-12.758,6.377-22.559,13.988-29.41
+		c-10.848-1.14-20.601-2.857-29.264-5.14c-8.658-2.286-17.605-5.996-26.835-11.14c-9.235-5.137-16.896-11.516-22.985-19.126
+		c-6.09-7.614-11.088-17.61-14.987-29.979c-3.901-12.374-5.852-26.648-5.852-42.826c0-23.035,7.52-42.637,22.557-58.817
+		c-7.044-17.318-6.379-36.732,1.997-58.24c5.52-1.715,13.706-0.428,24.554,3.853c10.85,4.283,18.794,7.952,23.84,10.994
+		c5.046,3.041,9.089,5.618,12.135,7.708c17.705-4.947,35.976-7.421,54.818-7.421s37.117,2.474,54.823,7.421l10.849-6.849
+		c7.419-4.57,16.18-8.758,26.262-12.565c10.088-3.805,17.802-4.853,23.134-3.138c8.562,21.509,9.325,40.922,2.279,58.24
+		c15.036,16.18,22.559,35.787,22.559,58.817c0,16.178-1.958,30.497-5.853,42.966c-3.9,12.471-8.941,22.457-15.125,29.979
+		c-6.191,7.521-13.901,13.85-23.131,18.986c-9.232,5.14-18.182,8.85-26.84,11.136c-8.662,2.286-18.415,4.004-29.263,5.146
+		c9.894,8.562,14.842,22.077,14.842,40.539v60.237c0,3.422,1.19,6.279,3.572,8.562c2.379,2.279,6.136,2.95,11.276,1.995
+		c44.163-14.653,80.185-41.062,108.068-79.226c27.88-38.161,41.825-81.126,41.825-128.906
+		C438.536,184.851,428.728,148.168,409.132,114.573z" />
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                            </svg>
+
+                        </a>
+                    </div>
+                </div>
+                <div class="proj_image scroll_animation_right">
+                    <a href="https://atultyagi612.github.io/facial-recognition-Attendance-System/">
+                        <img class="reverse_image_proj image_proj" src="./images/attendance-system.gif" alt="">
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- third  -->
+            <div class="proj" id="first_project">
+                <div class="proj_image scroll_animation_left">
+                    <a href="https://atultyagi612.github.io/google_forms_clone/">
+                        <img class="image_proj" src="./images/create form.gif" alt="">
+                    </a>
+                </div>
+                <div class="project_detail scroll_animation_right">
+                    <div class="proj_name">
+                        <h2>Google Forms Clone</h2>
+                    </div>
+                    <div class="about_proj">
+                        <p>A clone of google Forms with the help of nodejs as backend and Javascript/CSS as a frontend .</p>
+                    </div>
+                    <div class="proj_language_used">
+                        <div class="nodjs">
+                            Nodejs
+                        </div>
+                        <div class="ejs">
+                            EJS
+                        </div>
+                        <div class="mongodb">
+                            Mongodb
+                        </div>
+                        
+                    </div>
+                    <div class="visit_logo">
+                        <a href="https://github.com/atultyagi612/google_forms_clone">
+                            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="438.549px"
+                                height="438.549px" viewBox="0 0 438.549 438.549"
+                                style="enable-background:new 0 0 438.549 438.549;" xml:space="preserve">
+                                <g>
+                                    <path d="M409.132,114.573c-19.608-33.596-46.205-60.194-79.798-79.8C295.736,15.166,259.057,5.365,219.271,5.365
+		c-39.781,0-76.472,9.804-110.063,29.408c-33.596,19.605-60.192,46.204-79.8,79.8C9.803,148.168,0,184.854,0,224.63
+		c0,47.78,13.94,90.745,41.827,128.906c27.884,38.164,63.906,64.572,108.063,79.227c5.14,0.954,8.945,0.283,11.419-1.996
+		c2.475-2.282,3.711-5.14,3.711-8.562c0-0.571-0.049-5.708-0.144-15.417c-0.098-9.709-0.144-18.179-0.144-25.406l-6.567,1.136
+		c-4.187,0.767-9.469,1.092-15.846,1c-6.374-0.089-12.991-0.757-19.842-1.999c-6.854-1.231-13.229-4.086-19.13-8.559
+		c-5.898-4.473-10.085-10.328-12.56-17.556l-2.855-6.57c-1.903-4.374-4.899-9.233-8.992-14.559
+		c-4.093-5.331-8.232-8.945-12.419-10.848l-1.999-1.431c-1.332-0.951-2.568-2.098-3.711-3.429c-1.142-1.331-1.997-2.663-2.568-3.997
+		c-0.572-1.335-0.098-2.43,1.427-3.289c1.525-0.859,4.281-1.276,8.28-1.276l5.708,0.853c3.807,0.763,8.516,3.042,14.133,6.851
+		c5.614,3.806,10.229,8.754,13.846,14.842c4.38,7.806,9.657,13.754,15.846,17.847c6.184,4.093,12.419,6.136,18.699,6.136
+		c6.28,0,11.704-0.476,16.274-1.423c4.565-0.952,8.848-2.383,12.847-4.285c1.713-12.758,6.377-22.559,13.988-29.41
+		c-10.848-1.14-20.601-2.857-29.264-5.14c-8.658-2.286-17.605-5.996-26.835-11.14c-9.235-5.137-16.896-11.516-22.985-19.126
+		c-6.09-7.614-11.088-17.61-14.987-29.979c-3.901-12.374-5.852-26.648-5.852-42.826c0-23.035,7.52-42.637,22.557-58.817
+		c-7.044-17.318-6.379-36.732,1.997-58.24c5.52-1.715,13.706-0.428,24.554,3.853c10.85,4.283,18.794,7.952,23.84,10.994
+		c5.046,3.041,9.089,5.618,12.135,7.708c17.705-4.947,35.976-7.421,54.818-7.421s37.117,2.474,54.823,7.421l10.849-6.849
+		c7.419-4.57,16.18-8.758,26.262-12.565c10.088-3.805,17.802-4.853,23.134-3.138c8.562,21.509,9.325,40.922,2.279,58.24
+		c15.036,16.18,22.559,35.787,22.559,58.817c0,16.178-1.958,30.497-5.853,42.966c-3.9,12.471-8.941,22.457-15.125,29.979
+		c-6.191,7.521-13.901,13.85-23.131,18.986c-9.232,5.14-18.182,8.85-26.84,11.136c-8.662,2.286-18.415,4.004-29.263,5.146
+		c9.894,8.562,14.842,22.077,14.842,40.539v60.237c0,3.422,1.19,6.279,3.572,8.562c2.379,2.279,6.136,2.95,11.276,1.995
+		c44.163-14.653,80.185-41.062,108.068-79.226c27.88-38.161,41.825-81.126,41.825-128.906
+		C438.536,184.851,428.728,148.168,409.132,114.573z" />
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                            </svg>
+
+                        </a>
+                        <a style="    width: 38px;" href="https://google-forms-clone-atul.herokuapp.com/" target="_blank">
+                            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="511.626px" height="511.627px" viewBox="0 0 511.626 511.627" style="enable-background:new 0 0 511.626 511.627;"
+	 xml:space="preserve">
+<g>
+	<g>
+		<path d="M392.857,292.354h-18.274c-2.669,0-4.859,0.855-6.563,2.573c-1.718,1.708-2.573,3.897-2.573,6.563v91.361
+			c0,12.563-4.47,23.315-13.415,32.262c-8.945,8.945-19.701,13.414-32.264,13.414H82.224c-12.562,0-23.317-4.469-32.264-13.414
+			c-8.945-8.946-13.417-19.698-13.417-32.262V155.31c0-12.562,4.471-23.313,13.417-32.259c8.947-8.947,19.702-13.418,32.264-13.418
+			h200.994c2.669,0,4.859-0.859,6.57-2.57c1.711-1.713,2.566-3.9,2.566-6.567V82.221c0-2.662-0.855-4.853-2.566-6.563
+			c-1.711-1.713-3.901-2.568-6.57-2.568H82.224c-22.648,0-42.016,8.042-58.102,24.125C8.042,113.297,0,132.665,0,155.313v237.542
+			c0,22.647,8.042,42.018,24.123,58.095c16.086,16.084,35.454,24.13,58.102,24.13h237.543c22.647,0,42.017-8.046,58.101-24.13
+			c16.085-16.077,24.127-35.447,24.127-58.095v-91.358c0-2.669-0.856-4.859-2.574-6.57
+			C397.709,293.209,395.519,292.354,392.857,292.354z"/>
+		<path d="M506.199,41.971c-3.617-3.617-7.905-5.424-12.85-5.424H347.171c-4.948,0-9.233,1.807-12.847,5.424
+			c-3.617,3.615-5.428,7.898-5.428,12.847s1.811,9.233,5.428,12.85l50.247,50.248L198.424,304.067
+			c-1.906,1.903-2.856,4.093-2.856,6.563c0,2.479,0.953,4.668,2.856,6.571l32.548,32.544c1.903,1.903,4.093,2.852,6.567,2.852
+			s4.665-0.948,6.567-2.852l186.148-186.148l50.251,50.248c3.614,3.617,7.898,5.426,12.847,5.426s9.233-1.809,12.851-5.426
+			c3.617-3.616,5.424-7.898,5.424-12.847V54.818C511.626,49.866,509.813,45.586,506.199,41.971z"/>
+	</g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
+
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- fourth  -->
+
+            <div class="proj proj_reverse" id="first_project">
+                
+                <div class="project_detail scroll_animation_left">
+                    <div class="reverse_proj_name">
+                        <h2>To-do App</h2>
+                    </div>
+                    <div class="about_proj">
+                        <p>A Simple Todo App  which helps user to manage their Todos's</p>
+                    </div>
+                    <div class="proj_language_used reverse_pro_lang_used">
+                        <div class="nodjs">
+                            Nodejs
+                        </div>
+                        <div class="ejs">
+                            EJS
+                        </div>
+                        <div class="mongodb">
+                            Mongodb
+                        </div>
+                    </div>
+                    <div class="visit_logo reverse_logo">
+                        <a href="https://atultyagi612.github.io/Todo-App/">
+                            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="438.549px"
+                                height="438.549px" viewBox="0 0 438.549 438.549"
+                                style="enable-background:new 0 0 438.549 438.549;" xml:space="preserve">
+                                <g>
+                                    <path d="M409.132,114.573c-19.608-33.596-46.205-60.194-79.798-79.8C295.736,15.166,259.057,5.365,219.271,5.365
+		c-39.781,0-76.472,9.804-110.063,29.408c-33.596,19.605-60.192,46.204-79.8,79.8C9.803,148.168,0,184.854,0,224.63
+		c0,47.78,13.94,90.745,41.827,128.906c27.884,38.164,63.906,64.572,108.063,79.227c5.14,0.954,8.945,0.283,11.419-1.996
+		c2.475-2.282,3.711-5.14,3.711-8.562c0-0.571-0.049-5.708-0.144-15.417c-0.098-9.709-0.144-18.179-0.144-25.406l-6.567,1.136
+		c-4.187,0.767-9.469,1.092-15.846,1c-6.374-0.089-12.991-0.757-19.842-1.999c-6.854-1.231-13.229-4.086-19.13-8.559
+		c-5.898-4.473-10.085-10.328-12.56-17.556l-2.855-6.57c-1.903-4.374-4.899-9.233-8.992-14.559
+		c-4.093-5.331-8.232-8.945-12.419-10.848l-1.999-1.431c-1.332-0.951-2.568-2.098-3.711-3.429c-1.142-1.331-1.997-2.663-2.568-3.997
+		c-0.572-1.335-0.098-2.43,1.427-3.289c1.525-0.859,4.281-1.276,8.28-1.276l5.708,0.853c3.807,0.763,8.516,3.042,14.133,6.851
+		c5.614,3.806,10.229,8.754,13.846,14.842c4.38,7.806,9.657,13.754,15.846,17.847c6.184,4.093,12.419,6.136,18.699,6.136
+		c6.28,0,11.704-0.476,16.274-1.423c4.565-0.952,8.848-2.383,12.847-4.285c1.713-12.758,6.377-22.559,13.988-29.41
+		c-10.848-1.14-20.601-2.857-29.264-5.14c-8.658-2.286-17.605-5.996-26.835-11.14c-9.235-5.137-16.896-11.516-22.985-19.126
+		c-6.09-7.614-11.088-17.61-14.987-29.979c-3.901-12.374-5.852-26.648-5.852-42.826c0-23.035,7.52-42.637,22.557-58.817
+		c-7.044-17.318-6.379-36.732,1.997-58.24c5.52-1.715,13.706-0.428,24.554,3.853c10.85,4.283,18.794,7.952,23.84,10.994
+		c5.046,3.041,9.089,5.618,12.135,7.708c17.705-4.947,35.976-7.421,54.818-7.421s37.117,2.474,54.823,7.421l10.849-6.849
+		c7.419-4.57,16.18-8.758,26.262-12.565c10.088-3.805,17.802-4.853,23.134-3.138c8.562,21.509,9.325,40.922,2.279,58.24
+		c15.036,16.18,22.559,35.787,22.559,58.817c0,16.178-1.958,30.497-5.853,42.966c-3.9,12.471-8.941,22.457-15.125,29.979
+		c-6.191,7.521-13.901,13.85-23.131,18.986c-9.232,5.14-18.182,8.85-26.84,11.136c-8.662,2.286-18.415,4.004-29.263,5.146
+		c9.894,8.562,14.842,22.077,14.842,40.539v60.237c0,3.422,1.19,6.279,3.572,8.562c2.379,2.279,6.136,2.95,11.276,1.995
+		c44.163-14.653,80.185-41.062,108.068-79.226c27.88-38.161,41.825-81.126,41.825-128.906
+		C438.536,184.851,428.728,148.168,409.132,114.573z" />
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                            </svg>
+
+                        </a>
+                        <a style="    width: 38px;" href="http://todo-appes.herokuapp.com/" target="_blank">
+                            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="511.626px" height="511.627px" viewBox="0 0 511.626 511.627" style="enable-background:new 0 0 511.626 511.627;"
+	 xml:space="preserve">
+<g>
+	<g>
+		<path d="M392.857,292.354h-18.274c-2.669,0-4.859,0.855-6.563,2.573c-1.718,1.708-2.573,3.897-2.573,6.563v91.361
+			c0,12.563-4.47,23.315-13.415,32.262c-8.945,8.945-19.701,13.414-32.264,13.414H82.224c-12.562,0-23.317-4.469-32.264-13.414
+			c-8.945-8.946-13.417-19.698-13.417-32.262V155.31c0-12.562,4.471-23.313,13.417-32.259c8.947-8.947,19.702-13.418,32.264-13.418
+			h200.994c2.669,0,4.859-0.859,6.57-2.57c1.711-1.713,2.566-3.9,2.566-6.567V82.221c0-2.662-0.855-4.853-2.566-6.563
+			c-1.711-1.713-3.901-2.568-6.57-2.568H82.224c-22.648,0-42.016,8.042-58.102,24.125C8.042,113.297,0,132.665,0,155.313v237.542
+			c0,22.647,8.042,42.018,24.123,58.095c16.086,16.084,35.454,24.13,58.102,24.13h237.543c22.647,0,42.017-8.046,58.101-24.13
+			c16.085-16.077,24.127-35.447,24.127-58.095v-91.358c0-2.669-0.856-4.859-2.574-6.57
+			C397.709,293.209,395.519,292.354,392.857,292.354z"/>
+		<path d="M506.199,41.971c-3.617-3.617-7.905-5.424-12.85-5.424H347.171c-4.948,0-9.233,1.807-12.847,5.424
+			c-3.617,3.615-5.428,7.898-5.428,12.847s1.811,9.233,5.428,12.85l50.247,50.248L198.424,304.067
+			c-1.906,1.903-2.856,4.093-2.856,6.563c0,2.479,0.953,4.668,2.856,6.571l32.548,32.544c1.903,1.903,4.093,2.852,6.567,2.852
+			s4.665-0.948,6.567-2.852l186.148-186.148l50.251,50.248c3.614,3.617,7.898,5.426,12.847,5.426s9.233-1.809,12.851-5.426
+			c3.617-3.616,5.424-7.898,5.424-12.847V54.818C511.626,49.866,509.813,45.586,506.199,41.971z"/>
+	</g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
+
+                        </a>
+                    </div>
+                </div>
+                <div class="proj_image scroll_animation_right">
+                    <a href="https://atultyagi612.github.io/facial-recognition-Attendance-System/">
+                        <img class="reverse_image_proj image_proj" src="./images/todo.gif" alt="">
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+        <br>
+        <hr style="height: 1px;" class="underline">
+        <div class="other_projects">
+            <div class="other_heading">
+                <h2>Other Noteworthy Projects</h2>
+                <div class="types_of_sub_proj">
+                    <h4 class=" Hover-effect" onclick="EnableAll(this)" >ALL</h3>
+                    <h4 class=" Hover-effect" onclick="sort_card('python_card',this)" >Python</h4>
+                    <h4 class=" Hover-effect" onclick="sort_card('ML_card',this)">Kaggle Competitons</h4>
+                    <h4 class=" Hover-effect" onclick="sort_card('web_card',this)">Web Dev</h4>
+                </div>
+            </div>
+            <div class="secondary_project">
+                <div class="sec_proj">
+                    <div class="card ML_card">
+                        <a href="">
+                            <img src="./images/mnist.png" alt="">
+                        </a>
+                        <div class="disciption">
+                            <h2>Digit Recognizer</h2>
+                            <p>This competition is the perfect introduction to techniques like neural networks using a classic dataset including pre-extracted features.</p>
+                        </div>
+                        <div class="language_used">
+                            <p>Python</p>
+                        </div>
+                        <div class="status">
+                            <a style="    width: 38px;" href="https://google-forms-clone-atul.herokuapp.com/" target="_blank">
+                                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+         width="511.626px" height="511.627px" viewBox="0 0 511.626 511.627" style="enable-background:new 0 0 511.626 511.627;"
+         xml:space="preserve">
+    <g>
+        <g>
+            <path d="M392.857,292.354h-18.274c-2.669,0-4.859,0.855-6.563,2.573c-1.718,1.708-2.573,3.897-2.573,6.563v91.361
+                c0,12.563-4.47,23.315-13.415,32.262c-8.945,8.945-19.701,13.414-32.264,13.414H82.224c-12.562,0-23.317-4.469-32.264-13.414
+                c-8.945-8.946-13.417-19.698-13.417-32.262V155.31c0-12.562,4.471-23.313,13.417-32.259c8.947-8.947,19.702-13.418,32.264-13.418
+                h200.994c2.669,0,4.859-0.859,6.57-2.57c1.711-1.713,2.566-3.9,2.566-6.567V82.221c0-2.662-0.855-4.853-2.566-6.563
+                c-1.711-1.713-3.901-2.568-6.57-2.568H82.224c-22.648,0-42.016,8.042-58.102,24.125C8.042,113.297,0,132.665,0,155.313v237.542
+                c0,22.647,8.042,42.018,24.123,58.095c16.086,16.084,35.454,24.13,58.102,24.13h237.543c22.647,0,42.017-8.046,58.101-24.13
+                c16.085-16.077,24.127-35.447,24.127-58.095v-91.358c0-2.669-0.856-4.859-2.574-6.57
+                C397.709,293.209,395.519,292.354,392.857,292.354z"/>
+            <path d="M506.199,41.971c-3.617-3.617-7.905-5.424-12.85-5.424H347.171c-4.948,0-9.233,1.807-12.847,5.424
+                c-3.617,3.615-5.428,7.898-5.428,12.847s1.811,9.233,5.428,12.85l50.247,50.248L198.424,304.067
+                c-1.906,1.903-2.856,4.093-2.856,6.563c0,2.479,0.953,4.668,2.856,6.571l32.548,32.544c1.903,1.903,4.093,2.852,6.567,2.852
+                s4.665-0.948,6.567-2.852l186.148-186.148l50.251,50.248c3.614,3.617,7.898,5.426,12.847,5.426s9.233-1.809,12.851-5.426
+                c3.617-3.616,5.424-7.898,5.424-12.847V54.818C511.626,49.866,509.813,45.586,506.199,41.971z"/>
+        </g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    </svg>
+    
+                            </a>
+                            <a href="https://github.com/atultyagi612/google_forms_clone">
+                                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="438.549px"
+                                    height="438.549px" viewBox="0 0 438.549 438.549"
+                                    style="enable-background:new 0 0 438.549 438.549;" xml:space="preserve">
+                                    <g>
+                                        <path d="M409.132,114.573c-19.608-33.596-46.205-60.194-79.798-79.8C295.736,15.166,259.057,5.365,219.271,5.365
+            c-39.781,0-76.472,9.804-110.063,29.408c-33.596,19.605-60.192,46.204-79.8,79.8C9.803,148.168,0,184.854,0,224.63
+            c0,47.78,13.94,90.745,41.827,128.906c27.884,38.164,63.906,64.572,108.063,79.227c5.14,0.954,8.945,0.283,11.419-1.996
+            c2.475-2.282,3.711-5.14,3.711-8.562c0-0.571-0.049-5.708-0.144-15.417c-0.098-9.709-0.144-18.179-0.144-25.406l-6.567,1.136
+            c-4.187,0.767-9.469,1.092-15.846,1c-6.374-0.089-12.991-0.757-19.842-1.999c-6.854-1.231-13.229-4.086-19.13-8.559
+            c-5.898-4.473-10.085-10.328-12.56-17.556l-2.855-6.57c-1.903-4.374-4.899-9.233-8.992-14.559
+            c-4.093-5.331-8.232-8.945-12.419-10.848l-1.999-1.431c-1.332-0.951-2.568-2.098-3.711-3.429c-1.142-1.331-1.997-2.663-2.568-3.997
+            c-0.572-1.335-0.098-2.43,1.427-3.289c1.525-0.859,4.281-1.276,8.28-1.276l5.708,0.853c3.807,0.763,8.516,3.042,14.133,6.851
+            c5.614,3.806,10.229,8.754,13.846,14.842c4.38,7.806,9.657,13.754,15.846,17.847c6.184,4.093,12.419,6.136,18.699,6.136
+            c6.28,0,11.704-0.476,16.274-1.423c4.565-0.952,8.848-2.383,12.847-4.285c1.713-12.758,6.377-22.559,13.988-29.41
+            c-10.848-1.14-20.601-2.857-29.264-5.14c-8.658-2.286-17.605-5.996-26.835-11.14c-9.235-5.137-16.896-11.516-22.985-19.126
+            c-6.09-7.614-11.088-17.61-14.987-29.979c-3.901-12.374-5.852-26.648-5.852-42.826c0-23.035,7.52-42.637,22.557-58.817
+            c-7.044-17.318-6.379-36.732,1.997-58.24c5.52-1.715,13.706-0.428,24.554,3.853c10.85,4.283,18.794,7.952,23.84,10.994
+            c5.046,3.041,9.089,5.618,12.135,7.708c17.705-4.947,35.976-7.421,54.818-7.421s37.117,2.474,54.823,7.421l10.849-6.849
+            c7.419-4.57,16.18-8.758,26.262-12.565c10.088-3.805,17.802-4.853,23.134-3.138c8.562,21.509,9.325,40.922,2.279,58.24
+            c15.036,16.18,22.559,35.787,22.559,58.817c0,16.178-1.958,30.497-5.853,42.966c-3.9,12.471-8.941,22.457-15.125,29.979
+            c-6.191,7.521-13.901,13.85-23.131,18.986c-9.232,5.14-18.182,8.85-26.84,11.136c-8.662,2.286-18.415,4.004-29.263,5.146
+            c9.894,8.562,14.842,22.077,14.842,40.539v60.237c0,3.422,1.19,6.279,3.572,8.562c2.379,2.279,6.136,2.95,11.276,1.995
+            c44.163-14.653,80.185-41.062,108.068-79.226c27.88-38.161,41.825-81.126,41.825-128.906
+            C438.536,184.851,428.728,148.168,409.132,114.573z" />
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                </svg>
+    
+                            </a>
                             
-                            <li>
-                                <svg height="10" width="15">
-                                    <circle cx="5" cy="5" r="5" stroke="black" stroke-width="0" fill=#e34c26 />
-                                  </svg>
-                                  <span style="font-weight: 500;">HTML</span>
-                                  <span style="font-style: italic;">66.8%</span>
-                            </li>
-                            <li style="margin-left: 10px;">
-                                <svg height="10" width="15">
-                                    <circle cx="5" cy="5" r="5" stroke="black" stroke-width="0" fill=#563d7c />
-                                  </svg>
-                                  <span style="font-weight: 500;">CSS</span>
-                                  <span style="font-style: italic;">26.8%</span>
-                            </li>
-                            <li style="margin-left: 10px;">
-                                <svg height="10" width="15">
-                                    <circle cx="5" cy="5" r="5" stroke="black" stroke-width="0" fill=#f1e05a />
-                                  </svg>
-                                  <span style="font-weight: 500;">JavaScript</span>
-                                  <span style="font-style: italic;">6.4%</span>
-                            </li>
-                        </ul>
+                        </div>
                     </div>
-                </div>
-            </a>
-            <a id="project-list-link" href="https://atultyagi612.github.io/Carrer-Guidance-base-on-java/"
-                target="_blank">
-                <div style="--underline_color:Orange ; --underline-hight: 0.2rem;" class="project-list Hover-effect"
-                    id="Project-first">
-                    <img src="./images/carrer-guidance-user.gif" alt="">
-                    <div>
-                        <p class="Project-main-heading">Carrer Guidance </p><br>
-                        <p>Carrer guidance Gui Application base on Java</p>
-                    </div>
-                    <div class="language-used">
-                        <h5>Language Used</h5>
-                        <span class="Progress">
-                            <span itemprop="keywords" aria-label="HTML 69.2"
-                                style="background-color: orange;width: 100%;" class="Progress-item "></span>
-                        </span>
-                        <ul style="text-decoration: none; list-style: none;">
 
-                            <li class="language-used-list">
-                                <svg height="10" width="15">
-                                    <circle cx="5" cy="5" r="5" stroke="black" stroke-width="0" fill="orange" />
+                    <div class="card ML_card">
+                        <a href="">
+                            <img src="./images/titanic.png" alt="">
+                        </a>
+                        <div class="disciption">
+                            <h2>Titanic</h2>
+                            <p>The competition is simple: use machine learning to create a model that predicts which passengers survived the Titanic shipwreck.</p>
+                        </div>
+                        <div class="language_used">
+                            <p>Python</p>
+                        </div>
+                        <div class="status">
+                            <a style="    width: 38px;" href="https://google-forms-clone-atul.herokuapp.com/" target="_blank">
+                                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+         width="511.626px" height="511.627px" viewBox="0 0 511.626 511.627" style="enable-background:new 0 0 511.626 511.627;"
+         xml:space="preserve">
+    <g>
+        <g>
+            <path d="M392.857,292.354h-18.274c-2.669,0-4.859,0.855-6.563,2.573c-1.718,1.708-2.573,3.897-2.573,6.563v91.361
+                c0,12.563-4.47,23.315-13.415,32.262c-8.945,8.945-19.701,13.414-32.264,13.414H82.224c-12.562,0-23.317-4.469-32.264-13.414
+                c-8.945-8.946-13.417-19.698-13.417-32.262V155.31c0-12.562,4.471-23.313,13.417-32.259c8.947-8.947,19.702-13.418,32.264-13.418
+                h200.994c2.669,0,4.859-0.859,6.57-2.57c1.711-1.713,2.566-3.9,2.566-6.567V82.221c0-2.662-0.855-4.853-2.566-6.563
+                c-1.711-1.713-3.901-2.568-6.57-2.568H82.224c-22.648,0-42.016,8.042-58.102,24.125C8.042,113.297,0,132.665,0,155.313v237.542
+                c0,22.647,8.042,42.018,24.123,58.095c16.086,16.084,35.454,24.13,58.102,24.13h237.543c22.647,0,42.017-8.046,58.101-24.13
+                c16.085-16.077,24.127-35.447,24.127-58.095v-91.358c0-2.669-0.856-4.859-2.574-6.57
+                C397.709,293.209,395.519,292.354,392.857,292.354z"/>
+            <path d="M506.199,41.971c-3.617-3.617-7.905-5.424-12.85-5.424H347.171c-4.948,0-9.233,1.807-12.847,5.424
+                c-3.617,3.615-5.428,7.898-5.428,12.847s1.811,9.233,5.428,12.85l50.247,50.248L198.424,304.067
+                c-1.906,1.903-2.856,4.093-2.856,6.563c0,2.479,0.953,4.668,2.856,6.571l32.548,32.544c1.903,1.903,4.093,2.852,6.567,2.852
+                s4.665-0.948,6.567-2.852l186.148-186.148l50.251,50.248c3.614,3.617,7.898,5.426,12.847,5.426s9.233-1.809,12.851-5.426
+                c3.617-3.616,5.424-7.898,5.424-12.847V54.818C511.626,49.866,509.813,45.586,506.199,41.971z"/>
+        </g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    </svg>
+    
+                            </a>
+                            <a href="https://github.com/atultyagi612/google_forms_clone">
+                                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="438.549px"
+                                    height="438.549px" viewBox="0 0 438.549 438.549"
+                                    style="enable-background:new 0 0 438.549 438.549;" xml:space="preserve">
+                                    <g>
+                                        <path d="M409.132,114.573c-19.608-33.596-46.205-60.194-79.798-79.8C295.736,15.166,259.057,5.365,219.271,5.365
+            c-39.781,0-76.472,9.804-110.063,29.408c-33.596,19.605-60.192,46.204-79.8,79.8C9.803,148.168,0,184.854,0,224.63
+            c0,47.78,13.94,90.745,41.827,128.906c27.884,38.164,63.906,64.572,108.063,79.227c5.14,0.954,8.945,0.283,11.419-1.996
+            c2.475-2.282,3.711-5.14,3.711-8.562c0-0.571-0.049-5.708-0.144-15.417c-0.098-9.709-0.144-18.179-0.144-25.406l-6.567,1.136
+            c-4.187,0.767-9.469,1.092-15.846,1c-6.374-0.089-12.991-0.757-19.842-1.999c-6.854-1.231-13.229-4.086-19.13-8.559
+            c-5.898-4.473-10.085-10.328-12.56-17.556l-2.855-6.57c-1.903-4.374-4.899-9.233-8.992-14.559
+            c-4.093-5.331-8.232-8.945-12.419-10.848l-1.999-1.431c-1.332-0.951-2.568-2.098-3.711-3.429c-1.142-1.331-1.997-2.663-2.568-3.997
+            c-0.572-1.335-0.098-2.43,1.427-3.289c1.525-0.859,4.281-1.276,8.28-1.276l5.708,0.853c3.807,0.763,8.516,3.042,14.133,6.851
+            c5.614,3.806,10.229,8.754,13.846,14.842c4.38,7.806,9.657,13.754,15.846,17.847c6.184,4.093,12.419,6.136,18.699,6.136
+            c6.28,0,11.704-0.476,16.274-1.423c4.565-0.952,8.848-2.383,12.847-4.285c1.713-12.758,6.377-22.559,13.988-29.41
+            c-10.848-1.14-20.601-2.857-29.264-5.14c-8.658-2.286-17.605-5.996-26.835-11.14c-9.235-5.137-16.896-11.516-22.985-19.126
+            c-6.09-7.614-11.088-17.61-14.987-29.979c-3.901-12.374-5.852-26.648-5.852-42.826c0-23.035,7.52-42.637,22.557-58.817
+            c-7.044-17.318-6.379-36.732,1.997-58.24c5.52-1.715,13.706-0.428,24.554,3.853c10.85,4.283,18.794,7.952,23.84,10.994
+            c5.046,3.041,9.089,5.618,12.135,7.708c17.705-4.947,35.976-7.421,54.818-7.421s37.117,2.474,54.823,7.421l10.849-6.849
+            c7.419-4.57,16.18-8.758,26.262-12.565c10.088-3.805,17.802-4.853,23.134-3.138c8.562,21.509,9.325,40.922,2.279,58.24
+            c15.036,16.18,22.559,35.787,22.559,58.817c0,16.178-1.958,30.497-5.853,42.966c-3.9,12.471-8.941,22.457-15.125,29.979
+            c-6.191,7.521-13.901,13.85-23.131,18.986c-9.232,5.14-18.182,8.85-26.84,11.136c-8.662,2.286-18.415,4.004-29.263,5.146
+            c9.894,8.562,14.842,22.077,14.842,40.539v60.237c0,3.422,1.19,6.279,3.572,8.562c2.379,2.279,6.136,2.95,11.276,1.995
+            c44.163-14.653,80.185-41.062,108.068-79.226c27.88-38.161,41.825-81.126,41.825-128.906
+            C438.536,184.851,428.728,148.168,409.132,114.573z" />
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
                                 </svg>
-                                <span style="font-weight:500;">Java</span>
-                                <span style="font-style: italic;">100%</span>
-                            </li>
-                        </ul>
+    
+                            </a>
+                            
+                        </div>
                     </div>
-                </div>
-            </a>
-            <a id="project-list-link" href="./kaggle.html" target="_blank">
-                <div class="project-list Hover-effect" id="Project-first">
-                    <img src="./images/kaggle.png" alt="">
-                    <div>
-                        <p class="Project-main-heading">Kaggle Competitions</p><br>
-                        <p>Kaggle is platform to compete with others in competitions which are based on machine learning
-                            tasks.</p>
-                    </div>
-                    <div class="language-used">
-                        <h5>Language Used</h5>
-                        <span class="Progress">
-                            <span itemprop="keywords" aria-label="HTML 69.2" style="background-color: red;width: 100%;"
-                                class="Progress-item "></span>
-                        </span>
-                        <ul style="text-decoration: none; list-style: none;">
 
-                            <li class="language-used-list">
-                                <svg height="10" width="15">
-                                    <circle cx="5" cy="5" r="5" stroke="black" stroke-width="0" fill="red" />
+                    <div class="card ML_card">
+                        <a href="">
+                            <img src="./images/mnist.png" alt="">
+                        </a>
+                        <div class="disciption">
+                            <h2>Mall Customer Segmentation Data</h2>
+                            <p>Find which group of mall customers is the main target by KMeans</p>
+                        </div>
+                        <div class="language_used">
+                            <p>Python</p>
+                        </div>
+                        <div class="status">
+                            <a style="    width: 38px;" href="https://google-forms-clone-atul.herokuapp.com/" target="_blank">
+                                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+         width="511.626px" height="511.627px" viewBox="0 0 511.626 511.627" style="enable-background:new 0 0 511.626 511.627;"
+         xml:space="preserve">
+    <g>
+        <g>
+            <path d="M392.857,292.354h-18.274c-2.669,0-4.859,0.855-6.563,2.573c-1.718,1.708-2.573,3.897-2.573,6.563v91.361
+                c0,12.563-4.47,23.315-13.415,32.262c-8.945,8.945-19.701,13.414-32.264,13.414H82.224c-12.562,0-23.317-4.469-32.264-13.414
+                c-8.945-8.946-13.417-19.698-13.417-32.262V155.31c0-12.562,4.471-23.313,13.417-32.259c8.947-8.947,19.702-13.418,32.264-13.418
+                h200.994c2.669,0,4.859-0.859,6.57-2.57c1.711-1.713,2.566-3.9,2.566-6.567V82.221c0-2.662-0.855-4.853-2.566-6.563
+                c-1.711-1.713-3.901-2.568-6.57-2.568H82.224c-22.648,0-42.016,8.042-58.102,24.125C8.042,113.297,0,132.665,0,155.313v237.542
+                c0,22.647,8.042,42.018,24.123,58.095c16.086,16.084,35.454,24.13,58.102,24.13h237.543c22.647,0,42.017-8.046,58.101-24.13
+                c16.085-16.077,24.127-35.447,24.127-58.095v-91.358c0-2.669-0.856-4.859-2.574-6.57
+                C397.709,293.209,395.519,292.354,392.857,292.354z"/>
+            <path d="M506.199,41.971c-3.617-3.617-7.905-5.424-12.85-5.424H347.171c-4.948,0-9.233,1.807-12.847,5.424
+                c-3.617,3.615-5.428,7.898-5.428,12.847s1.811,9.233,5.428,12.85l50.247,50.248L198.424,304.067
+                c-1.906,1.903-2.856,4.093-2.856,6.563c0,2.479,0.953,4.668,2.856,6.571l32.548,32.544c1.903,1.903,4.093,2.852,6.567,2.852
+                s4.665-0.948,6.567-2.852l186.148-186.148l50.251,50.248c3.614,3.617,7.898,5.426,12.847,5.426s9.233-1.809,12.851-5.426
+                c3.617-3.616,5.424-7.898,5.424-12.847V54.818C511.626,49.866,509.813,45.586,506.199,41.971z"/>
+        </g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    </svg>
+    
+                            </a>
+                            <a href="https://github.com/atultyagi612/google_forms_clone">
+                                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="438.549px"
+                                    height="438.549px" viewBox="0 0 438.549 438.549"
+                                    style="enable-background:new 0 0 438.549 438.549;" xml:space="preserve">
+                                    <g>
+                                        <path d="M409.132,114.573c-19.608-33.596-46.205-60.194-79.798-79.8C295.736,15.166,259.057,5.365,219.271,5.365
+            c-39.781,0-76.472,9.804-110.063,29.408c-33.596,19.605-60.192,46.204-79.8,79.8C9.803,148.168,0,184.854,0,224.63
+            c0,47.78,13.94,90.745,41.827,128.906c27.884,38.164,63.906,64.572,108.063,79.227c5.14,0.954,8.945,0.283,11.419-1.996
+            c2.475-2.282,3.711-5.14,3.711-8.562c0-0.571-0.049-5.708-0.144-15.417c-0.098-9.709-0.144-18.179-0.144-25.406l-6.567,1.136
+            c-4.187,0.767-9.469,1.092-15.846,1c-6.374-0.089-12.991-0.757-19.842-1.999c-6.854-1.231-13.229-4.086-19.13-8.559
+            c-5.898-4.473-10.085-10.328-12.56-17.556l-2.855-6.57c-1.903-4.374-4.899-9.233-8.992-14.559
+            c-4.093-5.331-8.232-8.945-12.419-10.848l-1.999-1.431c-1.332-0.951-2.568-2.098-3.711-3.429c-1.142-1.331-1.997-2.663-2.568-3.997
+            c-0.572-1.335-0.098-2.43,1.427-3.289c1.525-0.859,4.281-1.276,8.28-1.276l5.708,0.853c3.807,0.763,8.516,3.042,14.133,6.851
+            c5.614,3.806,10.229,8.754,13.846,14.842c4.38,7.806,9.657,13.754,15.846,17.847c6.184,4.093,12.419,6.136,18.699,6.136
+            c6.28,0,11.704-0.476,16.274-1.423c4.565-0.952,8.848-2.383,12.847-4.285c1.713-12.758,6.377-22.559,13.988-29.41
+            c-10.848-1.14-20.601-2.857-29.264-5.14c-8.658-2.286-17.605-5.996-26.835-11.14c-9.235-5.137-16.896-11.516-22.985-19.126
+            c-6.09-7.614-11.088-17.61-14.987-29.979c-3.901-12.374-5.852-26.648-5.852-42.826c0-23.035,7.52-42.637,22.557-58.817
+            c-7.044-17.318-6.379-36.732,1.997-58.24c5.52-1.715,13.706-0.428,24.554,3.853c10.85,4.283,18.794,7.952,23.84,10.994
+            c5.046,3.041,9.089,5.618,12.135,7.708c17.705-4.947,35.976-7.421,54.818-7.421s37.117,2.474,54.823,7.421l10.849-6.849
+            c7.419-4.57,16.18-8.758,26.262-12.565c10.088-3.805,17.802-4.853,23.134-3.138c8.562,21.509,9.325,40.922,2.279,58.24
+            c15.036,16.18,22.559,35.787,22.559,58.817c0,16.178-1.958,30.497-5.853,42.966c-3.9,12.471-8.941,22.457-15.125,29.979
+            c-6.191,7.521-13.901,13.85-23.131,18.986c-9.232,5.14-18.182,8.85-26.84,11.136c-8.662,2.286-18.415,4.004-29.263,5.146
+            c9.894,8.562,14.842,22.077,14.842,40.539v60.237c0,3.422,1.19,6.279,3.572,8.562c2.379,2.279,6.136,2.95,11.276,1.995
+            c44.163-14.653,80.185-41.062,108.068-79.226c27.88-38.161,41.825-81.126,41.825-128.906
+            C438.536,184.851,428.728,148.168,409.132,114.573z" />
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
                                 </svg>
-                                <span style="font-weight:500;">Python</span>
-                                <span style="font-style: italic;">100%</span>
-                            </li>
-                        </ul>
+    
+                            </a>
+                            
+                        </div>
                     </div>
-                </div>
-            </a>
 
+                    <div class="card web_card">
+                        <a href="">
+                            <img src="./images/tictactoe.jpg" alt="">
+                        </a>
+                        <div class="disciption">
+                            <h2>Tic tac toe</h2>
+                            <p>Tic tac toe using minmax algorithm</p>
+                        </div>
+                        <div class="language_used">
+                            <p>Python</p>
+                        </div>
+                        <div class="status">
+                            <a style="    width: 38px;" href="https://google-forms-clone-atul.herokuapp.com/" target="_blank">
+                                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+         width="511.626px" height="511.627px" viewBox="0 0 511.626 511.627" style="enable-background:new 0 0 511.626 511.627;"
+         xml:space="preserve">
+    <g>
+        <g>
+            <path d="M392.857,292.354h-18.274c-2.669,0-4.859,0.855-6.563,2.573c-1.718,1.708-2.573,3.897-2.573,6.563v91.361
+                c0,12.563-4.47,23.315-13.415,32.262c-8.945,8.945-19.701,13.414-32.264,13.414H82.224c-12.562,0-23.317-4.469-32.264-13.414
+                c-8.945-8.946-13.417-19.698-13.417-32.262V155.31c0-12.562,4.471-23.313,13.417-32.259c8.947-8.947,19.702-13.418,32.264-13.418
+                h200.994c2.669,0,4.859-0.859,6.57-2.57c1.711-1.713,2.566-3.9,2.566-6.567V82.221c0-2.662-0.855-4.853-2.566-6.563
+                c-1.711-1.713-3.901-2.568-6.57-2.568H82.224c-22.648,0-42.016,8.042-58.102,24.125C8.042,113.297,0,132.665,0,155.313v237.542
+                c0,22.647,8.042,42.018,24.123,58.095c16.086,16.084,35.454,24.13,58.102,24.13h237.543c22.647,0,42.017-8.046,58.101-24.13
+                c16.085-16.077,24.127-35.447,24.127-58.095v-91.358c0-2.669-0.856-4.859-2.574-6.57
+                C397.709,293.209,395.519,292.354,392.857,292.354z"/>
+            <path d="M506.199,41.971c-3.617-3.617-7.905-5.424-12.85-5.424H347.171c-4.948,0-9.233,1.807-12.847,5.424
+                c-3.617,3.615-5.428,7.898-5.428,12.847s1.811,9.233,5.428,12.85l50.247,50.248L198.424,304.067
+                c-1.906,1.903-2.856,4.093-2.856,6.563c0,2.479,0.953,4.668,2.856,6.571l32.548,32.544c1.903,1.903,4.093,2.852,6.567,2.852
+                s4.665-0.948,6.567-2.852l186.148-186.148l50.251,50.248c3.614,3.617,7.898,5.426,12.847,5.426s9.233-1.809,12.851-5.426
+                c3.617-3.616,5.424-7.898,5.424-12.847V54.818C511.626,49.866,509.813,45.586,506.199,41.971z"/>
+        </g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    </svg>
+    
+                            </a>
+                            <a href="https://github.com/atultyagi612/google_forms_clone">
+                                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="438.549px"
+                                    height="438.549px" viewBox="0 0 438.549 438.549"
+                                    style="enable-background:new 0 0 438.549 438.549;" xml:space="preserve">
+                                    <g>
+                                        <path d="M409.132,114.573c-19.608-33.596-46.205-60.194-79.798-79.8C295.736,15.166,259.057,5.365,219.271,5.365
+            c-39.781,0-76.472,9.804-110.063,29.408c-33.596,19.605-60.192,46.204-79.8,79.8C9.803,148.168,0,184.854,0,224.63
+            c0,47.78,13.94,90.745,41.827,128.906c27.884,38.164,63.906,64.572,108.063,79.227c5.14,0.954,8.945,0.283,11.419-1.996
+            c2.475-2.282,3.711-5.14,3.711-8.562c0-0.571-0.049-5.708-0.144-15.417c-0.098-9.709-0.144-18.179-0.144-25.406l-6.567,1.136
+            c-4.187,0.767-9.469,1.092-15.846,1c-6.374-0.089-12.991-0.757-19.842-1.999c-6.854-1.231-13.229-4.086-19.13-8.559
+            c-5.898-4.473-10.085-10.328-12.56-17.556l-2.855-6.57c-1.903-4.374-4.899-9.233-8.992-14.559
+            c-4.093-5.331-8.232-8.945-12.419-10.848l-1.999-1.431c-1.332-0.951-2.568-2.098-3.711-3.429c-1.142-1.331-1.997-2.663-2.568-3.997
+            c-0.572-1.335-0.098-2.43,1.427-3.289c1.525-0.859,4.281-1.276,8.28-1.276l5.708,0.853c3.807,0.763,8.516,3.042,14.133,6.851
+            c5.614,3.806,10.229,8.754,13.846,14.842c4.38,7.806,9.657,13.754,15.846,17.847c6.184,4.093,12.419,6.136,18.699,6.136
+            c6.28,0,11.704-0.476,16.274-1.423c4.565-0.952,8.848-2.383,12.847-4.285c1.713-12.758,6.377-22.559,13.988-29.41
+            c-10.848-1.14-20.601-2.857-29.264-5.14c-8.658-2.286-17.605-5.996-26.835-11.14c-9.235-5.137-16.896-11.516-22.985-19.126
+            c-6.09-7.614-11.088-17.61-14.987-29.979c-3.901-12.374-5.852-26.648-5.852-42.826c0-23.035,7.52-42.637,22.557-58.817
+            c-7.044-17.318-6.379-36.732,1.997-58.24c5.52-1.715,13.706-0.428,24.554,3.853c10.85,4.283,18.794,7.952,23.84,10.994
+            c5.046,3.041,9.089,5.618,12.135,7.708c17.705-4.947,35.976-7.421,54.818-7.421s37.117,2.474,54.823,7.421l10.849-6.849
+            c7.419-4.57,16.18-8.758,26.262-12.565c10.088-3.805,17.802-4.853,23.134-3.138c8.562,21.509,9.325,40.922,2.279,58.24
+            c15.036,16.18,22.559,35.787,22.559,58.817c0,16.178-1.958,30.497-5.853,42.966c-3.9,12.471-8.941,22.457-15.125,29.979
+            c-6.191,7.521-13.901,13.85-23.131,18.986c-9.232,5.14-18.182,8.85-26.84,11.136c-8.662,2.286-18.415,4.004-29.263,5.146
+            c9.894,8.562,14.842,22.077,14.842,40.539v60.237c0,3.422,1.19,6.279,3.572,8.562c2.379,2.279,6.136,2.95,11.276,1.995
+            c44.163-14.653,80.185-41.062,108.068-79.226c27.88-38.161,41.825-81.126,41.825-128.906
+            C438.536,184.851,428.728,148.168,409.132,114.573z" />
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                </svg>
+    
+                            </a>
+                            
+                        </div>
+                    </div>
+
+                    <div class="card web_card">
+                        <a href="">
+                            <img src="./images/image2.jpg" alt="">
+                        </a>
+                        <div class="disciption">
+                            <h2>news-app</h2>
+                            <p>A news app using nodejs , express, ejs.</p>
+                        </div>
+                        <div class="language_used">
+                            <p>Python</p>
+                        </div>
+                        <div class="status">
+                            <a style="    width: 38px;" href="https://google-forms-clone-atul.herokuapp.com/" target="_blank">
+                                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+         width="511.626px" height="511.627px" viewBox="0 0 511.626 511.627" style="enable-background:new 0 0 511.626 511.627;"
+         xml:space="preserve">
+    <g>
+        <g>
+            <path d="M392.857,292.354h-18.274c-2.669,0-4.859,0.855-6.563,2.573c-1.718,1.708-2.573,3.897-2.573,6.563v91.361
+                c0,12.563-4.47,23.315-13.415,32.262c-8.945,8.945-19.701,13.414-32.264,13.414H82.224c-12.562,0-23.317-4.469-32.264-13.414
+                c-8.945-8.946-13.417-19.698-13.417-32.262V155.31c0-12.562,4.471-23.313,13.417-32.259c8.947-8.947,19.702-13.418,32.264-13.418
+                h200.994c2.669,0,4.859-0.859,6.57-2.57c1.711-1.713,2.566-3.9,2.566-6.567V82.221c0-2.662-0.855-4.853-2.566-6.563
+                c-1.711-1.713-3.901-2.568-6.57-2.568H82.224c-22.648,0-42.016,8.042-58.102,24.125C8.042,113.297,0,132.665,0,155.313v237.542
+                c0,22.647,8.042,42.018,24.123,58.095c16.086,16.084,35.454,24.13,58.102,24.13h237.543c22.647,0,42.017-8.046,58.101-24.13
+                c16.085-16.077,24.127-35.447,24.127-58.095v-91.358c0-2.669-0.856-4.859-2.574-6.57
+                C397.709,293.209,395.519,292.354,392.857,292.354z"/>
+            <path d="M506.199,41.971c-3.617-3.617-7.905-5.424-12.85-5.424H347.171c-4.948,0-9.233,1.807-12.847,5.424
+                c-3.617,3.615-5.428,7.898-5.428,12.847s1.811,9.233,5.428,12.85l50.247,50.248L198.424,304.067
+                c-1.906,1.903-2.856,4.093-2.856,6.563c0,2.479,0.953,4.668,2.856,6.571l32.548,32.544c1.903,1.903,4.093,2.852,6.567,2.852
+                s4.665-0.948,6.567-2.852l186.148-186.148l50.251,50.248c3.614,3.617,7.898,5.426,12.847,5.426s9.233-1.809,12.851-5.426
+                c3.617-3.616,5.424-7.898,5.424-12.847V54.818C511.626,49.866,509.813,45.586,506.199,41.971z"/>
+        </g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    </svg>
+    
+                            </a>
+                            <a href="https://github.com/atultyagi612/google_forms_clone">
+                                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="438.549px"
+                                    height="438.549px" viewBox="0 0 438.549 438.549"
+                                    style="enable-background:new 0 0 438.549 438.549;" xml:space="preserve">
+                                    <g>
+                                        <path d="M409.132,114.573c-19.608-33.596-46.205-60.194-79.798-79.8C295.736,15.166,259.057,5.365,219.271,5.365
+            c-39.781,0-76.472,9.804-110.063,29.408c-33.596,19.605-60.192,46.204-79.8,79.8C9.803,148.168,0,184.854,0,224.63
+            c0,47.78,13.94,90.745,41.827,128.906c27.884,38.164,63.906,64.572,108.063,79.227c5.14,0.954,8.945,0.283,11.419-1.996
+            c2.475-2.282,3.711-5.14,3.711-8.562c0-0.571-0.049-5.708-0.144-15.417c-0.098-9.709-0.144-18.179-0.144-25.406l-6.567,1.136
+            c-4.187,0.767-9.469,1.092-15.846,1c-6.374-0.089-12.991-0.757-19.842-1.999c-6.854-1.231-13.229-4.086-19.13-8.559
+            c-5.898-4.473-10.085-10.328-12.56-17.556l-2.855-6.57c-1.903-4.374-4.899-9.233-8.992-14.559
+            c-4.093-5.331-8.232-8.945-12.419-10.848l-1.999-1.431c-1.332-0.951-2.568-2.098-3.711-3.429c-1.142-1.331-1.997-2.663-2.568-3.997
+            c-0.572-1.335-0.098-2.43,1.427-3.289c1.525-0.859,4.281-1.276,8.28-1.276l5.708,0.853c3.807,0.763,8.516,3.042,14.133,6.851
+            c5.614,3.806,10.229,8.754,13.846,14.842c4.38,7.806,9.657,13.754,15.846,17.847c6.184,4.093,12.419,6.136,18.699,6.136
+            c6.28,0,11.704-0.476,16.274-1.423c4.565-0.952,8.848-2.383,12.847-4.285c1.713-12.758,6.377-22.559,13.988-29.41
+            c-10.848-1.14-20.601-2.857-29.264-5.14c-8.658-2.286-17.605-5.996-26.835-11.14c-9.235-5.137-16.896-11.516-22.985-19.126
+            c-6.09-7.614-11.088-17.61-14.987-29.979c-3.901-12.374-5.852-26.648-5.852-42.826c0-23.035,7.52-42.637,22.557-58.817
+            c-7.044-17.318-6.379-36.732,1.997-58.24c5.52-1.715,13.706-0.428,24.554,3.853c10.85,4.283,18.794,7.952,23.84,10.994
+            c5.046,3.041,9.089,5.618,12.135,7.708c17.705-4.947,35.976-7.421,54.818-7.421s37.117,2.474,54.823,7.421l10.849-6.849
+            c7.419-4.57,16.18-8.758,26.262-12.565c10.088-3.805,17.802-4.853,23.134-3.138c8.562,21.509,9.325,40.922,2.279,58.24
+            c15.036,16.18,22.559,35.787,22.559,58.817c0,16.178-1.958,30.497-5.853,42.966c-3.9,12.471-8.941,22.457-15.125,29.979
+            c-6.191,7.521-13.901,13.85-23.131,18.986c-9.232,5.14-18.182,8.85-26.84,11.136c-8.662,2.286-18.415,4.004-29.263,5.146
+            c9.894,8.562,14.842,22.077,14.842,40.539v60.237c0,3.422,1.19,6.279,3.572,8.562c2.379,2.279,6.136,2.95,11.276,1.995
+            c44.163-14.653,80.185-41.062,108.068-79.226c27.88-38.161,41.825-81.126,41.825-128.906
+            C438.536,184.851,428.728,148.168,409.132,114.573z" />
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                </svg>
+    
+                            </a>
+                            
+                        </div>
+                    </div>
+
+                    <div class="card python_card">
+                        <a href="">
+                            <img src="./images/texteditor.jpg" alt="">
+                        </a>
+                        <div class="disciption">
+                            <h2>Text Editor</h2>
+                            <p>A text editor is a type of computer program that edits plain text and create, open, and edit text files on your computer</p>
+                        </div>
+                        <div class="language_used">
+                            <p>Python</p>
+                        </div>
+                        <div class="status">
+                            <a style="    width: 38px;" href="https://google-forms-clone-atul.herokuapp.com/" target="_blank">
+                                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+         width="511.626px" height="511.627px" viewBox="0 0 511.626 511.627" style="enable-background:new 0 0 511.626 511.627;"
+         xml:space="preserve">
+    <g>
+        <g>
+            <path d="M392.857,292.354h-18.274c-2.669,0-4.859,0.855-6.563,2.573c-1.718,1.708-2.573,3.897-2.573,6.563v91.361
+                c0,12.563-4.47,23.315-13.415,32.262c-8.945,8.945-19.701,13.414-32.264,13.414H82.224c-12.562,0-23.317-4.469-32.264-13.414
+                c-8.945-8.946-13.417-19.698-13.417-32.262V155.31c0-12.562,4.471-23.313,13.417-32.259c8.947-8.947,19.702-13.418,32.264-13.418
+                h200.994c2.669,0,4.859-0.859,6.57-2.57c1.711-1.713,2.566-3.9,2.566-6.567V82.221c0-2.662-0.855-4.853-2.566-6.563
+                c-1.711-1.713-3.901-2.568-6.57-2.568H82.224c-22.648,0-42.016,8.042-58.102,24.125C8.042,113.297,0,132.665,0,155.313v237.542
+                c0,22.647,8.042,42.018,24.123,58.095c16.086,16.084,35.454,24.13,58.102,24.13h237.543c22.647,0,42.017-8.046,58.101-24.13
+                c16.085-16.077,24.127-35.447,24.127-58.095v-91.358c0-2.669-0.856-4.859-2.574-6.57
+                C397.709,293.209,395.519,292.354,392.857,292.354z"/>
+            <path d="M506.199,41.971c-3.617-3.617-7.905-5.424-12.85-5.424H347.171c-4.948,0-9.233,1.807-12.847,5.424
+                c-3.617,3.615-5.428,7.898-5.428,12.847s1.811,9.233,5.428,12.85l50.247,50.248L198.424,304.067
+                c-1.906,1.903-2.856,4.093-2.856,6.563c0,2.479,0.953,4.668,2.856,6.571l32.548,32.544c1.903,1.903,4.093,2.852,6.567,2.852
+                s4.665-0.948,6.567-2.852l186.148-186.148l50.251,50.248c3.614,3.617,7.898,5.426,12.847,5.426s9.233-1.809,12.851-5.426
+                c3.617-3.616,5.424-7.898,5.424-12.847V54.818C511.626,49.866,509.813,45.586,506.199,41.971z"/>
+        </g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    </svg>
+    
+                            </a>
+                            <a href="https://github.com/atultyagi612/google_forms_clone">
+                                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="438.549px"
+                                    height="438.549px" viewBox="0 0 438.549 438.549"
+                                    style="enable-background:new 0 0 438.549 438.549;" xml:space="preserve">
+                                    <g>
+                                        <path d="M409.132,114.573c-19.608-33.596-46.205-60.194-79.798-79.8C295.736,15.166,259.057,5.365,219.271,5.365
+            c-39.781,0-76.472,9.804-110.063,29.408c-33.596,19.605-60.192,46.204-79.8,79.8C9.803,148.168,0,184.854,0,224.63
+            c0,47.78,13.94,90.745,41.827,128.906c27.884,38.164,63.906,64.572,108.063,79.227c5.14,0.954,8.945,0.283,11.419-1.996
+            c2.475-2.282,3.711-5.14,3.711-8.562c0-0.571-0.049-5.708-0.144-15.417c-0.098-9.709-0.144-18.179-0.144-25.406l-6.567,1.136
+            c-4.187,0.767-9.469,1.092-15.846,1c-6.374-0.089-12.991-0.757-19.842-1.999c-6.854-1.231-13.229-4.086-19.13-8.559
+            c-5.898-4.473-10.085-10.328-12.56-17.556l-2.855-6.57c-1.903-4.374-4.899-9.233-8.992-14.559
+            c-4.093-5.331-8.232-8.945-12.419-10.848l-1.999-1.431c-1.332-0.951-2.568-2.098-3.711-3.429c-1.142-1.331-1.997-2.663-2.568-3.997
+            c-0.572-1.335-0.098-2.43,1.427-3.289c1.525-0.859,4.281-1.276,8.28-1.276l5.708,0.853c3.807,0.763,8.516,3.042,14.133,6.851
+            c5.614,3.806,10.229,8.754,13.846,14.842c4.38,7.806,9.657,13.754,15.846,17.847c6.184,4.093,12.419,6.136,18.699,6.136
+            c6.28,0,11.704-0.476,16.274-1.423c4.565-0.952,8.848-2.383,12.847-4.285c1.713-12.758,6.377-22.559,13.988-29.41
+            c-10.848-1.14-20.601-2.857-29.264-5.14c-8.658-2.286-17.605-5.996-26.835-11.14c-9.235-5.137-16.896-11.516-22.985-19.126
+            c-6.09-7.614-11.088-17.61-14.987-29.979c-3.901-12.374-5.852-26.648-5.852-42.826c0-23.035,7.52-42.637,22.557-58.817
+            c-7.044-17.318-6.379-36.732,1.997-58.24c5.52-1.715,13.706-0.428,24.554,3.853c10.85,4.283,18.794,7.952,23.84,10.994
+            c5.046,3.041,9.089,5.618,12.135,7.708c17.705-4.947,35.976-7.421,54.818-7.421s37.117,2.474,54.823,7.421l10.849-6.849
+            c7.419-4.57,16.18-8.758,26.262-12.565c10.088-3.805,17.802-4.853,23.134-3.138c8.562,21.509,9.325,40.922,2.279,58.24
+            c15.036,16.18,22.559,35.787,22.559,58.817c0,16.178-1.958,30.497-5.853,42.966c-3.9,12.471-8.941,22.457-15.125,29.979
+            c-6.191,7.521-13.901,13.85-23.131,18.986c-9.232,5.14-18.182,8.85-26.84,11.136c-8.662,2.286-18.415,4.004-29.263,5.146
+            c9.894,8.562,14.842,22.077,14.842,40.539v60.237c0,3.422,1.19,6.279,3.572,8.562c2.379,2.279,6.136,2.95,11.276,1.995
+            c44.163-14.653,80.185-41.062,108.068-79.226c27.88-38.161,41.825-81.126,41.825-128.906
+            C438.536,184.851,428.728,148.168,409.132,114.573z" />
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                </svg>
+    
+                            </a>
+                            
+                        </div>
+                    </div>
+                    <div class="card python_card">
+                        <a href="">
+                            <img src="./images/socket.jpg" alt="">
+                        </a>
+                        <div class="disciption">
+                            <h2>Multi client Chat room</h2>
+                            <p>A simple GUI multi client system using python , Tkinter and Socket. </p>
+                        </div>
+                        <div class="language_used">
+                            <p>Python</p>
+                        </div>
+                        <div class="status">
+                            <a style="    width: 38px;" href="https://google-forms-clone-atul.herokuapp.com/" target="_blank">
+                                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+         width="511.626px" height="511.627px" viewBox="0 0 511.626 511.627" style="enable-background:new 0 0 511.626 511.627;"
+         xml:space="preserve">
+    <g>
+        <g>
+            <path d="M392.857,292.354h-18.274c-2.669,0-4.859,0.855-6.563,2.573c-1.718,1.708-2.573,3.897-2.573,6.563v91.361
+                c0,12.563-4.47,23.315-13.415,32.262c-8.945,8.945-19.701,13.414-32.264,13.414H82.224c-12.562,0-23.317-4.469-32.264-13.414
+                c-8.945-8.946-13.417-19.698-13.417-32.262V155.31c0-12.562,4.471-23.313,13.417-32.259c8.947-8.947,19.702-13.418,32.264-13.418
+                h200.994c2.669,0,4.859-0.859,6.57-2.57c1.711-1.713,2.566-3.9,2.566-6.567V82.221c0-2.662-0.855-4.853-2.566-6.563
+                c-1.711-1.713-3.901-2.568-6.57-2.568H82.224c-22.648,0-42.016,8.042-58.102,24.125C8.042,113.297,0,132.665,0,155.313v237.542
+                c0,22.647,8.042,42.018,24.123,58.095c16.086,16.084,35.454,24.13,58.102,24.13h237.543c22.647,0,42.017-8.046,58.101-24.13
+                c16.085-16.077,24.127-35.447,24.127-58.095v-91.358c0-2.669-0.856-4.859-2.574-6.57
+                C397.709,293.209,395.519,292.354,392.857,292.354z"/>
+            <path d="M506.199,41.971c-3.617-3.617-7.905-5.424-12.85-5.424H347.171c-4.948,0-9.233,1.807-12.847,5.424
+                c-3.617,3.615-5.428,7.898-5.428,12.847s1.811,9.233,5.428,12.85l50.247,50.248L198.424,304.067
+                c-1.906,1.903-2.856,4.093-2.856,6.563c0,2.479,0.953,4.668,2.856,6.571l32.548,32.544c1.903,1.903,4.093,2.852,6.567,2.852
+                s4.665-0.948,6.567-2.852l186.148-186.148l50.251,50.248c3.614,3.617,7.898,5.426,12.847,5.426s9.233-1.809,12.851-5.426
+                c3.617-3.616,5.424-7.898,5.424-12.847V54.818C511.626,49.866,509.813,45.586,506.199,41.971z"/>
+        </g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    </svg>
+    
+                            </a>
+                            <a href="https://github.com/atultyagi612/google_forms_clone">
+                                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="438.549px"
+                                    height="438.549px" viewBox="0 0 438.549 438.549"
+                                    style="enable-background:new 0 0 438.549 438.549;" xml:space="preserve">
+                                    <g>
+                                        <path d="M409.132,114.573c-19.608-33.596-46.205-60.194-79.798-79.8C295.736,15.166,259.057,5.365,219.271,5.365
+            c-39.781,0-76.472,9.804-110.063,29.408c-33.596,19.605-60.192,46.204-79.8,79.8C9.803,148.168,0,184.854,0,224.63
+            c0,47.78,13.94,90.745,41.827,128.906c27.884,38.164,63.906,64.572,108.063,79.227c5.14,0.954,8.945,0.283,11.419-1.996
+            c2.475-2.282,3.711-5.14,3.711-8.562c0-0.571-0.049-5.708-0.144-15.417c-0.098-9.709-0.144-18.179-0.144-25.406l-6.567,1.136
+            c-4.187,0.767-9.469,1.092-15.846,1c-6.374-0.089-12.991-0.757-19.842-1.999c-6.854-1.231-13.229-4.086-19.13-8.559
+            c-5.898-4.473-10.085-10.328-12.56-17.556l-2.855-6.57c-1.903-4.374-4.899-9.233-8.992-14.559
+            c-4.093-5.331-8.232-8.945-12.419-10.848l-1.999-1.431c-1.332-0.951-2.568-2.098-3.711-3.429c-1.142-1.331-1.997-2.663-2.568-3.997
+            c-0.572-1.335-0.098-2.43,1.427-3.289c1.525-0.859,4.281-1.276,8.28-1.276l5.708,0.853c3.807,0.763,8.516,3.042,14.133,6.851
+            c5.614,3.806,10.229,8.754,13.846,14.842c4.38,7.806,9.657,13.754,15.846,17.847c6.184,4.093,12.419,6.136,18.699,6.136
+            c6.28,0,11.704-0.476,16.274-1.423c4.565-0.952,8.848-2.383,12.847-4.285c1.713-12.758,6.377-22.559,13.988-29.41
+            c-10.848-1.14-20.601-2.857-29.264-5.14c-8.658-2.286-17.605-5.996-26.835-11.14c-9.235-5.137-16.896-11.516-22.985-19.126
+            c-6.09-7.614-11.088-17.61-14.987-29.979c-3.901-12.374-5.852-26.648-5.852-42.826c0-23.035,7.52-42.637,22.557-58.817
+            c-7.044-17.318-6.379-36.732,1.997-58.24c5.52-1.715,13.706-0.428,24.554,3.853c10.85,4.283,18.794,7.952,23.84,10.994
+            c5.046,3.041,9.089,5.618,12.135,7.708c17.705-4.947,35.976-7.421,54.818-7.421s37.117,2.474,54.823,7.421l10.849-6.849
+            c7.419-4.57,16.18-8.758,26.262-12.565c10.088-3.805,17.802-4.853,23.134-3.138c8.562,21.509,9.325,40.922,2.279,58.24
+            c15.036,16.18,22.559,35.787,22.559,58.817c0,16.178-1.958,30.497-5.853,42.966c-3.9,12.471-8.941,22.457-15.125,29.979
+            c-6.191,7.521-13.901,13.85-23.131,18.986c-9.232,5.14-18.182,8.85-26.84,11.136c-8.662,2.286-18.415,4.004-29.263,5.146
+            c9.894,8.562,14.842,22.077,14.842,40.539v60.237c0,3.422,1.19,6.279,3.572,8.562c2.379,2.279,6.136,2.95,11.276,1.995
+            c44.163-14.653,80.185-41.062,108.068-79.226c27.88-38.161,41.825-81.126,41.825-128.906
+            C438.536,184.851,428.728,148.168,409.132,114.573z" />
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                </svg>
+    
+                            </a>
+                            
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+    <!-- Footer   -->
+    <!-- <div class="footer">
+        <div>
             
-            <a id="project-list-link" href="./Python.html" target="_blank">
-                <div class="project-list Hover-effect" id="Project-first">
-                    <img src="./images/python.png" alt="">
-                    <div>
-                        <p class="Project-main-heading">Small python projects</p><br>
-                        <p></p>
-                    </div>
-                    <div class="language-used">
-                        <h5>Language Used</h5>
-                        <span class="Progress">
-                            <span itemprop="keywords" aria-label="HTML 69.2" style="background-color: red;width: 100%;"
-                                class="Progress-item "></span>
-                        </span>
-                        <ul style="text-decoration: none; list-style: none;">
-
-                            <li class="language-used-list">
-                                <svg height="10" width="15">
-                                    <circle cx="5" cy="5" r="5" stroke="black" stroke-width="0" fill="red" />
-                                </svg>
-                                <span style="font-weight:500;">Python</span>
-                                <span style="font-style: italic;">100%</span>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </a>
-
-            <a id="project-list-link" href="./javascript.html" target="_blank">
-                <div style="--underline_color:#e34c26 ; --underline-hight: 0.2rem;" class="project-list Hover-effect"
-                    id="Project-first">
-                    <img src="./images/html-css-js.jpeg" alt="">
-                    <div>
-                        <p class="Project-main-heading">Html/CSS/JS Projects</p><br>
-                        <p></p>
-                    </div>
-                    <div class="language-used">
-                        <h5>Language Used</h5>
-                        <span class="Progress">
-                            <span itemprop="keywords" aria-label="HTML 30" style="background-color: #e34c26;width: 66.8%;" class="Progress-item "></span>
-                            <span itemprop="keywords" aria-label="CSS 50" style="background-color: #563d7c;width: 26.8%;" class="Progress-item "></span>
-                            <span itemprop="keywords" aria-label="JavaScript 20" style="background-color: #f1e05a;width: 6.4%;" class="Progress-item "></span>
-                        </span>
-                        <ul style="text-decoration: none; list-style: none; display: flex;">
-                            
-                            <li>
-                                <svg height="10" width="15">
-                                    <circle cx="5" cy="5" r="5" stroke="black" stroke-width="0" fill=#e34c26 />
-                                  </svg>
-                                  <span style="font-weight: 500;">HTML</span>
-                                  <span style="font-style: italic;">30%</span>
-                            </li>
-                            <li style="margin-left: 10px;">
-                                <svg height="10" width="15">
-                                    <circle cx="5" cy="5" r="5" stroke="black" stroke-width="0" fill=#563d7c />
-                                  </svg>
-                                  <span style="font-weight: 500;">CSS</span>
-                                  <span style="font-style: italic;">50%</span>
-                            </li>
-                            <li style="margin-left: 10px;">
-                                <svg height="10" width="15">
-                                    <circle cx="5" cy="5" r="5" stroke="black" stroke-width="0" fill=#f1e05a />
-                                  </svg>
-                                  <span style="font-weight: 500;">JavaScript</span>
-                                  <span style="font-style: italic;">20%</span>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </a>
         </div>
-    </div>
-
-    <div class="follow" id="follow-on">
-        <div class="follow-heading Project-heading">
-            <!-- <h1>Follow on</h1> -->
-            <span class="project-line-before"></span>
-            <span class="project--" id="project-id-1">F</span>
-            <span class="project--" id="project-id-2">o</span>
-            <span class="project--" id="project-id-3">l</span>
-            <span class="project--" id="project-id-4">l</span>
-            <span class="project--" id="project-id-5">o</span>
-            <span class="project--" id="project-id-6">w</span>
-            <span class="project--">&nbsp;</span>
-            <span class="project--" id="project-id-7">O</span>
-            <span class="project--" id="project-id-8">n</span>
-            <span class="project-line-after"></span>
+        <div>
+            Atul Tyagi
         </div>
-        <div class="social-media">
-            <a id="facebook-id" href="https://www.facebook.com/people/Atul-Tyagi/100011026503096" target="_blank"><i
-                    class="fab fa-facebook"></i></a>
-            <a href="https://www.instagram.com/atultyagi___/" target="_blank"><i class="fab fa-instagram"></i></a>
-            <a href="https://www.kaggle.com/atultyagi2000" target="_blank"><i class="fab fa-kaggle"></i></a>
-            <a href="https://github.com/atultyagi612" target="_blank"><i class="fab fa-github"></i></a>
-        </div>
-    </div>
+        
+    </div> -->
+    <script src="./js/loader.js"></script>
+    <script src="./js/navbar.js"></script>
+    <script src="./js/animatebouncing.js"></script>
+    <script src="./js/dynamic_typing.js"></script>
+    <script src="./js/skills.js"></script> 
+    <script src="./js/cards_sorting.js"></script> 
+    <script src="./js/animate.js"></script> 
+    <!-- <script src="./js/canvas.js"></script> -->
+    <script>
+        window.onload = function() {
+            onload_animation()
 
-
-    <script src="./javas/navbar.js"> </script>
-    <script src="./javas/blast-word.js"></script>
-    <script src="./javas/skills.js"></script>
-    <script src="./javas/highlight12.js"></script>
-    <script src="./javas/canvas.js"></script>
+   }
+        
+    </script>
 </body>
 
 </html>

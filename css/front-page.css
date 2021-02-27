@@ -1,0 +1,63 @@
+.welcome{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: 100vh;
+    margin: 158px;
+    margin-left: 247px;
+    }
+    .welcome #welcome-p{
+        margin: 14px;
+        font-size: 17px;
+        padding-left: 0px;
+        margin-top: 39px;
+        margin-left: 0px;
+    }
+    .mynameis{
+        color: var(--secondary_color);
+        font-size: 20px;
+        margin-left: -23px;
+        font-family: monospace;
+    }
+    .loves{
+        font-size: clamp(40px, 8vw, 80px);
+        color: var(--fourth_color);
+    }
+    .underline{
+        height:2px;width:100%;border-width:0;background-color:rgb(161, 216, 226);
+    }
+    .rubberBand {
+        display: inline-block;
+        cursor: default;
+    }
+.names_heading{
+    font-size: 80px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+        padding: 0px 0px;
+        margin: -3px;
+}
+
+
+    
+  
+   
+        @media screen and (max-width: 768px) {
+            .welcome{
+                display: inline-block;
+                margin: 35px;
+                margin-top: 76px;
+                }
+                .rubberBand {
+                    font-size: 60px;
+                    padding: 0px 0px;
+                    margin: -3px;
+                  
+                }
+                .image-language {
+                    height: 39px;
+                }
+                #see-my-work{
+                    margin: 10px 12px;
+                }
+        }
