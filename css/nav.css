@@ -85,7 +85,7 @@ nav {
     background-color: royalblue;
 }
 .active-container{
-    color: var(--secondary_color);
+    color: var(--secondary_color) !important;
 }
 .active-container::after{
     transform: scale(1, 1);

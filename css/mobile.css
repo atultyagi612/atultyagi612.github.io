@@ -28,12 +28,16 @@
     .about-me-para{
         padding: 58px 25px;
     }
-    .para-1{
-        width: 93%;
+    .para-1 , .para-2{
+        width: 112%;
+        margin: 0px;
     }
 
     /* skills  */
 
+    .skills_info {
+        margin-top: 12px;
+    }
     .skills-bar{
         padding: 25px 12px;
     }
@@ -42,6 +46,9 @@
     }
 
     /* project  */
+    #Project-heading{
+        margin-bottom: 59px;
+    }
     .projects hr{
         margin-bottom: 28px;
     }
@@ -73,9 +80,13 @@
     }
     .proj_image{
         height: 92px;
+        width: auto;
     }
     .proj_name , .reverse_proj_name{
         z-index: 11;
+    }
+    .project_detail{
+        width: auto;
     }
 
 
@@ -91,6 +102,25 @@
         font-size: 11px;
     }
     .card{
-        flex-basis: 90%;
+        margin: 0px;
+        flex-basis: 100%;
+        margin-bottom: 54px;
+        border: 1px solid var(--secondary_color);
+        border-radius: 2px;
+    }
+    .disciption{
+        padding: 2px;
+    }
+
+    /* footer  */
+    .footer{
+        flex-direction: column;
+    }
+    .first{
+        margin-top: 3px;
+        align-self: center;
+        width: 100%;
+        justify-content: center;
+        place-content: space-evenly;
     }
 }

@@ -39,21 +39,22 @@ window.addEventListener('scroll',function () {
 })
 
 
-const sections = document.querySelectorAll('body>div');
+const sections = document.querySelectorAll('body>div')[1].children;
 const navlinks=document.querySelectorAll('.navlinks li a');
 
 window.addEventListener('scroll',()=>{
 
     let current="";
     let prev=""
-    sections.forEach( section =>{
-        const sectionTop = section.offsetTop;
-        const sectionHeight = section.clientHeight;
-         if(pageYOffset >=(sectionTop-550)){
-             current=section.getAttribute('id');
-            
-         }
-    })
+    for(let i=0;i<sections.length;i++){
+            const sectionTop = sections[i].offsetTop;
+            const sectionHeight = sections[i].clientHeight;
+            if(pageYOffset >=(sectionTop-550)){
+                current=sections[i].getAttribute('id');
+                
+            }
+        
+    }
     navlinks.forEach(li=>{
         li.classList.remove('active-container');
         if(li.classList.contains(current)){

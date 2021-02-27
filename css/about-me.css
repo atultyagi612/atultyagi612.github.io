@@ -1,5 +1,5 @@
 .about-me{
-    
+    text-align: -webkit-center;
 }
 #about_heading{
     margin-bottom: 60px;
@@ -32,7 +32,7 @@
 }
 .para-1{
     margin-right: 77px;
-    width: 56%;
+    width: 66%;
 
 }
 .para-2{
@@ -43,10 +43,10 @@
     color: var(--secondary_color);
 }
 .about-me-container{
-    
     display: flex;
     align-items: center;
     text-align: center;
+    width: 90%;
 }
 
 #about-me-image img{
