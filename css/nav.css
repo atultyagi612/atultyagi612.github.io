@@ -177,13 +177,13 @@ nav {
     }
 
     .sideview {
-        
         display: block;
         cursor: pointer;
         
     }
     .nav-active {
-        transform: translateX(0%)
+        /* display: flex !important; */
+        transform: translateX(0%);
     }
     .scroll-active ul.navlinks{
         /* transition:background-color  1s ease-out; */

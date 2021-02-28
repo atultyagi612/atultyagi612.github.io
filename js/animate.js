@@ -76,3 +76,5 @@ function view(){
     }
 }
  document.addEventListener('scroll', view);
+
+

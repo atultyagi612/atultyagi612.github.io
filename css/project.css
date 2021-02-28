@@ -154,6 +154,7 @@ flex-direction: column;
     margin-top: 5px;
     display: flex;
     justify-content: center;
+    min-height: 500px;
 }
 .other_heading h2{
     color: var(--third_color);

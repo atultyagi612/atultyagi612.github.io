@@ -1,5 +1,10 @@
 @media screen and (max-width: 768px) {
 
+    body{
+        overflow-x: hidden;
+
+    }
+
     .sideview{
         margin-right: 42px;
     }
@@ -13,6 +18,7 @@
     }
     .navlinks{
         background-color: var(--primary_second_color);
+        /* display: none; */
     }
 
     /* front page  */
@@ -122,5 +128,8 @@
         width: 100%;
         justify-content: center;
         place-content: space-evenly;
+    }
+    .footer_links{
+        display: none;
     }
 }

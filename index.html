@@ -27,126 +27,196 @@
     <link rel="stylesheet" href="./css/project.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/mobile.css">
+    <style>
+        body{
+            overflow-x: hidden;
+        }
+    </style>
 </head>
 
 <body onload='myFunction()'>
     <!-- <canvas id="canvas1"></canvas> -->
     <div class="loading">
-        
-        <svg  class="loading_animation" width="2087" height="1323" viewBox="0 0 2087 1323" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+        <svg class="loading_animation" width="2087" height="1323" viewBox="0 0 2087 1323" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
             <g filter="url(#filter0_di)">
-            <line x1="320.594" y1="142" x2="629.281" y2="142" stroke="#D8A3D2" stroke-width="20"/>
-            <line y1="-10" x2="95.5226" y2="-10" transform="matrix(0.981738 0.190236 -0.178514 0.983937 629.281 152)" stroke="black" stroke-width="20"/>
-            <line y1="-10" x2="1081.68" y2="-10" transform="matrix(0.275444 0.961317 -0.956226 0.29263 723.059 170.172)" stroke="#5CCDB2" stroke-width="20"/>
-            <line y1="-10" x2="1089.67" y2="-10" transform="matrix(-0.28687 0.95797 -0.95247 -0.304633 320.594 152)" stroke="#00FFE0" stroke-width="20"/>
-            <line y1="-10" x2="111.04" y2="-10" transform="matrix(0.325501 0.945542 -0.93857 0.345089 8 1210.01)" stroke="#81DEC2" stroke-width="20"/>
-            <line y1="-10" x2="315.03" y2="-10" transform="matrix(0.995368 -0.0961383 0.090064 0.995936 44.1437 1315)" stroke="#D8A3D2" stroke-width="20"/>
-            <line y1="-10" x2="173.987" y2="-10" transform="matrix(-0.247039 0.969005 -0.964871 -0.262725 400.696 1116.12)" stroke="black" stroke-width="20"/>
-            <line y1="-10" x2="229.661" y2="-10" transform="matrix(0.995313 -0.0967081 0.0905984 0.995888 400.696 1116.12)" stroke="#EEEBA1" stroke-width="20"/>
-            <line y1="-10" x2="49.9567" y2="-10" transform="matrix(0.312865 0.949798 -0.943322 0.331878 629.281 1093.91)" stroke="black" stroke-width="20"/>
-            <line y1="-10" x2="126.077" y2="-10" transform="matrix(0.619846 0.784723 -0.764331 0.644825 644.91 1141.36)" stroke="black" stroke-width="20"/>
-            <line y1="-10" x2="299.477" y2="-10" transform="matrix(0.994873 -0.101131 0.0947473 0.995501 723.059 1240.29)" stroke="#EEEBA1" stroke-width="20"/>
-            <line y1="-10" x2="103.217" y2="-10" transform="matrix(-0.20821 0.978084 -0.975114 -0.221705 514.012 673.937)" stroke="#001AFF" stroke-width="20"/>
-            <line y1="-10" x2="88.4517" y2="-10" transform="matrix(0.320274 0.947325 -0.94056 0.339628 514.988 673.937)" stroke="#9A3690" stroke-width="20"/>
-            <line y1="-10" x2="53.6175" y2="-10" transform="matrix(0.947388 -0.320088 0.301605 0.953433 492.521 774.891)" stroke="#24FF00" stroke-width="20"/>
-            <line y1="-10" x2="53.6175" y2="-10" transform="matrix(0.947388 -0.320088 0.301605 0.953433 492.521 774.891)" stroke="url(#paint0_linear)" stroke-width="20"/>
-            <line y1="-10" x2="399.739" y2="-10" transform="matrix(0.982245 -0.187603 0.174687 0.984624 8 1190.83)" stroke="black" stroke-width="20"/>
-            <line y1="-10" x2="399.739" y2="-10" transform="matrix(0.982245 -0.187603 0.174687 0.984624 8 1190.83)" stroke="url(#paint1_linear)" stroke-width="20"/>
-            <line y1="-10" x2="333.439" y2="-10" transform="matrix(0.963852 -0.266437 0.25056 0.968101 637.095 1093.91)" stroke="black" stroke-width="20"/>
-            <line y1="-10" x2="333.439" y2="-10" transform="matrix(0.963852 -0.266437 0.25056 0.968101 637.095 1093.91)" stroke="url(#paint2_linear)" stroke-width="20"/>
-            <line y1="-10" x2="361.172" y2="-10" transform="matrix(-0.254241 0.967141 -0.962772 -0.270316 492.521 766.815)" stroke="#81DEC2" stroke-width="20"/>
-            <line y1="-10" x2="349.015" y2="-10" transform="matrix(0.268694 0.963225 -0.958369 0.285533 543.317 757.729)" stroke="#3C6370" stroke-width="20"/>
-            <line y1="-10" x2="714.486" y2="-10" transform="matrix(0.745224 0.666815 -0.64219 0.766546 320.594 152)" stroke="#24FF00" stroke-width="20"/>
-            <line y1="-10" x2="712.076" y2="-10" transform="matrix(-0.764117 0.645078 -0.620103 -0.78452 723.059 170.172)" stroke="black" stroke-width="20"/>
-            <line y1="-10" x2="712.076" y2="-10" transform="matrix(-0.764117 0.645078 -0.620103 -0.78452 723.059 170.172)" stroke="url(#paint3_linear)" stroke-width="20"/>
-            <line y1="-10" x2="101.969" y2="-10" transform="matrix(-0.0102933 -0.999947 0.99994 -0.0109937 514.988 673.937)" stroke="black" stroke-width="20"/>
-            <line y1="-10" x2="319.26" y2="-10" transform="matrix(-0.413067 0.910701 -0.899959 -0.435974 514.012 571.972)" stroke="#00FFE0" stroke-width="20"/>
-            <line y1="-10" x2="326.47" y2="-10" transform="matrix(0.454811 0.890588 -0.877901 0.478843 514.012 571.972)" stroke="black" stroke-width="20"/>
-            <line y1="-10" x2="326.47" y2="-10" transform="matrix(0.454811 0.890588 -0.877901 0.478843 514.012 571.972)" stroke="url(#paint4_linear)" stroke-width="20"/>
-            <line x1="382.136" y1="852.722" x2="662.494" y2="852.722" stroke="#5CCDB2" stroke-width="20"/>
-            <line y1="-10" x2="409.158" y2="-10" transform="matrix(0.680431 0.732812 -0.710044 0.704158 122.292 818.302)" stroke="black" stroke-width="20"/>
-            <line y1="-10" x2="409.158" y2="-10" transform="matrix(0.680431 0.732812 -0.710044 0.704158 122.292 818.302)" stroke="url(#paint5_linear)" stroke-width="20"/>
-            <line y1="-10" x2="394.849" y2="-10" transform="matrix(0.690247 -0.723574 0.700471 0.713681 629.281 1093.91)" stroke="#3C6370" stroke-width="20"/>
-            <line x1="1205.57" y1="102.103" x2="1837.48" y2="10.5356" stroke="#D8A3D2" stroke-width="20"/>
-            <line x1="1214.84" y1="118.202" x2="1146.84" y2="204.202" stroke="black" stroke-width="20"/>
-            <line x1="1149" y1="198" x2="1149" y2="284" stroke="black" stroke-width="20"/>
-            <line x1="1146.36" y1="277.234" x2="1180.36" y2="314.234" stroke="black" stroke-width="20"/>
-            <line x1="1175.66" y1="311.361" x2="1356.66" y2="361.361" stroke="#81DEC2" stroke-width="20"/>
-            <line x1="1352.67" y1="361.089" x2="1434.67" y2="350.089" stroke="#81DEC2" stroke-width="20"/>
-            <line x1="1755.41" y1="311.127" x2="1984.44" y2="274.284" stroke="black" stroke-width="20"/>
-            <line x1="1978.99" y1="276.869" x2="2037.99" y2="218.869" stroke="black" stroke-width="20"/>
-            <line x1="1841.4" y1="10.2925" x2="2027.4" y2="56.2925" stroke="#00FFE0" stroke-width="20"/>
-            <line x1="2034.07" y1="61.7954" x2="2072.07" y2="143.795" stroke="black" stroke-width="20"/>
-            <line x1="2072.74" y1="150.249" x2="2054.74" y2="228.249" stroke="black" stroke-width="20"/>
-            <line x1="1445.99" y1="360.359" x2="1416.99" y2="1167.36" stroke="#00FFE0" stroke-width="20"/>
-            <line x1="1416.46" y1="1163.75" x2="1439.46" y2="1230.75" stroke="#5CCDB2" stroke-width="20"/>
-            <line x1="1436.33" y1="1226.26" x2="1469.33" y2="1253.26" stroke="#9A3690" stroke-width="20"/>
-            <line x1="1465.47" y1="1251.31" x2="1618.47" y2="1290.31" stroke="#3C6370" stroke-width="20"/>
-            <line x1="1614" y1="1290.2" x2="1658" y2="1281.2" stroke="#9A3690" stroke-width="20"/>
-            <line x1="1652.48" y1="1284.41" x2="1702.48" y2="1227.41" stroke="#001AFF" stroke-width="20"/>
-            <line x1="1731.49" y1="1204.16" x2="1719.49" y2="1240.16" stroke="black" stroke-width="20"/>
-            <line x1="1712.01" y1="1200.6" x2="1747.01" y2="320.603" stroke="#FF0000" stroke-width="20"/>
-            <line x1="1434.79" y1="350.073" x2="1755.79" y2="311.073" stroke="#5CCDB2" stroke-width="20"/>
-            <line x1="1428.65" y1="366.784" x2="1199.65" y2="118.784" stroke="#24FF00" stroke-width="20"/>
-            <line x1="1747.37" y1="318.322" x2="1829.62" y2="22.3935" stroke="#EEEBA1" stroke-width="20"/>
-            <line x1="1399.95" y1="1159.91" x2="1726.95" y2="834.907" stroke="#FF0000" stroke-width="20"/>
-            <line x1="1714.34" y1="1207.42" x2="1413.34" y2="848.425" stroke="#9A3690" stroke-width="20"/>
-            <line x1="1210.55" y1="102.652" x2="1760.55" y2="311.652" stroke="#5CCDB2" stroke-width="20"/>
-            <line x1="1845.45" y1="27.6432" x2="1442.45" y2="367.643" stroke="#3C6370" stroke-width="20"/>
-            <line x1="1444.51" y1="354.741" x2="1742.51" y2="836.741" stroke="#3C6370" stroke-width="20"/>
-            <line x1="1412.6" y1="836.58" x2="1748.6" y2="315.58" stroke="#24FF00" stroke-width="20"/>
-            <line x1="2034.84" y1="67.761" x2="1995.84" y2="285.761" stroke="#FF0000" stroke-width="20"/>
-            <line x1="2035.08" y1="227.24" x2="2015.08" y2="67.2404" stroke="black" stroke-width="20"/>
-            <line x1="1977.3" y1="279.073" x2="2054.3" y2="143.073" stroke="#24FF00" stroke-width="20"/>
-            <line x1="1148.62" y1="195.274" x2="1182.62" y2="315.274" stroke="#001AFF" stroke-width="20"/>
-            <line x1="1129.4" y1="281.186" x2="1168.4" y2="148.186" stroke="#FF0000" stroke-width="20"/>
+                <line x1="320.594" y1="142" x2="629.281" y2="142" stroke="#D8A3D2" stroke-width="20" />
+                <line y1="-10" x2="95.5226" y2="-10"
+                    transform="matrix(0.981738 0.190236 -0.178514 0.983937 629.281 152)" stroke="black"
+                    stroke-width="20" />
+                <line y1="-10" x2="1081.68" y2="-10"
+                    transform="matrix(0.275444 0.961317 -0.956226 0.29263 723.059 170.172)" stroke="#5CCDB2"
+                    stroke-width="20" />
+                <line y1="-10" x2="1089.67" y2="-10" transform="matrix(-0.28687 0.95797 -0.95247 -0.304633 320.594 152)"
+                    stroke="#00FFE0" stroke-width="20" />
+                <line y1="-10" x2="111.04" y2="-10" transform="matrix(0.325501 0.945542 -0.93857 0.345089 8 1210.01)"
+                    stroke="#81DEC2" stroke-width="20" />
+                <line y1="-10" x2="315.03" y2="-10"
+                    transform="matrix(0.995368 -0.0961383 0.090064 0.995936 44.1437 1315)" stroke="#D8A3D2"
+                    stroke-width="20" />
+                <line y1="-10" x2="173.987" y2="-10"
+                    transform="matrix(-0.247039 0.969005 -0.964871 -0.262725 400.696 1116.12)" stroke="black"
+                    stroke-width="20" />
+                <line y1="-10" x2="229.661" y2="-10"
+                    transform="matrix(0.995313 -0.0967081 0.0905984 0.995888 400.696 1116.12)" stroke="#EEEBA1"
+                    stroke-width="20" />
+                <line y1="-10" x2="49.9567" y2="-10"
+                    transform="matrix(0.312865 0.949798 -0.943322 0.331878 629.281 1093.91)" stroke="black"
+                    stroke-width="20" />
+                <line y1="-10" x2="126.077" y2="-10"
+                    transform="matrix(0.619846 0.784723 -0.764331 0.644825 644.91 1141.36)" stroke="black"
+                    stroke-width="20" />
+                <line y1="-10" x2="299.477" y2="-10"
+                    transform="matrix(0.994873 -0.101131 0.0947473 0.995501 723.059 1240.29)" stroke="#EEEBA1"
+                    stroke-width="20" />
+                <line y1="-10" x2="103.217" y2="-10"
+                    transform="matrix(-0.20821 0.978084 -0.975114 -0.221705 514.012 673.937)" stroke="#001AFF"
+                    stroke-width="20" />
+                <line y1="-10" x2="88.4517" y2="-10"
+                    transform="matrix(0.320274 0.947325 -0.94056 0.339628 514.988 673.937)" stroke="#9A3690"
+                    stroke-width="20" />
+                <line y1="-10" x2="53.6175" y2="-10"
+                    transform="matrix(0.947388 -0.320088 0.301605 0.953433 492.521 774.891)" stroke="#24FF00"
+                    stroke-width="20" />
+                <line y1="-10" x2="53.6175" y2="-10"
+                    transform="matrix(0.947388 -0.320088 0.301605 0.953433 492.521 774.891)"
+                    stroke="url(#paint0_linear)" stroke-width="20" />
+                <line y1="-10" x2="399.739" y2="-10" transform="matrix(0.982245 -0.187603 0.174687 0.984624 8 1190.83)"
+                    stroke="black" stroke-width="20" />
+                <line y1="-10" x2="399.739" y2="-10" transform="matrix(0.982245 -0.187603 0.174687 0.984624 8 1190.83)"
+                    stroke="url(#paint1_linear)" stroke-width="20" />
+                <line y1="-10" x2="333.439" y2="-10"
+                    transform="matrix(0.963852 -0.266437 0.25056 0.968101 637.095 1093.91)" stroke="black"
+                    stroke-width="20" />
+                <line y1="-10" x2="333.439" y2="-10"
+                    transform="matrix(0.963852 -0.266437 0.25056 0.968101 637.095 1093.91)" stroke="url(#paint2_linear)"
+                    stroke-width="20" />
+                <line y1="-10" x2="361.172" y2="-10"
+                    transform="matrix(-0.254241 0.967141 -0.962772 -0.270316 492.521 766.815)" stroke="#81DEC2"
+                    stroke-width="20" />
+                <line y1="-10" x2="349.015" y2="-10"
+                    transform="matrix(0.268694 0.963225 -0.958369 0.285533 543.317 757.729)" stroke="#3C6370"
+                    stroke-width="20" />
+                <line y1="-10" x2="714.486" y2="-10" transform="matrix(0.745224 0.666815 -0.64219 0.766546 320.594 152)"
+                    stroke="#24FF00" stroke-width="20" />
+                <line y1="-10" x2="712.076" y2="-10"
+                    transform="matrix(-0.764117 0.645078 -0.620103 -0.78452 723.059 170.172)" stroke="black"
+                    stroke-width="20" />
+                <line y1="-10" x2="712.076" y2="-10"
+                    transform="matrix(-0.764117 0.645078 -0.620103 -0.78452 723.059 170.172)"
+                    stroke="url(#paint3_linear)" stroke-width="20" />
+                <line y1="-10" x2="101.969" y2="-10"
+                    transform="matrix(-0.0102933 -0.999947 0.99994 -0.0109937 514.988 673.937)" stroke="black"
+                    stroke-width="20" />
+                <line y1="-10" x2="319.26" y2="-10"
+                    transform="matrix(-0.413067 0.910701 -0.899959 -0.435974 514.012 571.972)" stroke="#00FFE0"
+                    stroke-width="20" />
+                <line y1="-10" x2="326.47" y2="-10"
+                    transform="matrix(0.454811 0.890588 -0.877901 0.478843 514.012 571.972)" stroke="black"
+                    stroke-width="20" />
+                <line y1="-10" x2="326.47" y2="-10"
+                    transform="matrix(0.454811 0.890588 -0.877901 0.478843 514.012 571.972)"
+                    stroke="url(#paint4_linear)" stroke-width="20" />
+                <line x1="382.136" y1="852.722" x2="662.494" y2="852.722" stroke="#5CCDB2" stroke-width="20" />
+                <line y1="-10" x2="409.158" y2="-10"
+                    transform="matrix(0.680431 0.732812 -0.710044 0.704158 122.292 818.302)" stroke="black"
+                    stroke-width="20" />
+                <line y1="-10" x2="409.158" y2="-10"
+                    transform="matrix(0.680431 0.732812 -0.710044 0.704158 122.292 818.302)"
+                    stroke="url(#paint5_linear)" stroke-width="20" />
+                <line y1="-10" x2="394.849" y2="-10"
+                    transform="matrix(0.690247 -0.723574 0.700471 0.713681 629.281 1093.91)" stroke="#3C6370"
+                    stroke-width="20" />
+                <line x1="1205.57" y1="102.103" x2="1837.48" y2="10.5356" stroke="#D8A3D2" stroke-width="20" />
+                <line x1="1214.84" y1="118.202" x2="1146.84" y2="204.202" stroke="black" stroke-width="20" />
+                <line x1="1149" y1="198" x2="1149" y2="284" stroke="black" stroke-width="20" />
+                <line x1="1146.36" y1="277.234" x2="1180.36" y2="314.234" stroke="black" stroke-width="20" />
+                <line x1="1175.66" y1="311.361" x2="1356.66" y2="361.361" stroke="#81DEC2" stroke-width="20" />
+                <line x1="1352.67" y1="361.089" x2="1434.67" y2="350.089" stroke="#81DEC2" stroke-width="20" />
+                <line x1="1755.41" y1="311.127" x2="1984.44" y2="274.284" stroke="black" stroke-width="20" />
+                <line x1="1978.99" y1="276.869" x2="2037.99" y2="218.869" stroke="black" stroke-width="20" />
+                <line x1="1841.4" y1="10.2925" x2="2027.4" y2="56.2925" stroke="#00FFE0" stroke-width="20" />
+                <line x1="2034.07" y1="61.7954" x2="2072.07" y2="143.795" stroke="black" stroke-width="20" />
+                <line x1="2072.74" y1="150.249" x2="2054.74" y2="228.249" stroke="black" stroke-width="20" />
+                <line x1="1445.99" y1="360.359" x2="1416.99" y2="1167.36" stroke="#00FFE0" stroke-width="20" />
+                <line x1="1416.46" y1="1163.75" x2="1439.46" y2="1230.75" stroke="#5CCDB2" stroke-width="20" />
+                <line x1="1436.33" y1="1226.26" x2="1469.33" y2="1253.26" stroke="#9A3690" stroke-width="20" />
+                <line x1="1465.47" y1="1251.31" x2="1618.47" y2="1290.31" stroke="#3C6370" stroke-width="20" />
+                <line x1="1614" y1="1290.2" x2="1658" y2="1281.2" stroke="#9A3690" stroke-width="20" />
+                <line x1="1652.48" y1="1284.41" x2="1702.48" y2="1227.41" stroke="#001AFF" stroke-width="20" />
+                <line x1="1731.49" y1="1204.16" x2="1719.49" y2="1240.16" stroke="black" stroke-width="20" />
+                <line x1="1712.01" y1="1200.6" x2="1747.01" y2="320.603" stroke="#FF0000" stroke-width="20" />
+                <line x1="1434.79" y1="350.073" x2="1755.79" y2="311.073" stroke="#5CCDB2" stroke-width="20" />
+                <line x1="1428.65" y1="366.784" x2="1199.65" y2="118.784" stroke="#24FF00" stroke-width="20" />
+                <line x1="1747.37" y1="318.322" x2="1829.62" y2="22.3935" stroke="#EEEBA1" stroke-width="20" />
+                <line x1="1399.95" y1="1159.91" x2="1726.95" y2="834.907" stroke="#FF0000" stroke-width="20" />
+                <line x1="1714.34" y1="1207.42" x2="1413.34" y2="848.425" stroke="#9A3690" stroke-width="20" />
+                <line x1="1210.55" y1="102.652" x2="1760.55" y2="311.652" stroke="#5CCDB2" stroke-width="20" />
+                <line x1="1845.45" y1="27.6432" x2="1442.45" y2="367.643" stroke="#3C6370" stroke-width="20" />
+                <line x1="1444.51" y1="354.741" x2="1742.51" y2="836.741" stroke="#3C6370" stroke-width="20" />
+                <line x1="1412.6" y1="836.58" x2="1748.6" y2="315.58" stroke="#24FF00" stroke-width="20" />
+                <line x1="2034.84" y1="67.761" x2="1995.84" y2="285.761" stroke="#FF0000" stroke-width="20" />
+                <line x1="2035.08" y1="227.24" x2="2015.08" y2="67.2404" stroke="black" stroke-width="20" />
+                <line x1="1977.3" y1="279.073" x2="2054.3" y2="143.073" stroke="#24FF00" stroke-width="20" />
+                <line x1="1148.62" y1="195.274" x2="1182.62" y2="315.274" stroke="#001AFF" stroke-width="20" />
+                <line x1="1129.4" y1="281.186" x2="1168.4" y2="148.186" stroke="#FF0000" stroke-width="20" />
             </g>
             <defs>
-            <filter id="filter0_di" x="0.506226" y="0.584961" width="2085.98" height="1322.42" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
-            <feOffset dy="4"/>
-            <feGaussianBlur stdDeviation="2"/>
-            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
-            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
-            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
-            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-            <feOffset dx="4" dy="4"/>
-            <feGaussianBlur stdDeviation="2"/>
-            <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
-            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
-            <feBlend mode="normal" in2="shape" result="effect2_innerShadow"/>
-            </filter>
-            <linearGradient id="paint0_linear" x1="26.8087" y1="0" x2="26.8087" y2="1" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#2D9A94"/>
-            <stop offset="1" stop-color="#429B96" stop-opacity="0.97"/>
-            </linearGradient>
-            <linearGradient id="paint1_linear" x1="199.87" y1="0" x2="199.87" y2="1" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#2D9A94"/>
-            <stop offset="1" stop-color="#429B96" stop-opacity="0.97"/>
-            </linearGradient>
-            <linearGradient id="paint2_linear" x1="166.719" y1="0" x2="166.719" y2="1" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#FF0000"/>
-            <stop offset="1" stop-color="white" stop-opacity="0"/>
-            </linearGradient>
-            <linearGradient id="paint3_linear" x1="356.038" y1="0" x2="356.038" y2="1" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#2D9A94"/>
-            <stop offset="1" stop-color="#429B96" stop-opacity="0.97"/>
-            </linearGradient>
-            <linearGradient id="paint4_linear" x1="163.235" y1="0" x2="163.235" y2="1" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#FF0000"/>
-            <stop offset="1" stop-color="white" stop-opacity="0"/>
-            </linearGradient>
-            <linearGradient id="paint5_linear" x1="204.579" y1="0" x2="204.579" y2="1" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#FF0000"/>
-            <stop offset="1" stop-color="white" stop-opacity="0"/>
-            </linearGradient>
+                <filter id="filter0_di" x="0.506226" y="0.584961" width="2085.98" height="1322.42"
+                    filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+                    <feOffset dy="4" />
+                    <feGaussianBlur stdDeviation="2" />
+                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                        result="hardAlpha" />
+                    <feOffset dx="4" dy="4" />
+                    <feGaussianBlur stdDeviation="2" />
+                    <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                    <feBlend mode="normal" in2="shape" result="effect2_innerShadow" />
+                </filter>
+                <linearGradient id="paint0_linear" x1="26.8087" y1="0" x2="26.8087" y2="1"
+                    gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#2D9A94" />
+                    <stop offset="1" stop-color="#429B96" stop-opacity="0.97" />
+                </linearGradient>
+                <linearGradient id="paint1_linear" x1="199.87" y1="0" x2="199.87" y2="1" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#2D9A94" />
+                    <stop offset="1" stop-color="#429B96" stop-opacity="0.97" />
+                </linearGradient>
+                <linearGradient id="paint2_linear" x1="166.719" y1="0" x2="166.719" y2="1"
+                    gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#FF0000" />
+                    <stop offset="1" stop-color="white" stop-opacity="0" />
+                </linearGradient>
+                <linearGradient id="paint3_linear" x1="356.038" y1="0" x2="356.038" y2="1"
+                    gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#2D9A94" />
+                    <stop offset="1" stop-color="#429B96" stop-opacity="0.97" />
+                </linearGradient>
+                <linearGradient id="paint4_linear" x1="163.235" y1="0" x2="163.235" y2="1"
+                    gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#FF0000" />
+                    <stop offset="1" stop-color="white" stop-opacity="0" />
+                </linearGradient>
+                <linearGradient id="paint5_linear" x1="204.579" y1="0" x2="204.579" y2="1"
+                    gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#FF0000" />
+                    <stop offset="1" stop-color="white" stop-opacity="0" />
+                </linearGradient>
             </defs>
-            </svg>
-        
+        </svg>
+
     </div>
 
-    <div class="mainpage "style="display: none;">
+    <div class="mainpage " style="display: none;">
+
+        
 
 
         <nav>
@@ -342,7 +412,7 @@
                 <!-- first   -->
                 <div class="proj" id="first_project">
                     <div class="proj_image scroll_animation_left">
-                        <a href="https://atultyagi612.github.io/Carrer-Guidance-base-on-java/">
+                        <a target="_blank" href="https://atultyagi612.github.io/Carrer-Guidance-base-on-java/">
                             <img class="image_proj" src="./images/carrer-guidance-user.gif" alt="">
                         </a>
                     </div>
@@ -362,7 +432,7 @@
                             </div>
                         </div>
                         <div class="visit_logo">
-                            <a href="https://github.com/atultyagi612/Carrer-Guidance-base-on-java">
+                            <a target="_blank" href="https://github.com/atultyagi612/Carrer-Guidance-base-on-java">
                                 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
                                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="438.549px"
                                     height="438.549px" viewBox="0 0 438.549 438.549"
@@ -450,7 +520,7 @@
                             </div>
                         </div>
                         <div class="visit_logo reverse_logo">
-                            <a href="https://github.com/atultyagi612/facial-recognition-Attendance-System">
+                            <a target="_blank" href="https://github.com/atultyagi612/facial-recognition-Attendance-System">
                                 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
                                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="438.549px"
                                     height="438.549px" viewBox="0 0 438.549 438.549"
@@ -513,7 +583,7 @@
                         </div>
                     </div>
                     <div class="proj_image scroll_animation_right">
-                        <a href="https://atultyagi612.github.io/facial-recognition-Attendance-System/">
+                        <a target="_blank" href="https://atultyagi612.github.io/facial-recognition-Attendance-System/">
                             <img class="reverse_image_proj image_proj" src="./images/attendance-system.gif" alt="">
                         </a>
                     </div>
@@ -523,7 +593,7 @@
                 <!-- third  -->
                 <div class="proj" id="first_project">
                     <div class="proj_image scroll_animation_left">
-                        <a href="https://atultyagi612.github.io/google_forms_clone/">
+                        <a target="_blank" href="https://atultyagi612.github.io/google_forms_clone/">
                             <img class="image_proj" src="./images/create form.gif" alt="">
                         </a>
                     </div>
@@ -548,7 +618,7 @@
 
                         </div>
                         <div class="visit_logo">
-                            <a href="https://github.com/atultyagi612/google_forms_clone">
+                            <a target="_blank" href="https://github.com/atultyagi612/google_forms_clone">
                                 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
                                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="438.549px"
                                     height="438.549px" viewBox="0 0 438.549 438.549"
@@ -692,7 +762,7 @@
                             </div>
                         </div>
                         <div class="visit_logo reverse_logo">
-                            <a href="https://atultyagi612.github.io/Todo-App/">
+                            <a target="_blank" href="https://atultyagi612.github.io/Todo-App/">
                                 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
                                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="438.549px"
                                     height="438.549px" viewBox="0 0 438.549 438.549"
@@ -810,7 +880,7 @@
                         </div>
                     </div>
                     <div class="proj_image scroll_animation_right">
-                        <a href="https://atultyagi612.github.io/facial-recognition-Attendance-System/">
+                        <a target="_blank" href="https://atultyagi612.github.io/facial-recognition-Attendance-System/">
                             <img class="reverse_image_proj image_proj" src="./images/todo.gif" alt="">
                         </a>
                     </div>
@@ -821,7 +891,7 @@
             <br>
             <hr style="height: 1px;" class="underline">
             <div class="other_projects">
-                <div class="other_heading scroll_animation_down">
+                <div class="other_heading scroll_animation_right">
                     <h2>Other Noteworthy Projects</h2>
                     <div class="types_of_sub_proj scroll_animation_down">
                         <h4 class=" Hover-effect" onclick="EnableAll(this)">ALL</h3>
@@ -833,7 +903,7 @@
                 <div class="secondary_project">
                     <div class="sec_proj">
                         <div class="card ML_card ">
-                            <a href="">
+                            <a target="_blank" href="https://www.kaggle.com/atultyagi2000/mnist-digit-recognition-lr">
                                 <img src="./images/mnist.png" alt="">
                             </a>
                             <div class="disciption">
@@ -842,131 +912,25 @@
                                     a classic dataset including pre-extracted features.</p>
                             </div>
                             <div class="language_used">
-                                <p>Python</p>
+                                <p>Python sklearn</p>
                             </div>
                             <div class="status">
-                                <a style="    width: 38px;" href="https://google-forms-clone-atul.herokuapp.com/"
+                                <a target="_blank" style="    width: 38px;" href="https://www.kaggle.com/atultyagi2000/mnist-digit-recognition-lr"
                                     target="_blank">
-                                    <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
-                                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="511.626px"
-                                        height="511.627px" viewBox="0 0 511.626 511.627"
-                                        style="enable-background:new 0 0 511.626 511.627;" xml:space="preserve">
-                                        <g>
-                                            <g>
-                                                <path d="M392.857,292.354h-18.274c-2.669,0-4.859,0.855-6.563,2.573c-1.718,1.708-2.573,3.897-2.573,6.563v91.361
-                c0,12.563-4.47,23.315-13.415,32.262c-8.945,8.945-19.701,13.414-32.264,13.414H82.224c-12.562,0-23.317-4.469-32.264-13.414
-                c-8.945-8.946-13.417-19.698-13.417-32.262V155.31c0-12.562,4.471-23.313,13.417-32.259c8.947-8.947,19.702-13.418,32.264-13.418
-                h200.994c2.669,0,4.859-0.859,6.57-2.57c1.711-1.713,2.566-3.9,2.566-6.567V82.221c0-2.662-0.855-4.853-2.566-6.563
-                c-1.711-1.713-3.901-2.568-6.57-2.568H82.224c-22.648,0-42.016,8.042-58.102,24.125C8.042,113.297,0,132.665,0,155.313v237.542
-                c0,22.647,8.042,42.018,24.123,58.095c16.086,16.084,35.454,24.13,58.102,24.13h237.543c22.647,0,42.017-8.046,58.101-24.13
-                c16.085-16.077,24.127-35.447,24.127-58.095v-91.358c0-2.669-0.856-4.859-2.574-6.57
-                C397.709,293.209,395.519,292.354,392.857,292.354z" />
-                                                <path d="M506.199,41.971c-3.617-3.617-7.905-5.424-12.85-5.424H347.171c-4.948,0-9.233,1.807-12.847,5.424
-                c-3.617,3.615-5.428,7.898-5.428,12.847s1.811,9.233,5.428,12.85l50.247,50.248L198.424,304.067
-                c-1.906,1.903-2.856,4.093-2.856,6.563c0,2.479,0.953,4.668,2.856,6.571l32.548,32.544c1.903,1.903,4.093,2.852,6.567,2.852
-                s4.665-0.948,6.567-2.852l186.148-186.148l50.251,50.248c3.614,3.617,7.898,5.426,12.847,5.426s9.233-1.809,12.851-5.426
-                c3.617-3.616,5.424-7.898,5.424-12.847V54.818C511.626,49.866,509.813,45.586,506.199,41.971z" />
-                                            </g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                    </svg>
+                                    <svg fill="#000000" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="512px"
+                                    height="512px">
+                                    <path
+                                        d="M 10.351562 4 C 10.117563 4 10 4.1165625 10 4.3515625 L 10 27.644531 C 10 27.878531 10.116563 27.996094 10.351562 27.996094 L 12.648438 27.996094 C 12.882437 27.996094 13.001953 27.879531 13.001953 27.644531 L 13.001953 22.808594 L 14.810547 21.085938 L 20.048828 27.75 C 20.190828 27.915 20.354922 28 20.544922 28 L 23.716797 28 C 23.882797 28 23.977 27.952422 24 27.857422 L 23.933594 27.498047 L 17.023438 18.910156 L 23.650391 12.498047 C 23.773391 12.370047 23.730438 12 23.398438 12 L 20.117188 12 C 19.951187 12 19.785141 12.085953 19.619141 12.251953 L 13 18.974609 L 13 4.3515625 C 13 4.1165625 12.883437 4 12.648438 4 L 10.351562 4 z" />
+                                </svg>
 
                                 </a>
-                                <a href="https://github.com/atultyagi612/google_forms_clone">
-                                    <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
-                                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="438.549px"
-                                        height="438.549px" viewBox="0 0 438.549 438.549"
-                                        style="enable-background:new 0 0 438.549 438.549;" xml:space="preserve">
-                                        <g>
-                                            <path d="M409.132,114.573c-19.608-33.596-46.205-60.194-79.798-79.8C295.736,15.166,259.057,5.365,219.271,5.365
-            c-39.781,0-76.472,9.804-110.063,29.408c-33.596,19.605-60.192,46.204-79.8,79.8C9.803,148.168,0,184.854,0,224.63
-            c0,47.78,13.94,90.745,41.827,128.906c27.884,38.164,63.906,64.572,108.063,79.227c5.14,0.954,8.945,0.283,11.419-1.996
-            c2.475-2.282,3.711-5.14,3.711-8.562c0-0.571-0.049-5.708-0.144-15.417c-0.098-9.709-0.144-18.179-0.144-25.406l-6.567,1.136
-            c-4.187,0.767-9.469,1.092-15.846,1c-6.374-0.089-12.991-0.757-19.842-1.999c-6.854-1.231-13.229-4.086-19.13-8.559
-            c-5.898-4.473-10.085-10.328-12.56-17.556l-2.855-6.57c-1.903-4.374-4.899-9.233-8.992-14.559
-            c-4.093-5.331-8.232-8.945-12.419-10.848l-1.999-1.431c-1.332-0.951-2.568-2.098-3.711-3.429c-1.142-1.331-1.997-2.663-2.568-3.997
-            c-0.572-1.335-0.098-2.43,1.427-3.289c1.525-0.859,4.281-1.276,8.28-1.276l5.708,0.853c3.807,0.763,8.516,3.042,14.133,6.851
-            c5.614,3.806,10.229,8.754,13.846,14.842c4.38,7.806,9.657,13.754,15.846,17.847c6.184,4.093,12.419,6.136,18.699,6.136
-            c6.28,0,11.704-0.476,16.274-1.423c4.565-0.952,8.848-2.383,12.847-4.285c1.713-12.758,6.377-22.559,13.988-29.41
-            c-10.848-1.14-20.601-2.857-29.264-5.14c-8.658-2.286-17.605-5.996-26.835-11.14c-9.235-5.137-16.896-11.516-22.985-19.126
-            c-6.09-7.614-11.088-17.61-14.987-29.979c-3.901-12.374-5.852-26.648-5.852-42.826c0-23.035,7.52-42.637,22.557-58.817
-            c-7.044-17.318-6.379-36.732,1.997-58.24c5.52-1.715,13.706-0.428,24.554,3.853c10.85,4.283,18.794,7.952,23.84,10.994
-            c5.046,3.041,9.089,5.618,12.135,7.708c17.705-4.947,35.976-7.421,54.818-7.421s37.117,2.474,54.823,7.421l10.849-6.849
-            c7.419-4.57,16.18-8.758,26.262-12.565c10.088-3.805,17.802-4.853,23.134-3.138c8.562,21.509,9.325,40.922,2.279,58.24
-            c15.036,16.18,22.559,35.787,22.559,58.817c0,16.178-1.958,30.497-5.853,42.966c-3.9,12.471-8.941,22.457-15.125,29.979
-            c-6.191,7.521-13.901,13.85-23.131,18.986c-9.232,5.14-18.182,8.85-26.84,11.136c-8.662,2.286-18.415,4.004-29.263,5.146
-            c9.894,8.562,14.842,22.077,14.842,40.539v60.237c0,3.422,1.19,6.279,3.572,8.562c2.379,2.279,6.136,2.95,11.276,1.995
-            c44.163-14.653,80.185-41.062,108.068-79.226c27.88-38.161,41.825-81.126,41.825-128.906
-            C438.536,184.851,428.728,148.168,409.132,114.573z" />
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                    </svg>
-
-                                </a>
+                               
 
                             </div>
                         </div>
 
                         <div class="card ML_card ">
-                            <a href="">
+                            <a target="_blank" href="https://www.kaggle.com/atultyagi2000/titanic-survival-prediction-using-logisticregressi">
                                 <img src="./images/titanic.png" alt="">
                             </a>
                             <div class="disciption">
@@ -975,263 +939,48 @@
                                     passengers survived the Titanic shipwreck.</p>
                             </div>
                             <div class="language_used">
-                                <p>Python</p>
+                                <p>Python sklearn</p>
                             </div>
                             <div class="status">
-                                <a style="    width: 38px;" href="https://google-forms-clone-atul.herokuapp.com/"
+                                <a target="_blank" style="    width: 38px;" href="https://www.kaggle.com/atultyagi2000/titanic-survival-prediction-using-logisticregressi"
                                     target="_blank">
-                                    <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
-                                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="511.626px"
-                                        height="511.627px" viewBox="0 0 511.626 511.627"
-                                        style="enable-background:new 0 0 511.626 511.627;" xml:space="preserve">
-                                        <g>
-                                            <g>
-                                                <path d="M392.857,292.354h-18.274c-2.669,0-4.859,0.855-6.563,2.573c-1.718,1.708-2.573,3.897-2.573,6.563v91.361
-                c0,12.563-4.47,23.315-13.415,32.262c-8.945,8.945-19.701,13.414-32.264,13.414H82.224c-12.562,0-23.317-4.469-32.264-13.414
-                c-8.945-8.946-13.417-19.698-13.417-32.262V155.31c0-12.562,4.471-23.313,13.417-32.259c8.947-8.947,19.702-13.418,32.264-13.418
-                h200.994c2.669,0,4.859-0.859,6.57-2.57c1.711-1.713,2.566-3.9,2.566-6.567V82.221c0-2.662-0.855-4.853-2.566-6.563
-                c-1.711-1.713-3.901-2.568-6.57-2.568H82.224c-22.648,0-42.016,8.042-58.102,24.125C8.042,113.297,0,132.665,0,155.313v237.542
-                c0,22.647,8.042,42.018,24.123,58.095c16.086,16.084,35.454,24.13,58.102,24.13h237.543c22.647,0,42.017-8.046,58.101-24.13
-                c16.085-16.077,24.127-35.447,24.127-58.095v-91.358c0-2.669-0.856-4.859-2.574-6.57
-                C397.709,293.209,395.519,292.354,392.857,292.354z" />
-                                                <path d="M506.199,41.971c-3.617-3.617-7.905-5.424-12.85-5.424H347.171c-4.948,0-9.233,1.807-12.847,5.424
-                c-3.617,3.615-5.428,7.898-5.428,12.847s1.811,9.233,5.428,12.85l50.247,50.248L198.424,304.067
-                c-1.906,1.903-2.856,4.093-2.856,6.563c0,2.479,0.953,4.668,2.856,6.571l32.548,32.544c1.903,1.903,4.093,2.852,6.567,2.852
-                s4.665-0.948,6.567-2.852l186.148-186.148l50.251,50.248c3.614,3.617,7.898,5.426,12.847,5.426s9.233-1.809,12.851-5.426
-                c3.617-3.616,5.424-7.898,5.424-12.847V54.818C511.626,49.866,509.813,45.586,506.199,41.971z" />
-                                            </g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                    </svg>
+                                    <svg fill="#000000" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="512px"
+                            height="512px">
+                            <path
+                                d="M 10.351562 4 C 10.117563 4 10 4.1165625 10 4.3515625 L 10 27.644531 C 10 27.878531 10.116563 27.996094 10.351562 27.996094 L 12.648438 27.996094 C 12.882437 27.996094 13.001953 27.879531 13.001953 27.644531 L 13.001953 22.808594 L 14.810547 21.085938 L 20.048828 27.75 C 20.190828 27.915 20.354922 28 20.544922 28 L 23.716797 28 C 23.882797 28 23.977 27.952422 24 27.857422 L 23.933594 27.498047 L 17.023438 18.910156 L 23.650391 12.498047 C 23.773391 12.370047 23.730438 12 23.398438 12 L 20.117188 12 C 19.951187 12 19.785141 12.085953 19.619141 12.251953 L 13 18.974609 L 13 4.3515625 C 13 4.1165625 12.883437 4 12.648438 4 L 10.351562 4 z" />
+                        </svg>
 
                                 </a>
-                                <a href="https://github.com/atultyagi612/google_forms_clone">
-                                    <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
-                                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="438.549px"
-                                        height="438.549px" viewBox="0 0 438.549 438.549"
-                                        style="enable-background:new 0 0 438.549 438.549;" xml:space="preserve">
-                                        <g>
-                                            <path d="M409.132,114.573c-19.608-33.596-46.205-60.194-79.798-79.8C295.736,15.166,259.057,5.365,219.271,5.365
-            c-39.781,0-76.472,9.804-110.063,29.408c-33.596,19.605-60.192,46.204-79.8,79.8C9.803,148.168,0,184.854,0,224.63
-            c0,47.78,13.94,90.745,41.827,128.906c27.884,38.164,63.906,64.572,108.063,79.227c5.14,0.954,8.945,0.283,11.419-1.996
-            c2.475-2.282,3.711-5.14,3.711-8.562c0-0.571-0.049-5.708-0.144-15.417c-0.098-9.709-0.144-18.179-0.144-25.406l-6.567,1.136
-            c-4.187,0.767-9.469,1.092-15.846,1c-6.374-0.089-12.991-0.757-19.842-1.999c-6.854-1.231-13.229-4.086-19.13-8.559
-            c-5.898-4.473-10.085-10.328-12.56-17.556l-2.855-6.57c-1.903-4.374-4.899-9.233-8.992-14.559
-            c-4.093-5.331-8.232-8.945-12.419-10.848l-1.999-1.431c-1.332-0.951-2.568-2.098-3.711-3.429c-1.142-1.331-1.997-2.663-2.568-3.997
-            c-0.572-1.335-0.098-2.43,1.427-3.289c1.525-0.859,4.281-1.276,8.28-1.276l5.708,0.853c3.807,0.763,8.516,3.042,14.133,6.851
-            c5.614,3.806,10.229,8.754,13.846,14.842c4.38,7.806,9.657,13.754,15.846,17.847c6.184,4.093,12.419,6.136,18.699,6.136
-            c6.28,0,11.704-0.476,16.274-1.423c4.565-0.952,8.848-2.383,12.847-4.285c1.713-12.758,6.377-22.559,13.988-29.41
-            c-10.848-1.14-20.601-2.857-29.264-5.14c-8.658-2.286-17.605-5.996-26.835-11.14c-9.235-5.137-16.896-11.516-22.985-19.126
-            c-6.09-7.614-11.088-17.61-14.987-29.979c-3.901-12.374-5.852-26.648-5.852-42.826c0-23.035,7.52-42.637,22.557-58.817
-            c-7.044-17.318-6.379-36.732,1.997-58.24c5.52-1.715,13.706-0.428,24.554,3.853c10.85,4.283,18.794,7.952,23.84,10.994
-            c5.046,3.041,9.089,5.618,12.135,7.708c17.705-4.947,35.976-7.421,54.818-7.421s37.117,2.474,54.823,7.421l10.849-6.849
-            c7.419-4.57,16.18-8.758,26.262-12.565c10.088-3.805,17.802-4.853,23.134-3.138c8.562,21.509,9.325,40.922,2.279,58.24
-            c15.036,16.18,22.559,35.787,22.559,58.817c0,16.178-1.958,30.497-5.853,42.966c-3.9,12.471-8.941,22.457-15.125,29.979
-            c-6.191,7.521-13.901,13.85-23.131,18.986c-9.232,5.14-18.182,8.85-26.84,11.136c-8.662,2.286-18.415,4.004-29.263,5.146
-            c9.894,8.562,14.842,22.077,14.842,40.539v60.237c0,3.422,1.19,6.279,3.572,8.562c2.379,2.279,6.136,2.95,11.276,1.995
-            c44.163-14.653,80.185-41.062,108.068-79.226c27.88-38.161,41.825-81.126,41.825-128.906
-            C438.536,184.851,428.728,148.168,409.132,114.573z" />
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                    </svg>
-
-                                </a>
-
                             </div>
                         </div>
 
                         <div class="card ML_card ">
-                            <a href="">
-                                <img src="./images/mnist.png" alt="">
+                            <a target="_blank" href="https://www.kaggle.com/atultyagi2000/mall-customers-kmeans">
+                                <img src="./images/mall-clusters.png" alt="">
                             </a>
                             <div class="disciption">
                                 <h2>Mall Customer Segmentation Data</h2>
                                 <p>Find which group of mall customers is the main target by KMeans</p>
                             </div>
                             <div class="language_used">
-                                <p>Python</p>
+                                <p>Python sklearn</p>
                             </div>
                             <div class="status">
-                                <a style="    width: 38px;" href="https://google-forms-clone-atul.herokuapp.com/"
+                                <a target="_blank" style="    width: 38px;" href="https://www.kaggle.com/atultyagi2000/mall-customers-kmeans"
                                     target="_blank">
-                                    <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
-                                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="511.626px"
-                                        height="511.627px" viewBox="0 0 511.626 511.627"
-                                        style="enable-background:new 0 0 511.626 511.627;" xml:space="preserve">
-                                        <g>
-                                            <g>
-                                                <path d="M392.857,292.354h-18.274c-2.669,0-4.859,0.855-6.563,2.573c-1.718,1.708-2.573,3.897-2.573,6.563v91.361
-                c0,12.563-4.47,23.315-13.415,32.262c-8.945,8.945-19.701,13.414-32.264,13.414H82.224c-12.562,0-23.317-4.469-32.264-13.414
-                c-8.945-8.946-13.417-19.698-13.417-32.262V155.31c0-12.562,4.471-23.313,13.417-32.259c8.947-8.947,19.702-13.418,32.264-13.418
-                h200.994c2.669,0,4.859-0.859,6.57-2.57c1.711-1.713,2.566-3.9,2.566-6.567V82.221c0-2.662-0.855-4.853-2.566-6.563
-                c-1.711-1.713-3.901-2.568-6.57-2.568H82.224c-22.648,0-42.016,8.042-58.102,24.125C8.042,113.297,0,132.665,0,155.313v237.542
-                c0,22.647,8.042,42.018,24.123,58.095c16.086,16.084,35.454,24.13,58.102,24.13h237.543c22.647,0,42.017-8.046,58.101-24.13
-                c16.085-16.077,24.127-35.447,24.127-58.095v-91.358c0-2.669-0.856-4.859-2.574-6.57
-                C397.709,293.209,395.519,292.354,392.857,292.354z" />
-                                                <path d="M506.199,41.971c-3.617-3.617-7.905-5.424-12.85-5.424H347.171c-4.948,0-9.233,1.807-12.847,5.424
-                c-3.617,3.615-5.428,7.898-5.428,12.847s1.811,9.233,5.428,12.85l50.247,50.248L198.424,304.067
-                c-1.906,1.903-2.856,4.093-2.856,6.563c0,2.479,0.953,4.668,2.856,6.571l32.548,32.544c1.903,1.903,4.093,2.852,6.567,2.852
-                s4.665-0.948,6.567-2.852l186.148-186.148l50.251,50.248c3.614,3.617,7.898,5.426,12.847,5.426s9.233-1.809,12.851-5.426
-                c3.617-3.616,5.424-7.898,5.424-12.847V54.818C511.626,49.866,509.813,45.586,506.199,41.971z" />
-                                            </g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                    </svg>
-
+                                    <svg fill="#000000" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="512px"
+                                    height="512px">
+                                    <path
+                                        d="M 10.351562 4 C 10.117563 4 10 4.1165625 10 4.3515625 L 10 27.644531 C 10 27.878531 10.116563 27.996094 10.351562 27.996094 L 12.648438 27.996094 C 12.882437 27.996094 13.001953 27.879531 13.001953 27.644531 L 13.001953 22.808594 L 14.810547 21.085938 L 20.048828 27.75 C 20.190828 27.915 20.354922 28 20.544922 28 L 23.716797 28 C 23.882797 28 23.977 27.952422 24 27.857422 L 23.933594 27.498047 L 17.023438 18.910156 L 23.650391 12.498047 C 23.773391 12.370047 23.730438 12 23.398438 12 L 20.117188 12 C 19.951187 12 19.785141 12.085953 19.619141 12.251953 L 13 18.974609 L 13 4.3515625 C 13 4.1165625 12.883437 4 12.648438 4 L 10.351562 4 z" />
+                                </svg>
                                 </a>
-                                <a href="https://github.com/atultyagi612/google_forms_clone">
-                                    <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
-                                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="438.549px"
-                                        height="438.549px" viewBox="0 0 438.549 438.549"
-                                        style="enable-background:new 0 0 438.549 438.549;" xml:space="preserve">
-                                        <g>
-                                            <path d="M409.132,114.573c-19.608-33.596-46.205-60.194-79.798-79.8C295.736,15.166,259.057,5.365,219.271,5.365
-            c-39.781,0-76.472,9.804-110.063,29.408c-33.596,19.605-60.192,46.204-79.8,79.8C9.803,148.168,0,184.854,0,224.63
-            c0,47.78,13.94,90.745,41.827,128.906c27.884,38.164,63.906,64.572,108.063,79.227c5.14,0.954,8.945,0.283,11.419-1.996
-            c2.475-2.282,3.711-5.14,3.711-8.562c0-0.571-0.049-5.708-0.144-15.417c-0.098-9.709-0.144-18.179-0.144-25.406l-6.567,1.136
-            c-4.187,0.767-9.469,1.092-15.846,1c-6.374-0.089-12.991-0.757-19.842-1.999c-6.854-1.231-13.229-4.086-19.13-8.559
-            c-5.898-4.473-10.085-10.328-12.56-17.556l-2.855-6.57c-1.903-4.374-4.899-9.233-8.992-14.559
-            c-4.093-5.331-8.232-8.945-12.419-10.848l-1.999-1.431c-1.332-0.951-2.568-2.098-3.711-3.429c-1.142-1.331-1.997-2.663-2.568-3.997
-            c-0.572-1.335-0.098-2.43,1.427-3.289c1.525-0.859,4.281-1.276,8.28-1.276l5.708,0.853c3.807,0.763,8.516,3.042,14.133,6.851
-            c5.614,3.806,10.229,8.754,13.846,14.842c4.38,7.806,9.657,13.754,15.846,17.847c6.184,4.093,12.419,6.136,18.699,6.136
-            c6.28,0,11.704-0.476,16.274-1.423c4.565-0.952,8.848-2.383,12.847-4.285c1.713-12.758,6.377-22.559,13.988-29.41
-            c-10.848-1.14-20.601-2.857-29.264-5.14c-8.658-2.286-17.605-5.996-26.835-11.14c-9.235-5.137-16.896-11.516-22.985-19.126
-            c-6.09-7.614-11.088-17.61-14.987-29.979c-3.901-12.374-5.852-26.648-5.852-42.826c0-23.035,7.52-42.637,22.557-58.817
-            c-7.044-17.318-6.379-36.732,1.997-58.24c5.52-1.715,13.706-0.428,24.554,3.853c10.85,4.283,18.794,7.952,23.84,10.994
-            c5.046,3.041,9.089,5.618,12.135,7.708c17.705-4.947,35.976-7.421,54.818-7.421s37.117,2.474,54.823,7.421l10.849-6.849
-            c7.419-4.57,16.18-8.758,26.262-12.565c10.088-3.805,17.802-4.853,23.134-3.138c8.562,21.509,9.325,40.922,2.279,58.24
-            c15.036,16.18,22.559,35.787,22.559,58.817c0,16.178-1.958,30.497-5.853,42.966c-3.9,12.471-8.941,22.457-15.125,29.979
-            c-6.191,7.521-13.901,13.85-23.131,18.986c-9.232,5.14-18.182,8.85-26.84,11.136c-8.662,2.286-18.415,4.004-29.263,5.146
-            c9.894,8.562,14.842,22.077,14.842,40.539v60.237c0,3.422,1.19,6.279,3.572,8.562c2.379,2.279,6.136,2.95,11.276,1.995
-            c44.163-14.653,80.185-41.062,108.068-79.226c27.88-38.161,41.825-81.126,41.825-128.906
-            C438.536,184.851,428.728,148.168,409.132,114.573z" />
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                    </svg>
-
-                                </a>
+                                
 
                             </div>
                         </div>
 
                         <div class="card web_card ">
-                            <a href="">
+                            <a target="_blank" href="https://github.com/atultyagi612/tic-tac-toe">
                                 <img src="./images/tictactoe.jpg" alt="">
                             </a>
                             <div class="disciption">
@@ -1239,10 +988,11 @@
                                 <p>Tic tac toe using minmax algorithm</p>
                             </div>
                             <div class="language_used">
-                                <p>Python</p>
+                                <p>html/css JS</p>
+                                
                             </div>
                             <div class="status">
-                                <a style="    width: 38px;" href="https://google-forms-clone-atul.herokuapp.com/"
+                                <a target="_blank" style="    width: 38px;" href="https://github.com/atultyagi612/tic-tac-toe"
                                     target="_blank">
                                     <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
                                         xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="511.626px"
@@ -1298,7 +1048,7 @@
                                     </svg>
 
                                 </a>
-                                <a href="https://github.com/atultyagi612/google_forms_clone">
+                                <a target="_blank" href="https://atultyagi612.github.io/tic-tac-toe/index.html">
                                     <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
                                         xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="438.549px"
                                         height="438.549px" viewBox="0 0 438.549 438.549"
@@ -1363,7 +1113,7 @@
                         </div>
 
                         <div class="card web_card ">
-                            <a href="">
+                            <a target="_blank" href="https://atultyagi612.github.io/news-app/">
                                 <img src="./images/image2.jpg" alt="">
                             </a>
                             <div class="disciption">
@@ -1371,10 +1121,10 @@
                                 <p>A news app using nodejs , express, ejs.</p>
                             </div>
                             <div class="language_used">
-                                <p>Python</p>
+                                <p>NodeJS  HTML/CSS/JS</p>
                             </div>
                             <div class="status">
-                                <a style="    width: 38px;" href="https://google-forms-clone-atul.herokuapp.com/"
+                                <a target="_blank" style="    width: 38px;" href="https://x-news-app.herokuapp.com/"
                                     target="_blank">
                                     <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
                                         xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="511.626px"
@@ -1430,7 +1180,7 @@
                                     </svg>
 
                                 </a>
-                                <a href="https://github.com/atultyagi612/google_forms_clone">
+                                <a target="_blank" href="https://atultyagi612.github.io/news-app/">
                                     <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
                                         xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="438.549px"
                                         height="438.549px" viewBox="0 0 438.549 438.549"
@@ -1495,7 +1245,7 @@
                         </div>
 
                         <div class="card python_card ">
-                            <a href="">
+                            <a target="_blank" href="https://atultyagi612.github.io/Text-Editor/">
                                 <img src="./images/texteditor.jpg" alt="">
                             </a>
                             <div class="disciption">
@@ -1504,66 +1254,10 @@
                                     and edit text files on your computer</p>
                             </div>
                             <div class="language_used">
-                                <p>Python</p>
+                                <p>Python Tkinter</p>
                             </div>
                             <div class="status">
-                                <a style="    width: 38px;" href="https://google-forms-clone-atul.herokuapp.com/"
-                                    target="_blank">
-                                    <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
-                                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="511.626px"
-                                        height="511.627px" viewBox="0 0 511.626 511.627"
-                                        style="enable-background:new 0 0 511.626 511.627;" xml:space="preserve">
-                                        <g>
-                                            <g>
-                                                <path d="M392.857,292.354h-18.274c-2.669,0-4.859,0.855-6.563,2.573c-1.718,1.708-2.573,3.897-2.573,6.563v91.361
-                c0,12.563-4.47,23.315-13.415,32.262c-8.945,8.945-19.701,13.414-32.264,13.414H82.224c-12.562,0-23.317-4.469-32.264-13.414
-                c-8.945-8.946-13.417-19.698-13.417-32.262V155.31c0-12.562,4.471-23.313,13.417-32.259c8.947-8.947,19.702-13.418,32.264-13.418
-                h200.994c2.669,0,4.859-0.859,6.57-2.57c1.711-1.713,2.566-3.9,2.566-6.567V82.221c0-2.662-0.855-4.853-2.566-6.563
-                c-1.711-1.713-3.901-2.568-6.57-2.568H82.224c-22.648,0-42.016,8.042-58.102,24.125C8.042,113.297,0,132.665,0,155.313v237.542
-                c0,22.647,8.042,42.018,24.123,58.095c16.086,16.084,35.454,24.13,58.102,24.13h237.543c22.647,0,42.017-8.046,58.101-24.13
-                c16.085-16.077,24.127-35.447,24.127-58.095v-91.358c0-2.669-0.856-4.859-2.574-6.57
-                C397.709,293.209,395.519,292.354,392.857,292.354z" />
-                                                <path d="M506.199,41.971c-3.617-3.617-7.905-5.424-12.85-5.424H347.171c-4.948,0-9.233,1.807-12.847,5.424
-                c-3.617,3.615-5.428,7.898-5.428,12.847s1.811,9.233,5.428,12.85l50.247,50.248L198.424,304.067
-                c-1.906,1.903-2.856,4.093-2.856,6.563c0,2.479,0.953,4.668,2.856,6.571l32.548,32.544c1.903,1.903,4.093,2.852,6.567,2.852
-                s4.665-0.948,6.567-2.852l186.148-186.148l50.251,50.248c3.614,3.617,7.898,5.426,12.847,5.426s9.233-1.809,12.851-5.426
-                c3.617-3.616,5.424-7.898,5.424-12.847V54.818C511.626,49.866,509.813,45.586,506.199,41.971z" />
-                                            </g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                    </svg>
-
-                                </a>
-                                <a href="https://github.com/atultyagi612/google_forms_clone">
+                                <a target="_blank" href="https://atultyagi612.github.io/Text-Editor/">
                                     <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
                                         xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="438.549px"
                                         height="438.549px" viewBox="0 0 438.549 438.549"
@@ -1623,11 +1317,12 @@
                                     </svg>
 
                                 </a>
+                               
 
                             </div>
                         </div>
-                        <div class="card python_card ">
-                            <a href="">
+                        <div  class="card python_card ">
+                            <a target="_blank" href="https://atultyagi612.github.io/Simple-Chatroom-using-Python-socket-/">
                                 <img src="./images/socket.jpg" alt="">
                             </a>
                             <div class="disciption">
@@ -1635,66 +1330,11 @@
                                 <p>A simple GUI multi client system using python , Tkinter and Socket. </p>
                             </div>
                             <div class="language_used">
-                                <p>Python</p>
+                                <p>Python Tkinter Socket</p>
                             </div>
                             <div class="status">
-                                <a style="    width: 38px;" href="https://google-forms-clone-atul.herokuapp.com/"
-                                    target="_blank">
-                                    <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
-                                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="511.626px"
-                                        height="511.627px" viewBox="0 0 511.626 511.627"
-                                        style="enable-background:new 0 0 511.626 511.627;" xml:space="preserve">
-                                        <g>
-                                            <g>
-                                                <path d="M392.857,292.354h-18.274c-2.669,0-4.859,0.855-6.563,2.573c-1.718,1.708-2.573,3.897-2.573,6.563v91.361
-                c0,12.563-4.47,23.315-13.415,32.262c-8.945,8.945-19.701,13.414-32.264,13.414H82.224c-12.562,0-23.317-4.469-32.264-13.414
-                c-8.945-8.946-13.417-19.698-13.417-32.262V155.31c0-12.562,4.471-23.313,13.417-32.259c8.947-8.947,19.702-13.418,32.264-13.418
-                h200.994c2.669,0,4.859-0.859,6.57-2.57c1.711-1.713,2.566-3.9,2.566-6.567V82.221c0-2.662-0.855-4.853-2.566-6.563
-                c-1.711-1.713-3.901-2.568-6.57-2.568H82.224c-22.648,0-42.016,8.042-58.102,24.125C8.042,113.297,0,132.665,0,155.313v237.542
-                c0,22.647,8.042,42.018,24.123,58.095c16.086,16.084,35.454,24.13,58.102,24.13h237.543c22.647,0,42.017-8.046,58.101-24.13
-                c16.085-16.077,24.127-35.447,24.127-58.095v-91.358c0-2.669-0.856-4.859-2.574-6.57
-                C397.709,293.209,395.519,292.354,392.857,292.354z" />
-                                                <path d="M506.199,41.971c-3.617-3.617-7.905-5.424-12.85-5.424H347.171c-4.948,0-9.233,1.807-12.847,5.424
-                c-3.617,3.615-5.428,7.898-5.428,12.847s1.811,9.233,5.428,12.85l50.247,50.248L198.424,304.067
-                c-1.906,1.903-2.856,4.093-2.856,6.563c0,2.479,0.953,4.668,2.856,6.571l32.548,32.544c1.903,1.903,4.093,2.852,6.567,2.852
-                s4.665-0.948,6.567-2.852l186.148-186.148l50.251,50.248c3.614,3.617,7.898,5.426,12.847,5.426s9.233-1.809,12.851-5.426
-                c3.617-3.616,5.424-7.898,5.424-12.847V54.818C511.626,49.866,509.813,45.586,506.199,41.971z" />
-                                            </g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                        <g>
-                                        </g>
-                                    </svg>
-
-                                </a>
-                                <a href="https://github.com/atultyagi612/google_forms_clone">
+                                
+                                <a target="_blank" href="https://atultyagi612.github.io/Simple-Chatroom-using-Python-socket-/">
                                     <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
                                         xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="438.549px"
                                         height="438.549px" viewBox="0 0 438.549 438.549"
@@ -1772,12 +1412,11 @@
                     Atul Tyagi
                 </p>
                 <div>
-                    <ul class="navlinks footer_links">
-                        <li><a  class=" Hover-effect" href="#Home-id">Home</a></li>
-                        <li><a  class=" Hover-effect" href="#about-">About</a></li>
-                        <li><a  class=" Hover-effect" href="#Skills-id">Skills</a></li>
-                        <li><a  class=" Hover-effect"
-                                href="#project-heading-id">Project</a></li>
+                    <ul class="navlinks footer_links" >
+                        <li><a class=" Hover-effect" href="#Home-id">Home</a></li>
+                        <li><a class=" Hover-effect" href="#about-">About</a></li>
+                        <li><a class=" Hover-effect" href="#Skills-id">Skills</a></li>
+                        <li><a class=" Hover-effect" href="#project-heading-id">Project</a></li>
                         <!-- <li><a id="follow-id-" href="#follow-on" class="Hover-effect follow-on">Follow on</a></li> -->
                     </ul>
                 </div>
@@ -1785,7 +1424,7 @@
 
             <div class="first">
                 <div class="instagram">
-                    <a href=""target="_blank">
+                    <a href="" target="_blank">
                         <svg height="511pt" viewBox="0 0 511 511.9" width="511pt" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="m510.949219 150.5c-1.199219-27.199219-5.597657-45.898438-11.898438-62.101562-6.5-17.199219-16.5-32.597657-29.601562-45.398438-12.800781-13-28.300781-23.101562-45.300781-29.5-16.296876-6.300781-34.898438-10.699219-62.097657-11.898438-27.402343-1.300781-36.101562-1.601562-105.601562-1.601562s-78.199219.300781-105.5 1.5c-27.199219 1.199219-45.898438 5.601562-62.097657 11.898438-17.203124 6.5-32.601562 16.5-45.402343 29.601562-13 12.800781-23.097657 28.300781-29.5 45.300781-6.300781 16.300781-10.699219 34.898438-11.898438 62.097657-1.300781 27.402343-1.601562 36.101562-1.601562 105.601562s.300781 78.199219 1.5 105.5c1.199219 27.199219 5.601562 45.898438 11.902343 62.101562 6.5 17.199219 16.597657 32.597657 29.597657 45.398438 12.800781 13 28.300781 23.101562 45.300781 29.5 16.300781 6.300781 34.898438 10.699219 62.101562 11.898438 27.296876 1.203124 36 1.5 105.5 1.5s78.199219-.296876 105.5-1.5c27.199219-1.199219 45.898438-5.597657 62.097657-11.898438 34.402343-13.300781 61.601562-40.5 74.902343-74.898438 6.296876-16.300781 10.699219-34.902343 11.898438-62.101562 1.199219-27.300781 1.5-36 1.5-105.5s-.101562-78.199219-1.300781-105.5zm-46.097657 209c-1.101562 25-5.300781 38.5-8.800781 47.5-8.601562 22.300781-26.300781 40-48.601562 48.601562-9 3.5-22.597657 7.699219-47.5 8.796876-27 1.203124-35.097657 1.5-103.398438 1.5s-76.5-.296876-103.402343-1.5c-25-1.097657-38.5-5.296876-47.5-8.796876-11.097657-4.101562-21.199219-10.601562-29.398438-19.101562-8.5-8.300781-15-18.300781-19.101562-29.398438-3.5-9-7.699219-22.601562-8.796876-47.5-1.203124-27-1.5-35.101562-1.5-103.402343s.296876-76.5 1.5-103.398438c1.097657-25 5.296876-38.5 8.796876-47.5 4.101562-11.101562 10.601562-21.199219 19.203124-29.402343 8.296876-8.5 18.296876-15 29.398438-19.097657 9-3.5 22.601562-7.699219 47.5-8.800781 27-1.199219 35.101562-1.5 103.398438-1.5 68.402343 0 76.5.300781 103.402343 1.5 25 1.101562 38.5 5.300781 47.5 8.800781 11.097657 4.097657 21.199219 10.597657 29.398438 19.097657 8.5 8.300781 15 18.300781 19.101562 29.402343 3.5 9 7.699219 22.597657 8.800781 47.5 1.199219 27 1.5 35.097657 1.5 103.398438s-.300781 76.300781-1.5 103.300781zm0 0" />
@@ -1797,7 +1436,7 @@
                     </a>
                 </div>
                 <div class="linkedin">
-                    <a href=""target="_blank">
+                    <a href="" target="_blank">
                         <svg height="512pt" viewBox="0 0 512 512" width="512pt" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="m160.007812 423h-70v-226h70zm6.984376-298.003906c0-22.628906-18.359376-40.996094-40.976563-40.996094-22.703125 0-41.015625 18.367188-41.015625 40.996094 0 22.636718 18.3125 41.003906 41.015625 41.003906 22.617187 0 40.976563-18.367188 40.976563-41.003906zm255.007812 173.667968c0-60.667968-12.816406-105.664062-83.6875-105.664062-34.054688 0-56.914062 17.03125-66.246094 34.742188h-.066406v-30.742188h-68v226h68v-112.210938c0-29.386718 7.480469-57.855468 43.90625-57.855468 35.929688 0 37.09375 33.605468 37.09375 59.722656v110.34375h69zm90 153.335938v-392c0-33.085938-26.914062-60-60-60h-392c-33.085938 0-60 26.914062-60 60v392c0 33.085938 26.914062 60 60 60h392c33.085938 0 60-26.914062 60-60zm-60-412c11.027344 0 20 8.972656 20 20v392c0 11.027344-8.972656 20-20 20h-392c-11.027344 0-20-8.972656-20-20v-392c0-11.027344 8.972656-20 20-20zm0 0" />
@@ -1814,7 +1453,7 @@
                     </a>
                 </div>
                 <div class="github">
-                    <a href="https://github.com/atultyagi612"target="_blank">
+                    <a href="https://github.com/atultyagi612" target="_blank">
                         <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
                             xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="438.549px"
                             height="438.549px" viewBox="0 0 438.549 438.549"
@@ -1876,8 +1515,12 @@
                     </a>
                 </div>
                 <div class="google">
-                    <a href="atultyagi.at.612@gmail.com"target="_blank">
-                        <?xml version="1.0"?><svg fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="384px" height="384px">    <path d="M12.545,10.239v3.821h5.445c-0.712,2.315-2.647,3.972-5.445,3.972c-3.332,0-6.033-2.701-6.033-6.032 s2.701-6.032,6.033-6.032c1.498,0,2.866,0.549,3.921,1.453l2.814-2.814C17.503,2.988,15.139,2,12.545,2 C7.021,2,2.543,6.477,2.543,12s4.478,10,10.002,10c8.396,0,10.249-7.85,9.426-11.748L12.545,10.239z"/></svg>
+                    <a href="mailto:atultyagi.at.612@gmail.com" target="_blank">
+                        <?xml version="1.0"?><svg fill="#000000" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                            width="384px" height="384px">
+                            <path
+                                d="M12.545,10.239v3.821h5.445c-0.712,2.315-2.647,3.972-5.445,3.972c-3.332,0-6.033-2.701-6.033-6.032 s2.701-6.032,6.033-6.032c1.498,0,2.866,0.549,3.921,1.453l2.814-2.814C17.503,2.988,15.139,2,12.545,2 C7.021,2,2.543,6.477,2.543,12s4.478,10,10.002,10c8.396,0,10.249-7.85,9.426-11.748L12.545,10.239z" />
+                        </svg>
                     </a>
                 </div>
             </div>
@@ -1892,10 +1535,10 @@
     <script src="./js/animate.js"></script>
     <!-- <script src="./js/canvas.js"></script> -->
     <script>
-        window.onload = function() {
+        window.onload = function () {
             onload_animation()
 
-   }
+        }
 
     </script>
 </body>
