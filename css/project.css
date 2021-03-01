@@ -26,11 +26,11 @@ flex-direction: column;
 }
 .image_proj{
     width: 125%;
-    filter: contrast(0.5);
+    filter: contrast(0.5) grayscale(0.8);
     transition: 1s filter linear;
 }
 .image_proj:hover{
-    filter: contrast(1);
+    filter: contrast(1) grayscale(0);
     filter: drop-shadow(8px 8px 10px rgba(91, 183, 199, 0.5));
 }
 
@@ -188,6 +188,8 @@ flex-direction: column;
     margin: 4.15%;
     justify-content: space-between;
     transition: all 0.3s;
+    box-shadow: 10px 10px 5px -3px rgb(0 0 0 / 8%);
+    border-radius: 4px;
     
 }
 .card:hover{

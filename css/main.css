@@ -11,6 +11,7 @@ body{
 /* background: url(../images/upgrade1.png) no-repeat center; */
 background-color: var(--primary_color);
     color: var(--third_color);
+    transition: all 3s;
 }
 :root {
     --primary_color:#0A192F;
@@ -26,10 +27,19 @@ background-color: var(--primary_color);
     --navbar_color:rgba(255, 255, 255, 0);
     --underline-hight:0.145rem;
     --navbar-color-mobile: var(--navbar_color);
+    --sun: rgb(223, 111, 47);
 
     --first_heading:'Roboto';
     --mini_heading:'RocknRoll One', sans-serif;
     --simple_text:'sans-serif';
+
+
+    /* animation color  */
+    --anim0:rgb(187, 224, 236);
+    --anim1:rgb(194, 219, 219);
+    --anim2:rgb(229, 210, 248);
+    --anim3:rgb(184, 241, 241);
+
   }
 
   #canvas1{

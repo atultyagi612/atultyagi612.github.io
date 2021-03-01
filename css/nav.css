@@ -136,6 +136,34 @@ nav {
 
 
 
+/* darkmode  */
+
+#moon{
+    pointer-events: bounding-box;
+    transition: all 1s;
+    cursor: pointer;
+}
+#background{
+    transition: all 1s;
+}
+.transform{
+    transform: translate(340px,242px);
+    /* display: none; */
+}
+#sun{
+    pointer-events: bounding-box;
+    transition: all 1s;
+    cursor: pointer;
+}
+.darkMode{
+    z-index: 1000;
+    right: 0px;
+height: 138px;
+display: flex;
+width: 138px;
+position: absolute;
+top: 0px;
+}
 
 
 

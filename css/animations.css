@@ -67,43 +67,18 @@
     from {
         color: var(--third_color);
     }
-
-    10% {
-        color: rgb(234, 237, 238);
-    }
-
     20% {
-        color: rgb(194, 219, 219);
+        color: var(--anim0);
     }
-
-    30% {
-        color: rgb(162, 183, 207);
-    }
-
     40% {
-        color: rgb(215, 206, 224);
+        color: var(--anim1);
     }
-
-    50% {
-        color: rgb(185, 204, 218);
-    }
-
     60% {
-        color: rgb(198, 228, 228);
+        color: var(--anim2);
     }
-
-    70% {
-        color: rgb(230, 243, 243);
-    }
-
     80% {
-        color: rgb(220, 218, 231);
+        color: var(--anim3);
     }
-
-    90% {
-        color: rgb(249, 249, 253);
-    }
-
     to {
         color: var(--third_color);
     }}
@@ -119,8 +94,8 @@
     @-webkit-keyframes fadeInUp {
         from {
           opacity: 0;
-          -webkit-transform: translate3d(0, 100%, 0);
-          transform: translate3d(0, 100%, 0);
+          -webkit-transform: translate3d(0, 20%, 0);
+          transform: translate3d(0, 20%, 0);
         }
       
         to {
@@ -132,8 +107,8 @@
       @keyframes fadeInUp {
         from {
           opacity: 0;
-          -webkit-transform: translate3d(0, 100%, 0);
-          transform: translate3d(0, 100%, 0);
+          -webkit-transform: translate3d(0, 20%, 0);
+          transform: translate3d(0, 20%, 0);
         }
       
         to {
@@ -167,8 +142,8 @@
   @-webkit-keyframes fadeInDown {
   0% {
       opacity: 0;
-      -webkit-transform: translate3d(0, -100%, 0);
-      transform: translate3d(0, -100%, 0);
+      -webkit-transform: translate3d(0, -20%, 0);
+      transform: translate3d(0, -20%, 0);
   }
   100% {
       opacity: 1;
@@ -179,8 +154,8 @@
   @keyframes fadeInDown {
   0% {
       opacity: 0;
-      -webkit-transform: translate3d(0, -100%, 0);
-      transform: translate3d(0, -100%, 0);
+      -webkit-transform: translate3d(0, -20%, 0);
+      transform: translate3d(0, -20%, 0);
   }
   100% {
       opacity: 1;
@@ -208,8 +183,8 @@
     from {
       opacity: 0;
       position: relative;
-      -webkit-transform: translate3d(-50%, 0, 0);
-      transform: translate3d(-50%, 0, 0);
+      -webkit-transform: translate3d(-20%, 0, 0);
+      transform: translate3d(-20%, 0, 0);
     }
   
     to {
@@ -248,8 +223,8 @@
     from {
       opacity: 0;
       position: relative;
-      -webkit-transform: translate3d(50%, 0, 0);
-      transform: translate3d(50%, 0, 0);
+      -webkit-transform: translate3d(20%, 0, 0);
+      transform: translate3d(20%, 0, 0);
     }
   
     to {
