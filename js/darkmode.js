@@ -39,6 +39,7 @@ function darkmode(){
     root.style.setProperty('--primary_second_color', '#112240');
     root.style.setProperty('--scroll_active', '#0f213be0');
     root.style.setProperty('--secondary_color', '#5EF1CF');
+    root.style.setProperty('--secondary_color_lower', 'rgb(157, 227, 230)');
     root.style.setProperty('--third_color', '#CCD6F6');
     root.style.setProperty('--fourth_color', '#8892B0');
     root.style.setProperty('--navbar_color', 'rgba(255, 255, 255, 0)');
@@ -49,6 +50,7 @@ function lightmode(){
     root.style.setProperty('--primary_second_color', '#FAF8FF');
     root.style.setProperty('--scroll_active', '#0f213bf5');
     root.style.setProperty('--secondary_color', '#854EEE');
+    root.style.setProperty('--secondary_color_lower', '#9e73f0');
     root.style.setProperty('--third_color', '#020D3B');
     root.style.setProperty('--fourth_color', '#525360');
     root.style.setProperty('--navbar_color', 'rgba(255, 255, 255, 0)');

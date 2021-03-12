@@ -20,8 +20,9 @@
         font-family: monospace;
     }
     .loves{
-        font-size: clamp(40px, 8vw, 80px);
+        font-size: clamp(40px, 8vw, 76px);
         color: var(--fourth_color);
+        font-family: 'Open Sans', sans-serif;
     }
     .underline{
         height:2px;width:100%;border-width:0;background-color:rgb(161, 216, 226);
@@ -29,6 +30,10 @@
     .rubberBand {
         display: inline-block;
         cursor: default;
+        font-family: 'RocknRoll One', sans-serif;
+    }
+    .rubberBand:hover{
+        color: var(--secondary_color);
     }
 .names_heading{
     font-size: 80px;

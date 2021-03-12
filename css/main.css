@@ -16,11 +16,12 @@ background-color: var(--primary_color);
 :root {
     --primary_color:#0A192F;
     --primary_second_color:#112240;
-    --particle_color:#5ef1cf59;
+    --particle_color:#08FDD8;
     --particel_secondary_color:#ffffff21;
     --scroll_active:#0f213be0;
     --scrol_activ_color:var(var(--third_color));
     --secondary_color:#5EF1CF;
+    --secondary_color_lower:rgb(157, 227, 230);
     --third_color:#CCD6F6;
     --fourth_color:#8892B0;
     --underline_color: var(--secondary_color);

@@ -28,6 +28,17 @@ flex-direction: column;
     width: 125%;
     filter: contrast(0.5) grayscale(0.8);
     transition: 1s filter linear;
+    
+}
+.image_proj::after{
+    content: ""; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(253, 0, 0, 0.5);
+    z-index: 1111111;
 }
 .image_proj:hover{
     filter: contrast(1) grayscale(0);
@@ -213,6 +224,7 @@ flex-direction: column;
     margin-top: 7px;
     font-family: monospace;
     margin-left: 3px;
+    color: var(--fourth_color);
 }
 .card .status{
     margin-top: 7px;

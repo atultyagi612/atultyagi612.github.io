@@ -25,7 +25,7 @@ function isElementInViewport(el) {
     return rect.bottom > 0 &&
         rect.right > 0 &&
         rect.left < (window.innerWidth || document.documentElement.clientWidth)&&
-        rect.top < (window.innerHeight || document.documentElement.clientHeight);
+        rect.top+window.innerHeight/5 < (window.innerHeight || document.documentElement.clientHeight);
 }
 
 let down = document.getElementsByClassName('scroll_animation_down')

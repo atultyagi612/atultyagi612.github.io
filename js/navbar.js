@@ -1,9 +1,20 @@
+let scroll = 1
 let naavside = () => {
     let sideview = document.querySelector('.sideview');
     let nav = document.querySelector('.navlinks');
     let navlinks = document.querySelectorAll('.navlinks li')
     sideview.addEventListener('click', () => {
         nav.classList.toggle('nav-active');
+        console.log(scroll)
+        if(scroll==1){
+            console.log('done')
+            document.body.style.overflowY='hidden'
+            scroll = 0;
+        }
+        else{
+            document.body.style.overflowY='scroll'
+            scroll=1;
+        }
         navlinks.forEach((link, index) => {
             if (link.style.animation) {
                 link.style.animation = '';
@@ -17,6 +28,7 @@ let naavside = () => {
     });
     nav.addEventListener('click', () => {
         nav.classList.toggle('nav-active');
+        
         navlinks.forEach((link, index) => {
             if (link.style.animation) {
                 link.style.animation = '';

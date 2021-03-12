@@ -93,6 +93,7 @@
 
 
 .skills-bar .bar .progress-line span::before{
+    display: none;
     position: absolute;
     content: "";
     right: 0;
@@ -107,6 +108,7 @@ opacity: 0;
 animation: showtexts 0.5s 1.5s liners forwards;
 }
 .skills-bar .bar .progress-line span::after{
+    display:none;
     position: absolute;
     right: 0;
     top: -23px;
