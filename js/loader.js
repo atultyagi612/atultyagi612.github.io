@@ -15,9 +15,10 @@ function def2() {
             st[i].style.opacity = 1;
             is_anim_load=i*25+100;
         }, i * 25);
+    setTimeout(function () {
+        onload_animation()
+    },st.length*40)
     }
-    
-    
     
 }
 def2();
