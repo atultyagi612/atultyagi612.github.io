@@ -17,6 +17,11 @@ function def2() {
         }, i * 25);
     }
     
+    setTimeout(function () {
+        onload_animation()
+    },st.length*40)
+    }
+    
 }
 def2();
 
