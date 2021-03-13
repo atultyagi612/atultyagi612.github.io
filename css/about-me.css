@@ -52,6 +52,9 @@
 #about-me-image img{
     border-radius: 130px;
 }
+#image_about{
+    height: 244px;
+}
 
 /* side lines   */
 .project-line-after , .project-line-before{

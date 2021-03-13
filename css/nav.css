@@ -158,9 +158,9 @@ nav {
 .darkMode{
     z-index: 1000;
     right: 0px;
-height: 138px;
+height: 85px;
 display: flex;
-width: 138px;
+width: 81px;
 position: absolute;
 top: 0px;
 }
