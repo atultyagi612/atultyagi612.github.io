@@ -28,7 +28,15 @@ let naavside = () => {
     });
     nav.addEventListener('click', () => {
         nav.classList.toggle('nav-active');
-        
+        if(scroll==1){
+            console.log('done')
+            document.body.style.overflowY='hidden'
+            scroll = 0;
+        }
+        else{
+            document.body.style.overflowY='scroll'
+            scroll=1;
+        }
         navlinks.forEach((link, index) => {
             if (link.style.animation) {
                 link.style.animation = '';
