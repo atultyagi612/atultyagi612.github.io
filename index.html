@@ -1577,8 +1577,10 @@
     <!-- <script src="./js/canvas.js"></script> -->
     <script>
         window.onload = function () {
-            onload_animation()
-
+            if(anim_done==0){
+                anim_done=1;
+                onload_animation()
+            }
         }
 
     </script>

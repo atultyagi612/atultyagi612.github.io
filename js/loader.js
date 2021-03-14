@@ -1,5 +1,6 @@
 let st = document.getElementsByClassName('loading_animation')[0].children[0].children
 let is_anim_load=0
+let anim_done=0
 function def() {
     for (let i = 0; i < st.length; i++) {
         st[i].style.visibility = 'hidden'
@@ -15,15 +16,22 @@ function def2() {
             st[i].style.opacity = 1;
             is_anim_load=i*25+100;
         }, i * 25);
-    setTimeout(function () {
-        onload_animation()
-    },st.length*40)
+    
     }
+    setTimeout(function () {
+        if(anim_done==0){
+            onload_animation()
+            anim_done=1;
+        }
+    }
+    ,st.length*30
+    )
     
 }
 def2();
 
 function onload_animation(){    
+    anim_done = 1;
     if(is_anim_load>st.length*25){
         setTimeout(function () {
         document.getElementsByClassName('loading_animation')[0].style.height='0px';
