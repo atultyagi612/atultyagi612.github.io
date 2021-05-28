@@ -1,0 +1,80 @@
+.welcome{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: 100vh;
+    margin: 158px;
+    margin-left: 247px;
+    }
+    .welcome #welcome-p{
+        margin: 14px;
+        font-size: 17px;
+        padding-left: 0px;
+        margin-top: 39px;
+        margin-left: 0px;
+    }
+    div#Home-id:after {
+        content: "";
+        position: absolute;
+        width: 100vw;
+        height: 100%;
+        top: 0;
+        right: 0;
+        z-index: -1;
+        background: url(../images/background.svg) 100% 0 no-repeat;}
+
+    .mynameis{
+        color: var(--secondary_color);
+        font-size: 20px;
+        margin-left: -23px;
+        font-family: monospace;
+    }
+    .loves{
+        font-size: clamp(40px, 8vw, 76px);
+        color: var(--fourth_color);
+        font-family: 'Open Sans', sans-serif;
+    }
+    .underline{
+        height:2px;width:100%;border-width:0;background-color:rgb(161, 216, 226);
+    }
+    .rubberBand {
+        display: inline-block;
+        cursor: default;
+        font-family: 'RocknRoll One', sans-serif;
+    }
+    .rubberBand:hover{
+        color: var(--secondary_color);
+    }
+.names_heading{
+    font-size: 93px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+        padding: 0px 0px;
+        margin: -3px;
+}
+
+
+    
+  
+   
+        @media screen and (max-width: 768px) {
+            .welcome{
+                display: inline-block;
+                margin: 35px;
+                margin-top: 76px;
+                }
+                .rubberBand {
+                    font-size: 60px;
+                    padding: 0px 0px;
+                    margin: -3px;
+                  
+                }
+                .image-language {
+                    height: 39px;
+                }
+                #see-my-work{
+                    margin: 10px 12px;
+                }
+                div#Home-id:after {
+                    display: none;}
+        }

@@ -1,0 +1,121 @@
+{
+    "Data":[
+        {
+            "type":"python_card",
+            "image_link":"https://atultyagi612.github.io/Text-Editor/",
+            "image":"./images/texteditor.png",
+            "Title": "Text Editor",
+            "Description": "A text editor is a  computer program that edits plain text and creates, opens, and edits text files on your computer.",
+            "Languages":"Python Tkinter",
+            "Github_link":"https://atultyagi612.github.io/Text-Editor/"
+
+        },
+        {
+            "type":"python_card",
+            "image_link":"https://atultyagi612.github.io/Whatsapp-chatbot/",
+            "image":"./images/chatbot.png",
+            "Title": "AUTANO",
+            "Description": "AUTANO is a WhatsApp chatbot capable to chat with a person based on its training.",
+            "Languages":"Python Tkinter Selenium",
+            "Github_link":"https://atultyagi612.github.io/Whatsapp-chatbot/"
+
+        },
+        {
+            "type":"python_card",
+            "image_link":"https://atultyagi612.github.io/Simple-Chatroom-using-Python-socket-/",
+            "image":"./images/socket.png",
+            "Title": "CHITCHAT",
+            "Description": "A multi-user chatroom through which users can create and join the chatroom.",
+            "Languages":"Python Tkinter Socket",
+            "Github_link":"https://atultyagi612.github.io/Simple-Chatroom-using-Python-socket-/"
+        },
+        {
+            "type":"ML_card",
+            "image_link":"https://www.kaggle.com/atultyagi2000/mnist-digit-recognition-lr",
+            "image":"./images/mnist.jpg",
+            "Title": "Digit Recognizer",
+            "Description": "This competition is the perfect introduction to techniques like neural networks using a classic dataset including pre-extracted features.",
+            "Languages":"Python sklearn",
+            "kaggle":"https://www.kaggle.com/atultyagi2000/mnist-digit-recognition-lr"
+
+        },
+        {
+            "type":"ML_card",
+            "image_link":"https://www.kaggle.com/atultyagi2000/titanic-survival-prediction-using-logisticregressi",
+            "image":"./images/titanic.png",
+            "Title": "Titanic",
+            "Description": "The competition is simple: use machine learning to create a model that predicts which passengers survived the Titanic shipwreck.",
+            "Languages":"Python sklearn",
+            "kaggle":"https://www.kaggle.com/atultyagi2000/titanic-survival-prediction-using-logisticregressi"
+
+        },
+        {
+            "type":"ML_card",
+            "image_link":"https://www.kaggle.com/atultyagi2000/mall-customers-kmeans",
+            "image":"./images/mall-clusters.png",
+            "Title": "Mall Customer Segmentation Data",
+            "Description": "Find which group of mall customers is the main target by KMeans",
+            "Languages":"Python sklearn",
+            "kaggle":"https://www.kaggle.com/atultyagi2000/mall-customers-kmeans"
+
+        },
+        {
+            "type":"web_card",
+            "image_link":"https://atultyagi612.github.io/Todo-App/",
+            "image":"./images/todo.jpg",
+            "Title": "AGENDA",
+            "Description": "A Simple Todo App which helps the user to manage their Todos's",
+            "Languages":"NodeJS , EJS , Mongodb",
+            "Github_link":"https://atultyagi612.github.io/Todo-App",
+            "visit_link":"http://todo-appes.herokuapp.com/"
+
+        },
+        {
+            "type":"web_card",
+            "image_link":"https://github.com/atultyagi612/tic-tac-toe",
+            "image":"./images/tictactoe.jpg",
+            "Title": "Tic tac toe",
+            "Description": "Tic tac toe is a famous classic with computer vs human mode.",
+            "Languages":"html/css JS",
+            "Github_link":"https://github.com/atultyagi612/tic-tac-toe",
+            "visit_link":"https://atultyagi612.github.io/tic-tac-toe/index.html"
+
+        },
+        {
+            "type":"web_card",
+            "image_link":"https://atultyagi612.github.io/news-app/",
+            "image":"./images/news.png",
+            "Title": "news-app",
+            "Description": "X News a simple news app that shows all the latest and based on their search news.",
+            "Languages":"NodeJS  EJS",
+            "Github_link":"https://atultyagi612.github.io/news-app/",
+            "visit_link":"https://x-news-app.herokuapp.com/"
+
+        },
+        {
+            "type":"web_card",
+            "image_link":"https://atultyagi612.github.io/Google-Authentication-nodejs/",
+            "image":"./images/google_auth.png",
+            "Title": "Google Authentication in Nodejs",
+            "Description": "A Simple Authentication app using Google Passport Strategy to authenticate the user.",
+            "Languages":"NodeJS  EJS Passport",
+            "Github_link":"https://atultyagi612.github.io/Google-Authentication-nodejs/"
+
+        }
+    ],
+    "images":[
+        {
+            "image":["./images/carrer-guidance-user.gif"]
+        },
+        {
+            "image":["./images/attendance-system.gif"]
+        },
+        {
+            "image":["./images/create form.gif"]
+        },
+        {
+            "image":["./images/front_page.gif","./images/model1.gif","./images/model13.gif"]
+        }
+        
+    ]
+}

@@ -1,0 +1,59 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+html {
+    scroll-behavior: smooth;
+  }
+body{
+/* background: url(../images/upgrade1.png) no-repeat center; */
+background-color: var(--primary_color);
+    color: var(--third_color);
+    transition: all 3s;
+}
+:root {
+    --primary_color:#010c1b;
+    --primary_second_color:#0d192ef3;
+    --particle_color:#08FDD8;
+    --particel_secondary_color:#ffffff21;
+    --scroll_active:#041021e0;
+    --scrol_activ_color:var(var(--third_color));
+    --secondary_color:#00ffc3;
+    --secondary_color_lower:rgb(157, 227, 230);
+    --third_color:#CCD6F6;
+    --fourth_color:#8892b085;;
+    --underline_color: var(--secondary_color);
+    --navbar_color:rgba(255, 255, 255, 0);
+    --underline-hight:0.145rem;
+    --navbar-color-mobile: var(--navbar_color);
+    --sun: rgb(223, 111, 47);
+    --pcsize1: 10;
+    --pcsize2: 40;
+    --pcsize3: 1500;
+    --pcsize4: 400;
+
+    --first_heading:'Roboto';
+    --mini_heading:'RocknRoll One', sans-serif;
+    --simple_text:'sans-serif';
+
+
+    /* animation color  */
+    --anim0:rgb(187, 224, 236);
+    --anim1:rgb(194, 219, 219);
+    --anim2:rgb(229, 210, 248);
+    --anim3:rgb(184, 241, 241);
+
+  }
+
+  #canvas1{
+    position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index:-1;
+
+        }
+

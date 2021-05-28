@@ -1,0 +1,202 @@
+
+  
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    body{
+        overflow-x: hidden;
+
+    }
+    :root{
+    --pcsize1: 5;
+    --pcsize2: 20;
+    --pcsize3: 800;
+    --pcsize4: 900;
+    }
+    .darkmode{
+        display: none;
+    }
+
+    .sideview{
+        /* margin-right: 42px; */
+        margin-left: 81vw;
+    position: absolute;
+    }
+    .sideview div{
+        background-color: var(--secondary_color);
+    }
+    .logo{
+        
+    margin-left: 19px;
+
+    }
+    .navlinks{
+        background-color: var(--scroll_active);
+        /* display: none; */
+    }
+
+    /* front page  */
+    .welcome{
+        margin-left: 29px;
+        margin-top: 150px;
+    }
+
+
+    /* about  */
+    .about-para{
+        flex-direction: column;
+    }
+    .about-me-para{
+        padding: 58px 25px;
+    }
+    .para-1 , .para-2{
+        width: 112%;
+        margin: 0px;
+    }
+    #image_about{
+        height:221px
+    }
+
+    /* skills  */
+
+    .skills_info {
+        margin-top: 12px;
+        padding-left: 10px;
+    }
+    .skills-bar{
+        padding: 25px 12px;
+    }
+    .skills-bar .bar .progress-line span::after {
+        display: none;
+    }
+    #skills_cloud {
+        width: 100%;
+        height: 582px;
+    margin: 0;
+    margin-bottom: -94px;
+    }
+
+    /* project  */
+    #Project-heading{
+        margin-bottom: 59px;
+    }
+    .projects hr{
+        margin-bottom: 28px;
+    }
+    .proj{
+        flex-direction: column;
+        width: 92%;
+        border: 3px solid var(--primary_second_color);
+        border-radius: 2px;
+        padding: 10px;
+    }
+    .project--{
+        font-size: 40px;
+    }
+    .visit_logo{
+        margin-top: 16px;
+    }
+    .visit_logo a{
+        width: 19%;
+    }
+    .image_proj{
+        width: 85%;
+        filter: brightness(0.4) grayscale(0%);
+    }
+    .image_link_left::after{
+        height: 160%;
+    width: 85%;
+    }
+    .image_link_right::after{
+        left: 15%;
+        height: 168%;
+        width: 85%;
+    }
+    .project_detain{
+        z-index: 11;
+    }
+    .proj_reverse{
+        flex-direction: column-reverse;
+    }
+    .proj_image{
+        height: 92px;
+        width: auto;
+    }
+    .proj_name , .reverse_proj_name{
+        z-index: 11;
+    }
+    .project_detail{
+        width: auto;
+    }
+
+
+    /* not worthy projets  */
+    .other_heading h2{
+        font-size: 19px;
+    }
+    .types_of_sub_proj{
+        margin-top: 53px;
+    }
+    .other_heading h4 {
+        margin-left: 2%;
+        font-size: 11px;
+    }
+    .card{
+        margin: 0px;
+        flex-basis: 100%;
+        margin-bottom: 54px;
+        /* border: 1px solid var(--secondary_color); */
+        border-radius: 2px;
+    }
+    .disciption{
+        padding: 2px;
+    }
+
+    /* blog  */
+    .blogs_grid{
+        margin-top: 16%;
+    }
+    .Show_Blog{
+        margin-top: 9%;
+        margin-bottom: 19%;
+    }
+    .blog_close_button{
+        height: 24px;
+        right: -48px;
+    }
+    .left{
+        left: -50px;
+    }
+    .right{
+        right: -50px
+    }
+    /* footer  */
+    .footer{
+        flex-direction: column;
+        margin-bottom: 136px;
+    }
+    .first{
+        margin-top: 3px;
+        align-self: center;
+        width: 100%;
+        justify-content: center;
+        place-content: space-evenly;
+    }
+    .footer_links{
+        display: none;
+    }
+
+    .custom-shape-divider-bottom-1621504201 svg {
+        position: relative;
+        display: block;
+        width: calc(2064% + -15.7px);
+        height: 911px;
+    }
+    .footer_back_svg_parent{
+        margin-top: 184px !important;
+    }
+
+}
